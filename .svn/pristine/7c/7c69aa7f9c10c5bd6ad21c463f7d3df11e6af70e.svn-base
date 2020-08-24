@@ -1,0 +1,8 @@
+[INFO] 2017-12-15 11:05:13,924 - -->{
+  "group_id": "0000000002",
+  "date_div": "P",
+  "start_date": "20171215",
+  "end_date": "20171215",
+  "shop_id": "03960"
+}
+[INFO] 2017-12-15 11:05:14,430 - <--{"total_cnt":0,"code":"0","message":"Failure"}

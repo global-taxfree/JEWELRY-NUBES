@@ -1,0 +1,75 @@
+[INFO] 2017-11-23 17:38:06,377 - Start Application................
+[INFO] 2017-11-23 17:38:09,626 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-23 17:38:09,626 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345"
+}
+[INFO] 2017-11-23 17:38:10,657 - sendHttp_Json >> RES size:431
+[INFO] 2017-11-23 17:38:10,907 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchCountryCode
+[INFO] 2017-11-23 17:38:10,907 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 17:38:13,979 - sendHttp_Json >> RES size:8480
+[INFO] 2017-11-23 17:38:14,009 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getItemCodeList
+[INFO] 2017-11-23 17:38:14,009 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 17:38:15,030 - sendHttp_Json >> RES size:1539
+[INFO] 2017-11-23 17:38:44,154 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchBuyJewelleryAmt
+[INFO] 2017-11-23 17:38:44,154 - sendHttp_Json >> REQ:{
+  "passport_no": "M71293013",
+  "country_code": "KOR",
+  "group_id": "0000000002",
+  "buy_amt": 1598.87
+}
+[INFO] 2017-11-23 17:38:47,723 - sendHttp_Json >> RES size:16
+[INFO] 2017-11-23 17:38:47,743 - sendHttp_Json >> URI:http://localhost:7005/service/json/etrs/issueTicket
+[INFO] 2017-11-23 17:38:47,743 - sendHttp_Json >> REQ:{
+  "status": "Issue",
+  "tid": "10001028",
+  "mid": "03960",
+  "userId": "gtf.it2",
+  "passport_number": "M71293013",
+  "country_code": "KOR",
+  "last_name": "LEE",
+  "first_name": "WONGYU",
+  "expiry_date": "20220723",
+  "date_of_birth": "19840902",
+  "gender": "M",
+  "check_yn": "N",
+  "purchase_list": "[\r\n  {\r\n    \"description\": \"17:Jewellery\",\r\n    \"gross_amount\": \"1598.87\",\r\n    \"quantity\": \"1\",\r\n    \"receipt_date\": \"20171123\",\r\n    \"receipt_number\": \"WGLEE201711230001\"\r\n  }\r\n]",
+  "outlet": "LITTLE_INDIA"
+}
+[INFO] 2017-11-23 17:38:51,187 - sendHttp_Json >> RES size:52
+[ERROR] 2017-11-23 17:38:52,820 - duplicated receipt number!
+[INFO] 2017-11-23 17:40:57,104 - Start Application................
+[INFO] 2017-11-23 17:41:45,054 - Start Print(Single) DOC ID200525.03082.1700.00464
+[INFO] 2017-11-23 17:41:45,414 - flag : 1-->{
+  "retailer_name": "Little india test Merchant",
+  "gst_no": "L201603280",
+  "doc_id": "200525.03082.1700.00464",
+  "issue_date": "23/11/2017 16:41:43",
+  "passport_number": "M71293013",
+  "country_code": "KOR",
+  "purchase_list": "[\r\n  {\r\n    \"number\": 1,\r\n    \"receipt_number\": \"WGLEE201711230002\",\r\n    \"receipt_date\": \"23/11/2017\",\r\n    \"gross_amount\": \"159.88\",\r\n    \"quantity\": \"1\",\r\n    \"description\": \"17:Jewellery\"\r\n  }\r\n]",
+  "sales_amt": "159.88",
+  "gst_amt": "10.46",
+  "service_amt": "3.46",
+  "refund_amt": "7",
+  "token_type": "",
+  "token_display": ""
+}
+[INFO] 2017-11-23 17:43:39,808 - Start Application................
+[INFO] 2017-11-23 17:44:22,770 - flag : 1-->{
+  "retailer_name": "Little india test Merchant",
+  "gst_no": "L201603280",
+  "doc_id": "200525.03082.1700.00472",
+  "issue_date": "23/11/2017 16:44:21",
+  "passport_number": "E9999999",
+  "country_code": "CHN",
+  "purchase_list": "[\r\n  {\r\n    \"number\": 1,\r\n    \"receipt_number\": \"WGLEE201711230003\",\r\n    \"receipt_date\": \"23/11/2017\",\r\n    \"gross_amount\": \"112.58\",\r\n    \"quantity\": \"1\",\r\n    \"description\": \"17:Jewellery\"\r\n  }\r\n]",
+  "sales_amt": "112.58",
+  "gst_amt": "7.36",
+  "service_amt": "2.36",
+  "refund_amt": "5",
+  "token_type": "",
+  "token_display": ""
+}
+[INFO] 2017-11-23 17:45:55,538 - Start Application................
+[INFO] 2017-11-23 17:50:37,301 - Start Application................

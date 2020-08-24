@@ -1,0 +1,129 @@
+[INFO] 2017-11-21 17:37:25,547 - Start Print(Single) DOC ID200525.03082.1700.00316
+[INFO] 2017-11-21 17:38:09,528 - -->{
+  "passport_no": "E78787878",
+  "country_code": "CHN",
+  "group_id": "0000000002",
+  "buy_amt": 1500.0
+}
+[INFO] 2017-11-21 17:38:09,529 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchBuyJewelleryAmt
+[INFO] 2017-11-21 17:38:09,529 - sendHttp_Json >> REQ:{
+  "passport_no": "E78787878",
+  "country_code": "CHN",
+  "group_id": "0000000002",
+  "buy_amt": 1500.0
+}
+[INFO] 2017-11-21 17:38:11,519 - sendHttp_Json >> RES size:16
+[INFO] 2017-11-21 17:38:11,519 - <--{"check_yn":"N"}
+[INFO] 2017-11-21 17:38:11,523 - -->{
+  "status": "Issue",
+  "tid": "10001028",
+  "mid": "03960",
+  "userId": "gtf.it2",
+  "passport_number": "E78787878",
+  "country_code": "CHN",
+  "check_yn": "N",
+  "purchase_list": "[\r\n  {\r\n    \"description\": \"17:Jewellery\",\r\n    \"gross_amount\": \"1500.00\",\r\n    \"quantity\": \"1\",\r\n    \"receipt_date\": \"20171121\",\r\n    \"receipt_number\": \"WGLEE201711210005\"\r\n  }\r\n]",
+  "outlet": "LITTLE_INDIA"
+}
+[INFO] 2017-11-21 17:38:11,523 - sendHttp_Json >> URI:http://localhost:7005/service/json/etrs/issueTicket
+[INFO] 2017-11-21 17:38:11,524 - sendHttp_Json >> REQ:{
+  "status": "Issue",
+  "tid": "10001028",
+  "mid": "03960",
+  "userId": "gtf.it2",
+  "passport_number": "E78787878",
+  "country_code": "CHN",
+  "check_yn": "N",
+  "purchase_list": "[\r\n  {\r\n    \"description\": \"17:Jewellery\",\r\n    \"gross_amount\": \"1500.00\",\r\n    \"quantity\": \"1\",\r\n    \"receipt_date\": \"20171121\",\r\n    \"receipt_number\": \"WGLEE201711210005\"\r\n  }\r\n]",
+  "outlet": "LITTLE_INDIA"
+}
+[INFO] 2017-11-21 17:38:15,540 - sendHttp_Json >> RES size:862
+[INFO] 2017-11-21 17:38:15,540 - <--{"code":"00","cra_telno":"+65 6221 7058","purchase_list":[{"quantity":1,"receipt_number":"WGLEE201711210005","receipt_date":"20171121","description":"17:Jewellery","gross_amount":1500}],"mid":"03960","formatted_docid":"200525.03082.1700.00324","token_type":"","tid":"10001028","retailer_gstno":"L201603280","time_of_issue":"163814","gst_amount":98.13,"service_amount":12.13,"date_of_issue":"20171121","cra_address2":"Liat Towers, Singapore 238881","cra_address1":"541 Orchard Road, #17-01","cra_name":"GLOBAL TAX FREE Pte. Ltd.","refund_amount":86,"retailer_addr":"541 Orchard Road #17-01 Liat Towers Singapore","docid":"20052503082170000324","sales_amount":1500,"cra_gstno":"201136344W","message":"Ticket is successfully issued","token_display":"","country_code":"CHN","passport_number":"E78787878","retailer_name":"Little india test Merchant","status":"Issue"}
+[INFO] 2017-11-21 17:38:15,541 - Start Print(Single) DOC ID200525.03082.1700.00324
+[INFO] 2017-11-21 17:38:37,688 - -->{
+  "passport_no": "E78787878",
+  "country_code": "CHN",
+  "group_id": "0000000002",
+  "buy_amt": 7800.0
+}
+[INFO] 2017-11-21 17:38:37,689 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchBuyJewelleryAmt
+[INFO] 2017-11-21 17:38:37,689 - sendHttp_Json >> REQ:{
+  "passport_no": "E78787878",
+  "country_code": "CHN",
+  "group_id": "0000000002",
+  "buy_amt": 7800.0
+}
+[INFO] 2017-11-21 17:38:39,970 - sendHttp_Json >> RES size:16
+[INFO] 2017-11-21 17:38:39,970 - <--{"check_yn":"Y"}
+[INFO] 2017-11-21 17:38:46,346 - -->{
+  "status": "Issue",
+  "tid": "10001028",
+  "mid": "03960",
+  "userId": "gtf.it2",
+  "passport_number": "E78787878",
+  "country_code": "CHN",
+  "check_yn": "Y",
+  "purchase_list": "[\r\n  {\r\n    \"description\": \"17:Jewellery\",\r\n    \"gross_amount\": \"7800.00\",\r\n    \"quantity\": \"1\",\r\n    \"receipt_date\": \"20171121\",\r\n    \"receipt_number\": \"WGLEE201711210006\"\r\n  }\r\n]",
+  "outlet": "LITTLE_INDIA"
+}
+[INFO] 2017-11-21 17:38:46,347 - sendHttp_Json >> URI:http://localhost:7005/service/json/etrs/issueTicket
+[INFO] 2017-11-21 17:38:46,348 - sendHttp_Json >> REQ:{
+  "status": "Issue",
+  "tid": "10001028",
+  "mid": "03960",
+  "userId": "gtf.it2",
+  "passport_number": "E78787878",
+  "country_code": "CHN",
+  "check_yn": "Y",
+  "purchase_list": "[\r\n  {\r\n    \"description\": \"17:Jewellery\",\r\n    \"gross_amount\": \"7800.00\",\r\n    \"quantity\": \"1\",\r\n    \"receipt_date\": \"20171121\",\r\n    \"receipt_number\": \"WGLEE201711210006\"\r\n  }\r\n]",
+  "outlet": "LITTLE_INDIA"
+}
+[INFO] 2017-11-21 17:38:51,034 - sendHttp_Json >> RES size:864
+[INFO] 2017-11-21 17:38:51,034 - <--{"code":"00","cra_telno":"+65 6221 7058","purchase_list":[{"quantity":1,"receipt_number":"WGLEE201711210006","receipt_date":"20171121","description":"17:Jewellery","gross_amount":7800}],"mid":"03960","formatted_docid":"200525.03082.1700.00332","token_type":"","tid":"10001028","retailer_gstno":"L201603280","time_of_issue":"163849","gst_amount":510.28,"service_amount":51.28,"date_of_issue":"20171121","cra_address2":"Liat Towers, Singapore 238881","cra_address1":"541 Orchard Road, #17-01","cra_name":"GLOBAL TAX FREE Pte. Ltd.","refund_amount":459,"retailer_addr":"541 Orchard Road #17-01 Liat Towers Singapore","docid":"20052503082170000332","sales_amount":7800,"cra_gstno":"201136344W","message":"Ticket is successfully issued","token_display":"","country_code":"CHN","passport_number":"E78787878","retailer_name":"Little india test Merchant","status":"Issue"}
+[INFO] 2017-11-21 17:38:51,035 - Start Print(Single) DOC ID200525.03082.1700.00332
+[INFO] 2017-11-21 17:38:54,768 - -->{
+  "user_id": "gtf.it2",
+  "docid": "20052503082170000332",
+  "sealbag_no": "WGLEE201711210005"
+}
+[INFO] 2017-11-21 17:38:54,769 - sendHttp_Json >> URI:http://localhost:7005/service/json/etrs/updateSealBagInfo
+[INFO] 2017-11-21 17:38:54,770 - sendHttp_Json >> REQ:{
+  "user_id": "gtf.it2",
+  "docid": "20052503082170000332",
+  "sealbag_no": "WGLEE201711210005"
+}
+[INFO] 2017-11-21 17:38:56,078 - sendHttp_Json >> RES size:31
+[INFO] 2017-11-21 17:38:56,078 - <--{"code":"1","message":"Sucess"}
+[INFO] 2017-11-21 17:48:12,188 - -->{
+  "group_id": "0000000002",
+  "buy_amt": 100.0
+}
+[INFO] 2017-11-21 17:48:12,188 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchBuyJewelleryAmt
+[INFO] 2017-11-21 17:48:12,188 - sendHttp_Json >> REQ:{
+  "group_id": "0000000002",
+  "buy_amt": 100.0
+}
+[INFO] 2017-11-21 17:48:16,025 - sendHttp_Json >> RES size:16
+[INFO] 2017-11-21 17:48:16,026 - <--{"check_yn":"N"}
+[INFO] 2017-11-21 17:48:16,032 - -->{
+  "status": "Issue",
+  "tid": "10001028",
+  "mid": "03960",
+  "userId": "gtf.it2",
+  "check_yn": "N",
+  "purchase_list": "[\r\n  {\r\n    \"description\": \"17:Jewellery\",\r\n    \"gross_amount\": \"100.00\",\r\n    \"quantity\": \"1\",\r\n    \"receipt_date\": \"20171121\",\r\n    \"receipt_number\": \"WGLEWER\"\r\n  }\r\n]",
+  "outlet": "LITTLE_INDIA"
+}
+[INFO] 2017-11-21 17:48:16,033 - sendHttp_Json >> URI:http://localhost:7005/service/json/etrs/issueTicket
+[INFO] 2017-11-21 17:48:16,033 - sendHttp_Json >> REQ:{
+  "status": "Issue",
+  "tid": "10001028",
+  "mid": "03960",
+  "userId": "gtf.it2",
+  "check_yn": "N",
+  "purchase_list": "[\r\n  {\r\n    \"description\": \"17:Jewellery\",\r\n    \"gross_amount\": \"100.00\",\r\n    \"quantity\": \"1\",\r\n    \"receipt_date\": \"20171121\",\r\n    \"receipt_number\": \"WGLEWER\"\r\n  }\r\n]",
+  "outlet": "LITTLE_INDIA"
+}
+[INFO] 2017-11-21 17:48:19,974 - sendHttp_Json >> RES size:796
+[INFO] 2017-11-21 17:48:19,974 - <--{"code":"00","docid":"20052503082170000340","cra_telno":"+65 6221 7058","purchase_list":[{"quantity":1,"receipt_number":"WGLEWER","receipt_date":"20171121","description":"17:Jewellery","gross_amount":100}],"mid":"03960","sales_amount":100,"formatted_docid":"200525.03082.1700.00340","cra_gstno":"201136344W","message":"Ticket is successfully issued","token_type":"","tid":"10001028","token_display":"","retailer_gstno":"L201603280","time_of_issue":"164818","gst_amount":6.54,"service_amount":1.54,"date_of_issue":"20171121","cra_address2":"Liat Towers, Singapore 238881","cra_address1":"541 Orchard Road, #17-01","cra_name":"GLOBAL TAX FREE Pte. Ltd.","refund_amount":5,"retailer_name":"Little india test Merchant","retailer_addr":"541 Orchard Road #17-01 Liat Towers Singapore","status":"Issue"}
+[INFO] 2017-11-21 17:48:19,976 - Start Print(Single) DOC ID200525.03082.1700.00340

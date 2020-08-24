@@ -1,0 +1,503 @@
+[ERROR] 2017-11-23 10:24:08,647 - 75번쨰 실행 성공[76] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:12,297 - 76번쨰 실행 성공[77] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:15,920 - 77번쨰 실행 성공[78] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:19,544 - 78번쨰 실행 성공[79] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:23,180 - 79번쨰 실행 성공[80] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:26,817 - 80번쨰 실행 성공[81] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:30,455 - 81번쨰 실행 성공[82] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:34,094 - 82번쨰 실행 성공[83] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:37,733 - 83번쨰 실행 성공[84] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:41,434 - 84번쨰 실행 성공[85] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:45,072 - 85번쨰 실행 성공[86] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:48,693 - 86번쨰 실행 성공[87] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:52,315 - 87번쨰 실행 성공[88] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:55,938 - 88번쨰 실행 성공[89] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:24:59,576 - 89번쨰 실행 성공[90] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:25:03,183 - 90번쨰 실행 성공[91] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:25:06,803 - 91번쨰 실행 성공[92] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:25:10,426 - 92번쨰 실행 성공[93] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:25:14,064 - 93번쨰 실행 성공[94] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:25:17,688 - 94번쨰 실행 성공[95] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:25:21,309 - 95번쨰 실행 성공[96] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:25:24,946 - 96번쨰 실행 성공[97] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:25:28,569 - 97번쨰 실행 성공[98] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:25:32,192 - 98번쨰 실행 성공[99] 실패[0] NO[M71293013] NAT[KOR]
+[ERROR] 2017-11-23 10:25:35,815 - 99번쨰 실행 성공[100] 실패[0] NO[M71293013] NAT[KOR]
+[INFO] 2017-11-23 10:26:18,782 - Start Application................
+[INFO] 2017-11-23 10:26:22,120 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-23 10:26:22,120 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345",
+  "mac_adress": "98838921BD05"
+}
+[INFO] 2017-11-23 10:26:24,665 - sendHttp_Json >> RES size:431
+[INFO] 2017-11-23 10:26:24,946 - -->{}
+[INFO] 2017-11-23 10:26:24,946 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchCountryCode
+[INFO] 2017-11-23 10:26:24,946 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 10:26:27,700 - sendHttp_Json >> RES size:8480
+[INFO] 2017-11-23 10:26:27,700 - <--{"rows":249,"list":[{"country_code":"ZAR-Congo, Dem. Rep."},{"country_code":"AFG-Afghanistan"},{"country_code":"ALB-Albania"},{"country_code":"ATA-Antarctica"},{"country_code":"DZA-Algeria"},{"country_code":"ASM-American Samoa"},{"country_code":"AND-Andorra"},{"country_code":"AGO-Angola"},{"country_code":"ATG-Antigua and Barbuda"},{"country_code":"AZE-Azerbaijan"},{"country_code":"ARG-Argentina"},{"country_code":"AUS-Australia"},{"country_code":"AUT-Austria"},{"country_code":"BHS-Bahamas"},{"country_code":"BHR-Bahrain"},{"country_code":"BGD-Bangladesh"},{"country_code":"ARM-Armenia"},{"country_code":"BRB-Barbados"},{"country_code":"BEL-Belgium"},{"country_code":"BMU-Bermuda"},{"country_code":"BTN-Bhutan"},{"country_code":"BOL-Bolivia"},{"country_code":"BIH-Bosnia and Herzegovina"},{"country_code":"BWA-Botswana"},{"country_code":"BVT-Bouvet Island"},{"country_code":"BRA-Brazil"},{"country_code":"BLZ-Belize"},{"country_code":"IOT-British Indian Ocean Territory"},{"country_code":"SLB-Solomon Islands"},{"country_code":"VGB-British Virgin Islands"},{"country_code":"BRN-Brunei Darussalam"},{"country_code":"BGR-Bulgaria"},{"country_code":"MMR-Myanmar"},{"country_code":"BDI-Burundi"},{"country_code":"BLR-Belarus"},{"country_code":"KHM-Cambodia"},{"country_code":"CMR-Cameroon"},{"country_code":"CAN-Canada"},{"country_code":"CPV-Cape Verde"},{"country_code":"CYM-Cayman Islands"},{"country_code":"CAF-Central African Republic"},{"country_code":"LKA-Sri Lanka"},{"country_code":"TCD-Chad"},{"country_code":"CHL-Chile"},{"country_code":"CHN-China"},{"country_code":"TWN-Taiwan"},{"country_code":"CXR-Christmas Island"},{"country_code":"CCK-Cocos Islands"},{"country_code":"COL-Colombia"},{"country_code":"COM-Comoros"},{"country_code":"MYT-Mayotte"},{"country_code":"COG-Congo"},{"country_code":"COD-Congo"},{"country_code":"COK-Cook Islands"},{"country_code":"CRI-Costa Rica"},{"country_code":"HRV-Hrvatska"},{"country_code":"CUB-Cuba"},{"country_code":"CYP-Cyprus"},{"country_code":"CZE-Czech Republic"},{"country_code":"BEN-Benin"},{"country_code":"DNK-Denmark"},{"country_code":"DMA-Dominica"},{"country_code":"DOM-Dominican Republic"},{"country_code":"ECU-Ecuador"},{"country_code":"SLV-El Salvador"},{"country_code":"GNQ-Equatorial Guinea"},{"country_code":"ETH-Ethiopia"},{"country_code":"PCN-Pitcairn Island"},{"country_code":"ERI-Eritrea"},{"country_code":"EST-Estonia"},{"country_code":"FRO-Faeroe Islands"},{"country_code":"FLK-Falkland Islands"},{"country_code":"SGS-South Georgia and the South Sandwich Islands"},{"country_code":"FJI-Fiji"},{"country_code":"FIN-Finland"},{"country_code":"ALA-Aland Islands"},{"country_code":"FRA-France"},{"country_code":"GUF-French Guiana"},{"country_code":"PYF-French Polynesia"},{"country_code":"ATF-French Southern Territories"},{"country_code":"DJI-Djibouti"},{"country_code":"GAB-Gabon"},{"country_code":"GEO-Georgia"},{"country_code":"GMB-Gambia"},{"country_code":"PSE-Palestinian Territory"},{"country_code":"DEU-Germany"},{"country_code":"GHA-Ghana"},{"country_code":"GIB-Gibraltar"},{"country_code":"KIR-Kiribati"},{"country_code":"GRC-Greece"},{"country_code":"GRL-Greenland"},{"country_code":"GRD-Grenada"},{"country_code":"GLP-Guadaloupe"},{"country_code":"GUM-Guam"},{"country_code":"GTM-Guatemala"},{"country_code":"GIN-Guinea"},{"country_code":"GUY-Guyana"},{"country_code":"HTI-Haiti"},{"country_code":"HMD-Heard and McDonald Islands"},{"country_code":"VAT-Vatican City State"},{"country_code":"HND-Honduras"},{"country_code":"HKG-Hong Kong"},{"country_code":"HUN-Hungary"},{"country_code":"ISL-Iceland"},{"country_code":"IND-India"},{"country_code":"IDN-Indonesia"},{"country_code":"IRN-Iran"},{"country_code":"IRQ-Iraq"},{"country_code":"IRL-Ireland"},{"country_code":"ISR-Israel"},{"country_code":"ITA-Italy"},{"country_code":"CIV-Ivory Coast"},{"country_code":"JAM-Jamaica"},{"country_code":"JPN-Japan"},{"country_code":"KAZ-Kazakhstan"},{"country_code":"JOR-Jordan"},{"country_code":"KEN-Kenya"},{"country_code":"PRK-North Korea"},{"country_code":"KOR-South Korea"},{"country_code":"KWT-Kuwait"},{"country_code":"KGZ-Kyrgyz Republic"},{"country_code":"LAO-Lao"},{"country_code":"LBN-Lebanon"},{"country_code":"LSO-Lesotho"},{"country_code":"LVA-Latvia"},{"country_code":"LBR-Liberia"},{"country_code":"LBY-Libyan Arab Jamahiriya"},{"country_code":"LIE-Liechtenstein"},{"country_code":"LTU-Lithuania"},{"country_code":"LUX-Luxembourg"},{"country_code":"MAC-Macao"},{"country_code":"MDG-Madagascar"},{"country_code":"MWI-Malawi"},{"country_code":"MYS-Malaysia"},{"country_code":"MDV-Maldives"},{"country_code":"MLI-Mali"},{"country_code":"MLT-Malta"},{"country_code":"MTQ-Martinique"},{"country_code":"MRT-Mauritania"},{"country_code":"MUS-Mauritius"},{"country_code":"MEX-Mexico"},{"country_code":"MCO-Monaco"},{"country_code":"MNG-Mongolia"},{"country_code":"MDA-Moldova"},{"country_code":"MNE-Montenegro"},{"country_code":"MSR-Montserrat"},{"country_code":"MAR-Morocco"},{"country_code":"MOZ-Mozambique"},{"country_code":"OMN-Oman"},{"country_code":"NAM-Namibia"},{"country_code":"NRU-Nauru"},{"country_code":"NPL-Nepal"},{"country_code":"NLD-Netherlands"},{"country_code":"CUW-Curacao"},{"country_code":"ABW-Aruba"},{"country_code":"SXM-Sint Maarten"},{"country_code":"BES-Bonaire"},{"country_code":"NCL-New Caledonia"},{"country_code":"VUT-Vanuatu"},{"country_code":"NZL-New Zealand"},{"country_code":"NIC-Nicaragua"},{"country_code":"NER-Niger"},{"country_code":"NGA-Nigeria"},{"country_code":"NIU-Niue"},{"country_code":"NFK-Norfolk Island"},{"country_code":"NOR-Norway"},{"country_code":"MNP-Northern Mariana Islands"},{"country_code":"FSM-Micronesia"},{"country_code":"MHL-Marshall Islands"},{"country_code":"PLW-Palau"},{"country_code":"PAK-Pakistan"},{"country_code":"PAN-Panama"},{"country_code":"PNG-Papua New Guinea"},{"country_code":"PRY-Paraguay"},{"country_code":"PER-Peru"},{"country_code":"PHL-Philippines"},{"country_code":"POL-Poland"},{"country_code":"PRT-Portugal"},{"country_code":"GNB-Guinea-Bissau"},{"country_code":"TLS-Timor-Leste"},{"country_code":"PRI-Puerto Rico"},{"country_code":"QAT-Qatar"},{"country_code":"REU-Reunion"},{"country_code":"ROU-Romania"},{"country_code":"RUS-Russian Federation"},{"country_code":"RWA-Rwanda"},{"country_code":"SHN-Saint Helena"},{"country_code":"BLM-Saint Barthelemy"},{"country_code":"KNA-St. Kitts and Nevis"},{"country_code":"AIA-Anguilla"},{"country_code":"LCA-St. Lucia"},{"country_code":"MAF-Saint Martin"},{"country_code":"SPM-St. Pierre and Miquelon"},{"country_code":"VCT-St. Vincent and the Grenadines"},{"country_code":"SMR-San Marino"},{"country_code":"STP-Sao Tome and Principe"},{"country_code":"SAU-Saudi Arabia"},{"country_code":"SEN-Senegal"},{"country_code":"SRB-Serbia"},{"country_code":"SYC-Seychelles"},{"country_code":"SLE-Sierra Leone"},{"country_code":"SGP-Singapore"},{"country_code":"SVK-Slovakia"},{"country_code":"VNM-Viet Nam"},{"country_code":"SVN-Slovenia"},{"country_code":"SOM-Somalia"},{"country_code":"ZAF-South Africa"},{"country_code":"ZWE-Zimbabwe"},{"country_code":"ESP-Spain"},{"country_code":"ESH-Western Sahara"},{"country_code":"SDN-Sudan"},{"country_code":"SUR-Suriname"},{"country_code":"SJM-Svalbard & Jan Mayen Islands"},{"country_code":"SWZ-Swaziland"},{"country_code":"SWE-Sweden"},{"country_code":"CHE-Switzerland"},{"country_code":"SYR-Syrian Arab Republic"},{"country_code":"TJK-Tajikistan"},{"country_code":"THA-Thailand"},{"country_code":"TGO-Togo"},{"country_code":"TKL-Tokelau"},{"country_code":"TON-Tonga"},{"country_code":"TTO-Trinidad and Tobago"},{"country_code":"ARE-United Arab Emirates"},{"country_code":"TUN-Tunisia"},{"country_code":"TUR-Turkey"},{"country_code":"TKM-Turkmenistan"},{"country_code":"TCA-Turks and Caicos Islands"},{"country_code":"TUV-Tuvalu"},{"country_code":"UGA-Uganda"},{"country_code":"GGY-Guernsey"},{"country_code":"JEY-Jersey"},{"country_code":"IMN-Isle of Man"},{"country_code":"UKR-Ukraine"},{"country_code":"MKD-Macedonia"},{"country_code":"EGY-Egypt"},{"country_code":"GBR-United Kingdom"},{"country_code":"TZA-Tanzania"},{"country_code":"USA-United States of America"},{"country_code":"VIR-US Virgin Islands"},{"country_code":"BFA-Burkina Faso"},{"country_code":"URY-Uruguay"},{"country_code":"UZB-Uzbekistan"},{"country_code":"VEN-Venezuela"},{"country_code":"WLF-Wallis and Futuna Islands"},{"country_code":"WSM-Samoa"},{"country_code":"YEM-Yemen"},{"country_code":"ZMB-Zambia"},{"country_code":"UMI-United States Minor Outlying Islands"}]}
+[INFO] 2017-11-23 10:26:29,151 - -->{}
+[INFO] 2017-11-23 10:26:29,151 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getItemCodeList
+[INFO] 2017-11-23 10:26:29,151 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 10:26:30,181 - sendHttp_Json >> RES size:1539
+[INFO] 2017-11-23 10:26:30,181 - <--{"rows":33,"list":[{"code_name":"Arts & Antiques","code_id":"01"},{"code_name":"Automobile Acc.","code_id":"02"},{"code_name":"AV & IT","code_id":"03"},{"code_name":"Baby Products","code_id":"04"},{"code_name":"Cosmetic & Essence","code_id":"05"},{"code_name":"Dept. Store","code_id":"06"},{"code_name":"Eyewear & Optics","code_id":"07"},{"code_name":"Fashion & Clothing","code_id":"08"},{"code_name":"Fashion Acc.","code_id":"09"},{"code_name":"Footwear","code_id":"10"},{"code_name":"Furniture","code_id":"11"},{"code_name":"Games and Toys","code_id":"12"},{"code_name":"Glass & Crystal","code_id":"13"},{"code_name":"Handicraft","code_id":"14"},{"code_name":"Health & Beauty","code_id":"15"},{"code_name":"Home Appliances","code_id":"16"},{"code_name":"Jewellery","code_id":"17"},{"code_name":"Leather Goods","code_id":"18"},{"code_name":"Lingerie Apparels","code_id":"19"},{"code_name":"Mag & Stationery","code_id":"20"},{"code_name":"Medical Clinics","code_id":"21"},{"code_name":"Medical Equipment","code_id":"22"},{"code_name":"Other retailing","code_id":"23"},{"code_name":"Pharmaceutical","code_id":"24"},{"code_name":"Photo equipment","code_id":"25"},{"code_name":"Souvenirs & Gifts","code_id":"26"},{"code_name":"Sports equipment","code_id":"27"},{"code_name":"Telecommunications","code_id":"28"},{"code_name":"Textile & Carpets","code_id":"29"},{"code_name":"Tobacco & Wines","code_id":"30"},{"code_name":"Travel Accessories","code_id":"31"},{"code_name":"Video & Music","code_id":"32"},{"code_name":"Watches","code_id":"33"}]}
+[INFO] 2017-11-23 10:27:24,648 - Start Application................
+[INFO] 2017-11-23 10:27:25,958 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-23 10:27:25,958 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345",
+  "mac_adress": "98838921BD05"
+}
+[INFO] 2017-11-23 10:27:26,989 - sendHttp_Json >> RES size:431
+[INFO] 2017-11-23 10:27:27,254 - -->{}
+[INFO] 2017-11-23 10:27:27,254 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchCountryCode
+[INFO] 2017-11-23 10:27:27,254 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 10:27:29,721 - sendHttp_Json >> RES size:8480
+[INFO] 2017-11-23 10:27:29,721 - <--{"rows":249,"list":[{"country_code":"ZAR-Congo, Dem. Rep."},{"country_code":"AFG-Afghanistan"},{"country_code":"ALB-Albania"},{"country_code":"ATA-Antarctica"},{"country_code":"DZA-Algeria"},{"country_code":"ASM-American Samoa"},{"country_code":"AND-Andorra"},{"country_code":"AGO-Angola"},{"country_code":"ATG-Antigua and Barbuda"},{"country_code":"AZE-Azerbaijan"},{"country_code":"ARG-Argentina"},{"country_code":"AUS-Australia"},{"country_code":"AUT-Austria"},{"country_code":"BHS-Bahamas"},{"country_code":"BHR-Bahrain"},{"country_code":"BGD-Bangladesh"},{"country_code":"ARM-Armenia"},{"country_code":"BRB-Barbados"},{"country_code":"BEL-Belgium"},{"country_code":"BMU-Bermuda"},{"country_code":"BTN-Bhutan"},{"country_code":"BOL-Bolivia"},{"country_code":"BIH-Bosnia and Herzegovina"},{"country_code":"BWA-Botswana"},{"country_code":"BVT-Bouvet Island"},{"country_code":"BRA-Brazil"},{"country_code":"BLZ-Belize"},{"country_code":"IOT-British Indian Ocean Territory"},{"country_code":"SLB-Solomon Islands"},{"country_code":"VGB-British Virgin Islands"},{"country_code":"BRN-Brunei Darussalam"},{"country_code":"BGR-Bulgaria"},{"country_code":"MMR-Myanmar"},{"country_code":"BDI-Burundi"},{"country_code":"BLR-Belarus"},{"country_code":"KHM-Cambodia"},{"country_code":"CMR-Cameroon"},{"country_code":"CAN-Canada"},{"country_code":"CPV-Cape Verde"},{"country_code":"CYM-Cayman Islands"},{"country_code":"CAF-Central African Republic"},{"country_code":"LKA-Sri Lanka"},{"country_code":"TCD-Chad"},{"country_code":"CHL-Chile"},{"country_code":"CHN-China"},{"country_code":"TWN-Taiwan"},{"country_code":"CXR-Christmas Island"},{"country_code":"CCK-Cocos Islands"},{"country_code":"COL-Colombia"},{"country_code":"COM-Comoros"},{"country_code":"MYT-Mayotte"},{"country_code":"COG-Congo"},{"country_code":"COD-Congo"},{"country_code":"COK-Cook Islands"},{"country_code":"CRI-Costa Rica"},{"country_code":"HRV-Hrvatska"},{"country_code":"CUB-Cuba"},{"country_code":"CYP-Cyprus"},{"country_code":"CZE-Czech Republic"},{"country_code":"BEN-Benin"},{"country_code":"DNK-Denmark"},{"country_code":"DMA-Dominica"},{"country_code":"DOM-Dominican Republic"},{"country_code":"ECU-Ecuador"},{"country_code":"SLV-El Salvador"},{"country_code":"GNQ-Equatorial Guinea"},{"country_code":"ETH-Ethiopia"},{"country_code":"PCN-Pitcairn Island"},{"country_code":"ERI-Eritrea"},{"country_code":"EST-Estonia"},{"country_code":"FRO-Faeroe Islands"},{"country_code":"FLK-Falkland Islands"},{"country_code":"SGS-South Georgia and the South Sandwich Islands"},{"country_code":"FJI-Fiji"},{"country_code":"FIN-Finland"},{"country_code":"ALA-Aland Islands"},{"country_code":"FRA-France"},{"country_code":"GUF-French Guiana"},{"country_code":"PYF-French Polynesia"},{"country_code":"ATF-French Southern Territories"},{"country_code":"DJI-Djibouti"},{"country_code":"GAB-Gabon"},{"country_code":"GEO-Georgia"},{"country_code":"GMB-Gambia"},{"country_code":"PSE-Palestinian Territory"},{"country_code":"DEU-Germany"},{"country_code":"GHA-Ghana"},{"country_code":"GIB-Gibraltar"},{"country_code":"KIR-Kiribati"},{"country_code":"GRC-Greece"},{"country_code":"GRL-Greenland"},{"country_code":"GRD-Grenada"},{"country_code":"GLP-Guadaloupe"},{"country_code":"GUM-Guam"},{"country_code":"GTM-Guatemala"},{"country_code":"GIN-Guinea"},{"country_code":"GUY-Guyana"},{"country_code":"HTI-Haiti"},{"country_code":"HMD-Heard and McDonald Islands"},{"country_code":"VAT-Vatican City State"},{"country_code":"HND-Honduras"},{"country_code":"HKG-Hong Kong"},{"country_code":"HUN-Hungary"},{"country_code":"ISL-Iceland"},{"country_code":"IND-India"},{"country_code":"IDN-Indonesia"},{"country_code":"IRN-Iran"},{"country_code":"IRQ-Iraq"},{"country_code":"IRL-Ireland"},{"country_code":"ISR-Israel"},{"country_code":"ITA-Italy"},{"country_code":"CIV-Ivory Coast"},{"country_code":"JAM-Jamaica"},{"country_code":"JPN-Japan"},{"country_code":"KAZ-Kazakhstan"},{"country_code":"JOR-Jordan"},{"country_code":"KEN-Kenya"},{"country_code":"PRK-North Korea"},{"country_code":"KOR-South Korea"},{"country_code":"KWT-Kuwait"},{"country_code":"KGZ-Kyrgyz Republic"},{"country_code":"LAO-Lao"},{"country_code":"LBN-Lebanon"},{"country_code":"LSO-Lesotho"},{"country_code":"LVA-Latvia"},{"country_code":"LBR-Liberia"},{"country_code":"LBY-Libyan Arab Jamahiriya"},{"country_code":"LIE-Liechtenstein"},{"country_code":"LTU-Lithuania"},{"country_code":"LUX-Luxembourg"},{"country_code":"MAC-Macao"},{"country_code":"MDG-Madagascar"},{"country_code":"MWI-Malawi"},{"country_code":"MYS-Malaysia"},{"country_code":"MDV-Maldives"},{"country_code":"MLI-Mali"},{"country_code":"MLT-Malta"},{"country_code":"MTQ-Martinique"},{"country_code":"MRT-Mauritania"},{"country_code":"MUS-Mauritius"},{"country_code":"MEX-Mexico"},{"country_code":"MCO-Monaco"},{"country_code":"MNG-Mongolia"},{"country_code":"MDA-Moldova"},{"country_code":"MNE-Montenegro"},{"country_code":"MSR-Montserrat"},{"country_code":"MAR-Morocco"},{"country_code":"MOZ-Mozambique"},{"country_code":"OMN-Oman"},{"country_code":"NAM-Namibia"},{"country_code":"NRU-Nauru"},{"country_code":"NPL-Nepal"},{"country_code":"NLD-Netherlands"},{"country_code":"CUW-Curacao"},{"country_code":"ABW-Aruba"},{"country_code":"SXM-Sint Maarten"},{"country_code":"BES-Bonaire"},{"country_code":"NCL-New Caledonia"},{"country_code":"VUT-Vanuatu"},{"country_code":"NZL-New Zealand"},{"country_code":"NIC-Nicaragua"},{"country_code":"NER-Niger"},{"country_code":"NGA-Nigeria"},{"country_code":"NIU-Niue"},{"country_code":"NFK-Norfolk Island"},{"country_code":"NOR-Norway"},{"country_code":"MNP-Northern Mariana Islands"},{"country_code":"FSM-Micronesia"},{"country_code":"MHL-Marshall Islands"},{"country_code":"PLW-Palau"},{"country_code":"PAK-Pakistan"},{"country_code":"PAN-Panama"},{"country_code":"PNG-Papua New Guinea"},{"country_code":"PRY-Paraguay"},{"country_code":"PER-Peru"},{"country_code":"PHL-Philippines"},{"country_code":"POL-Poland"},{"country_code":"PRT-Portugal"},{"country_code":"GNB-Guinea-Bissau"},{"country_code":"TLS-Timor-Leste"},{"country_code":"PRI-Puerto Rico"},{"country_code":"QAT-Qatar"},{"country_code":"REU-Reunion"},{"country_code":"ROU-Romania"},{"country_code":"RUS-Russian Federation"},{"country_code":"RWA-Rwanda"},{"country_code":"SHN-Saint Helena"},{"country_code":"BLM-Saint Barthelemy"},{"country_code":"KNA-St. Kitts and Nevis"},{"country_code":"AIA-Anguilla"},{"country_code":"LCA-St. Lucia"},{"country_code":"MAF-Saint Martin"},{"country_code":"SPM-St. Pierre and Miquelon"},{"country_code":"VCT-St. Vincent and the Grenadines"},{"country_code":"SMR-San Marino"},{"country_code":"STP-Sao Tome and Principe"},{"country_code":"SAU-Saudi Arabia"},{"country_code":"SEN-Senegal"},{"country_code":"SRB-Serbia"},{"country_code":"SYC-Seychelles"},{"country_code":"SLE-Sierra Leone"},{"country_code":"SGP-Singapore"},{"country_code":"SVK-Slovakia"},{"country_code":"VNM-Viet Nam"},{"country_code":"SVN-Slovenia"},{"country_code":"SOM-Somalia"},{"country_code":"ZAF-South Africa"},{"country_code":"ZWE-Zimbabwe"},{"country_code":"ESP-Spain"},{"country_code":"ESH-Western Sahara"},{"country_code":"SDN-Sudan"},{"country_code":"SUR-Suriname"},{"country_code":"SJM-Svalbard & Jan Mayen Islands"},{"country_code":"SWZ-Swaziland"},{"country_code":"SWE-Sweden"},{"country_code":"CHE-Switzerland"},{"country_code":"SYR-Syrian Arab Republic"},{"country_code":"TJK-Tajikistan"},{"country_code":"THA-Thailand"},{"country_code":"TGO-Togo"},{"country_code":"TKL-Tokelau"},{"country_code":"TON-Tonga"},{"country_code":"TTO-Trinidad and Tobago"},{"country_code":"ARE-United Arab Emirates"},{"country_code":"TUN-Tunisia"},{"country_code":"TUR-Turkey"},{"country_code":"TKM-Turkmenistan"},{"country_code":"TCA-Turks and Caicos Islands"},{"country_code":"TUV-Tuvalu"},{"country_code":"UGA-Uganda"},{"country_code":"GGY-Guernsey"},{"country_code":"JEY-Jersey"},{"country_code":"IMN-Isle of Man"},{"country_code":"UKR-Ukraine"},{"country_code":"MKD-Macedonia"},{"country_code":"EGY-Egypt"},{"country_code":"GBR-United Kingdom"},{"country_code":"TZA-Tanzania"},{"country_code":"USA-United States of America"},{"country_code":"VIR-US Virgin Islands"},{"country_code":"BFA-Burkina Faso"},{"country_code":"URY-Uruguay"},{"country_code":"UZB-Uzbekistan"},{"country_code":"VEN-Venezuela"},{"country_code":"WLF-Wallis and Futuna Islands"},{"country_code":"WSM-Samoa"},{"country_code":"YEM-Yemen"},{"country_code":"ZMB-Zambia"},{"country_code":"UMI-United States Minor Outlying Islands"}]}
+[INFO] 2017-11-23 10:27:31,172 - -->{}
+[INFO] 2017-11-23 10:27:31,172 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getItemCodeList
+[INFO] 2017-11-23 10:27:31,172 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 10:27:32,230 - sendHttp_Json >> RES size:1539
+[INFO] 2017-11-23 10:27:32,234 - <--{"rows":33,"list":[{"code_name":"Arts & Antiques","code_id":"01"},{"code_name":"Automobile Acc.","code_id":"02"},{"code_name":"AV & IT","code_id":"03"},{"code_name":"Baby Products","code_id":"04"},{"code_name":"Cosmetic & Essence","code_id":"05"},{"code_name":"Dept. Store","code_id":"06"},{"code_name":"Eyewear & Optics","code_id":"07"},{"code_name":"Fashion & Clothing","code_id":"08"},{"code_name":"Fashion Acc.","code_id":"09"},{"code_name":"Footwear","code_id":"10"},{"code_name":"Furniture","code_id":"11"},{"code_name":"Games and Toys","code_id":"12"},{"code_name":"Glass & Crystal","code_id":"13"},{"code_name":"Handicraft","code_id":"14"},{"code_name":"Health & Beauty","code_id":"15"},{"code_name":"Home Appliances","code_id":"16"},{"code_name":"Jewellery","code_id":"17"},{"code_name":"Leather Goods","code_id":"18"},{"code_name":"Lingerie Apparels","code_id":"19"},{"code_name":"Mag & Stationery","code_id":"20"},{"code_name":"Medical Clinics","code_id":"21"},{"code_name":"Medical Equipment","code_id":"22"},{"code_name":"Other retailing","code_id":"23"},{"code_name":"Pharmaceutical","code_id":"24"},{"code_name":"Photo equipment","code_id":"25"},{"code_name":"Souvenirs & Gifts","code_id":"26"},{"code_name":"Sports equipment","code_id":"27"},{"code_name":"Telecommunications","code_id":"28"},{"code_name":"Textile & Carpets","code_id":"29"},{"code_name":"Tobacco & Wines","code_id":"30"},{"code_name":"Travel Accessories","code_id":"31"},{"code_name":"Video & Music","code_id":"32"},{"code_name":"Watches","code_id":"33"}]}
+[INFO] 2017-11-23 10:28:30,523 - Start Application................
+[INFO] 2017-11-23 10:28:32,192 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-23 10:28:32,192 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345"
+}
+[INFO] 2017-11-23 10:28:33,647 - sendHttp_Json >> RES size:431
+[INFO] 2017-11-23 10:28:33,943 - -->{}
+[INFO] 2017-11-23 10:28:33,943 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchCountryCode
+[INFO] 2017-11-23 10:28:33,943 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 10:28:37,053 - sendHttp_Json >> RES size:8480
+[INFO] 2017-11-23 10:28:37,053 - <--{"rows":249,"list":[{"country_code":"ZAR-Congo, Dem. Rep."},{"country_code":"AFG-Afghanistan"},{"country_code":"ALB-Albania"},{"country_code":"ATA-Antarctica"},{"country_code":"DZA-Algeria"},{"country_code":"ASM-American Samoa"},{"country_code":"AND-Andorra"},{"country_code":"AGO-Angola"},{"country_code":"ATG-Antigua and Barbuda"},{"country_code":"AZE-Azerbaijan"},{"country_code":"ARG-Argentina"},{"country_code":"AUS-Australia"},{"country_code":"AUT-Austria"},{"country_code":"BHS-Bahamas"},{"country_code":"BHR-Bahrain"},{"country_code":"BGD-Bangladesh"},{"country_code":"ARM-Armenia"},{"country_code":"BRB-Barbados"},{"country_code":"BEL-Belgium"},{"country_code":"BMU-Bermuda"},{"country_code":"BTN-Bhutan"},{"country_code":"BOL-Bolivia"},{"country_code":"BIH-Bosnia and Herzegovina"},{"country_code":"BWA-Botswana"},{"country_code":"BVT-Bouvet Island"},{"country_code":"BRA-Brazil"},{"country_code":"BLZ-Belize"},{"country_code":"IOT-British Indian Ocean Territory"},{"country_code":"SLB-Solomon Islands"},{"country_code":"VGB-British Virgin Islands"},{"country_code":"BRN-Brunei Darussalam"},{"country_code":"BGR-Bulgaria"},{"country_code":"MMR-Myanmar"},{"country_code":"BDI-Burundi"},{"country_code":"BLR-Belarus"},{"country_code":"KHM-Cambodia"},{"country_code":"CMR-Cameroon"},{"country_code":"CAN-Canada"},{"country_code":"CPV-Cape Verde"},{"country_code":"CYM-Cayman Islands"},{"country_code":"CAF-Central African Republic"},{"country_code":"LKA-Sri Lanka"},{"country_code":"TCD-Chad"},{"country_code":"CHL-Chile"},{"country_code":"CHN-China"},{"country_code":"TWN-Taiwan"},{"country_code":"CXR-Christmas Island"},{"country_code":"CCK-Cocos Islands"},{"country_code":"COL-Colombia"},{"country_code":"COM-Comoros"},{"country_code":"MYT-Mayotte"},{"country_code":"COG-Congo"},{"country_code":"COD-Congo"},{"country_code":"COK-Cook Islands"},{"country_code":"CRI-Costa Rica"},{"country_code":"HRV-Hrvatska"},{"country_code":"CUB-Cuba"},{"country_code":"CYP-Cyprus"},{"country_code":"CZE-Czech Republic"},{"country_code":"BEN-Benin"},{"country_code":"DNK-Denmark"},{"country_code":"DMA-Dominica"},{"country_code":"DOM-Dominican Republic"},{"country_code":"ECU-Ecuador"},{"country_code":"SLV-El Salvador"},{"country_code":"GNQ-Equatorial Guinea"},{"country_code":"ETH-Ethiopia"},{"country_code":"PCN-Pitcairn Island"},{"country_code":"ERI-Eritrea"},{"country_code":"EST-Estonia"},{"country_code":"FRO-Faeroe Islands"},{"country_code":"FLK-Falkland Islands"},{"country_code":"SGS-South Georgia and the South Sandwich Islands"},{"country_code":"FJI-Fiji"},{"country_code":"FIN-Finland"},{"country_code":"ALA-Aland Islands"},{"country_code":"FRA-France"},{"country_code":"GUF-French Guiana"},{"country_code":"PYF-French Polynesia"},{"country_code":"ATF-French Southern Territories"},{"country_code":"DJI-Djibouti"},{"country_code":"GAB-Gabon"},{"country_code":"GEO-Georgia"},{"country_code":"GMB-Gambia"},{"country_code":"PSE-Palestinian Territory"},{"country_code":"DEU-Germany"},{"country_code":"GHA-Ghana"},{"country_code":"GIB-Gibraltar"},{"country_code":"KIR-Kiribati"},{"country_code":"GRC-Greece"},{"country_code":"GRL-Greenland"},{"country_code":"GRD-Grenada"},{"country_code":"GLP-Guadaloupe"},{"country_code":"GUM-Guam"},{"country_code":"GTM-Guatemala"},{"country_code":"GIN-Guinea"},{"country_code":"GUY-Guyana"},{"country_code":"HTI-Haiti"},{"country_code":"HMD-Heard and McDonald Islands"},{"country_code":"VAT-Vatican City State"},{"country_code":"HND-Honduras"},{"country_code":"HKG-Hong Kong"},{"country_code":"HUN-Hungary"},{"country_code":"ISL-Iceland"},{"country_code":"IND-India"},{"country_code":"IDN-Indonesia"},{"country_code":"IRN-Iran"},{"country_code":"IRQ-Iraq"},{"country_code":"IRL-Ireland"},{"country_code":"ISR-Israel"},{"country_code":"ITA-Italy"},{"country_code":"CIV-Ivory Coast"},{"country_code":"JAM-Jamaica"},{"country_code":"JPN-Japan"},{"country_code":"KAZ-Kazakhstan"},{"country_code":"JOR-Jordan"},{"country_code":"KEN-Kenya"},{"country_code":"PRK-North Korea"},{"country_code":"KOR-South Korea"},{"country_code":"KWT-Kuwait"},{"country_code":"KGZ-Kyrgyz Republic"},{"country_code":"LAO-Lao"},{"country_code":"LBN-Lebanon"},{"country_code":"LSO-Lesotho"},{"country_code":"LVA-Latvia"},{"country_code":"LBR-Liberia"},{"country_code":"LBY-Libyan Arab Jamahiriya"},{"country_code":"LIE-Liechtenstein"},{"country_code":"LTU-Lithuania"},{"country_code":"LUX-Luxembourg"},{"country_code":"MAC-Macao"},{"country_code":"MDG-Madagascar"},{"country_code":"MWI-Malawi"},{"country_code":"MYS-Malaysia"},{"country_code":"MDV-Maldives"},{"country_code":"MLI-Mali"},{"country_code":"MLT-Malta"},{"country_code":"MTQ-Martinique"},{"country_code":"MRT-Mauritania"},{"country_code":"MUS-Mauritius"},{"country_code":"MEX-Mexico"},{"country_code":"MCO-Monaco"},{"country_code":"MNG-Mongolia"},{"country_code":"MDA-Moldova"},{"country_code":"MNE-Montenegro"},{"country_code":"MSR-Montserrat"},{"country_code":"MAR-Morocco"},{"country_code":"MOZ-Mozambique"},{"country_code":"OMN-Oman"},{"country_code":"NAM-Namibia"},{"country_code":"NRU-Nauru"},{"country_code":"NPL-Nepal"},{"country_code":"NLD-Netherlands"},{"country_code":"CUW-Curacao"},{"country_code":"ABW-Aruba"},{"country_code":"SXM-Sint Maarten"},{"country_code":"BES-Bonaire"},{"country_code":"NCL-New Caledonia"},{"country_code":"VUT-Vanuatu"},{"country_code":"NZL-New Zealand"},{"country_code":"NIC-Nicaragua"},{"country_code":"NER-Niger"},{"country_code":"NGA-Nigeria"},{"country_code":"NIU-Niue"},{"country_code":"NFK-Norfolk Island"},{"country_code":"NOR-Norway"},{"country_code":"MNP-Northern Mariana Islands"},{"country_code":"FSM-Micronesia"},{"country_code":"MHL-Marshall Islands"},{"country_code":"PLW-Palau"},{"country_code":"PAK-Pakistan"},{"country_code":"PAN-Panama"},{"country_code":"PNG-Papua New Guinea"},{"country_code":"PRY-Paraguay"},{"country_code":"PER-Peru"},{"country_code":"PHL-Philippines"},{"country_code":"POL-Poland"},{"country_code":"PRT-Portugal"},{"country_code":"GNB-Guinea-Bissau"},{"country_code":"TLS-Timor-Leste"},{"country_code":"PRI-Puerto Rico"},{"country_code":"QAT-Qatar"},{"country_code":"REU-Reunion"},{"country_code":"ROU-Romania"},{"country_code":"RUS-Russian Federation"},{"country_code":"RWA-Rwanda"},{"country_code":"SHN-Saint Helena"},{"country_code":"BLM-Saint Barthelemy"},{"country_code":"KNA-St. Kitts and Nevis"},{"country_code":"AIA-Anguilla"},{"country_code":"LCA-St. Lucia"},{"country_code":"MAF-Saint Martin"},{"country_code":"SPM-St. Pierre and Miquelon"},{"country_code":"VCT-St. Vincent and the Grenadines"},{"country_code":"SMR-San Marino"},{"country_code":"STP-Sao Tome and Principe"},{"country_code":"SAU-Saudi Arabia"},{"country_code":"SEN-Senegal"},{"country_code":"SRB-Serbia"},{"country_code":"SYC-Seychelles"},{"country_code":"SLE-Sierra Leone"},{"country_code":"SGP-Singapore"},{"country_code":"SVK-Slovakia"},{"country_code":"VNM-Viet Nam"},{"country_code":"SVN-Slovenia"},{"country_code":"SOM-Somalia"},{"country_code":"ZAF-South Africa"},{"country_code":"ZWE-Zimbabwe"},{"country_code":"ESP-Spain"},{"country_code":"ESH-Western Sahara"},{"country_code":"SDN-Sudan"},{"country_code":"SUR-Suriname"},{"country_code":"SJM-Svalbard & Jan Mayen Islands"},{"country_code":"SWZ-Swaziland"},{"country_code":"SWE-Sweden"},{"country_code":"CHE-Switzerland"},{"country_code":"SYR-Syrian Arab Republic"},{"country_code":"TJK-Tajikistan"},{"country_code":"THA-Thailand"},{"country_code":"TGO-Togo"},{"country_code":"TKL-Tokelau"},{"country_code":"TON-Tonga"},{"country_code":"TTO-Trinidad and Tobago"},{"country_code":"ARE-United Arab Emirates"},{"country_code":"TUN-Tunisia"},{"country_code":"TUR-Turkey"},{"country_code":"TKM-Turkmenistan"},{"country_code":"TCA-Turks and Caicos Islands"},{"country_code":"TUV-Tuvalu"},{"country_code":"UGA-Uganda"},{"country_code":"GGY-Guernsey"},{"country_code":"JEY-Jersey"},{"country_code":"IMN-Isle of Man"},{"country_code":"UKR-Ukraine"},{"country_code":"MKD-Macedonia"},{"country_code":"EGY-Egypt"},{"country_code":"GBR-United Kingdom"},{"country_code":"TZA-Tanzania"},{"country_code":"USA-United States of America"},{"country_code":"VIR-US Virgin Islands"},{"country_code":"BFA-Burkina Faso"},{"country_code":"URY-Uruguay"},{"country_code":"UZB-Uzbekistan"},{"country_code":"VEN-Venezuela"},{"country_code":"WLF-Wallis and Futuna Islands"},{"country_code":"WSM-Samoa"},{"country_code":"YEM-Yemen"},{"country_code":"ZMB-Zambia"},{"country_code":"UMI-United States Minor Outlying Islands"}]}
+[INFO] 2017-11-23 10:28:38,523 - -->{}
+[INFO] 2017-11-23 10:28:38,523 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getItemCodeList
+[INFO] 2017-11-23 10:28:38,523 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 10:28:39,261 - sendHttp_Json >> RES size:1539
+[INFO] 2017-11-23 10:28:39,261 - <--{"rows":33,"list":[{"code_name":"Arts & Antiques","code_id":"01"},{"code_name":"Automobile Acc.","code_id":"02"},{"code_name":"AV & IT","code_id":"03"},{"code_name":"Baby Products","code_id":"04"},{"code_name":"Cosmetic & Essence","code_id":"05"},{"code_name":"Dept. Store","code_id":"06"},{"code_name":"Eyewear & Optics","code_id":"07"},{"code_name":"Fashion & Clothing","code_id":"08"},{"code_name":"Fashion Acc.","code_id":"09"},{"code_name":"Footwear","code_id":"10"},{"code_name":"Furniture","code_id":"11"},{"code_name":"Games and Toys","code_id":"12"},{"code_name":"Glass & Crystal","code_id":"13"},{"code_name":"Handicraft","code_id":"14"},{"code_name":"Health & Beauty","code_id":"15"},{"code_name":"Home Appliances","code_id":"16"},{"code_name":"Jewellery","code_id":"17"},{"code_name":"Leather Goods","code_id":"18"},{"code_name":"Lingerie Apparels","code_id":"19"},{"code_name":"Mag & Stationery","code_id":"20"},{"code_name":"Medical Clinics","code_id":"21"},{"code_name":"Medical Equipment","code_id":"22"},{"code_name":"Other retailing","code_id":"23"},{"code_name":"Pharmaceutical","code_id":"24"},{"code_name":"Photo equipment","code_id":"25"},{"code_name":"Souvenirs & Gifts","code_id":"26"},{"code_name":"Sports equipment","code_id":"27"},{"code_name":"Telecommunications","code_id":"28"},{"code_name":"Textile & Carpets","code_id":"29"},{"code_name":"Tobacco & Wines","code_id":"30"},{"code_name":"Travel Accessories","code_id":"31"},{"code_name":"Video & Music","code_id":"32"},{"code_name":"Watches","code_id":"33"}]}
+[ERROR] 2017-11-23 10:28:55,887 - 0번쨰 실행 성공[1] 실패[0] NO[E9999999] NAT[CHN]
+[ERROR] 2017-11-23 10:29:00,260 - 1번쨰 실행 성공[2] 실패[0] NO[E9999999] NAT[CHN]
+[ERROR] 2017-11-23 10:29:04,104 - 2번쨰 실행 성공[3] 실패[0] NO[E9999999] NAT[CHN]
+[ERROR] 2017-11-23 10:29:07,965 - 3번쨰 실행 성공[4] 실패[0] NO[E9999999] NAT[CHN]
+[ERROR] 2017-11-23 10:29:11,825 - 4번쨰 실행 성공[5] 실패[0] NO[E9999999] NAT[CHN]
+[ERROR] 2017-11-23 10:29:15,717 - 5번쨰 실행 성공[6] 실패[0] NO[E9999999] NAT[CHN]
+[ERROR] 2017-11-23 10:29:20,058 - 6번쨰 실행 성공[7] 실패[0] NO[E9999999] NAT[CHN]
+[ERROR] 2017-11-23 10:29:36,763 -    위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: GTF_Passport.GTF_PassportScanner.GetPassportNo()
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_SCAN_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 197
+[INFO] 2017-11-23 10:30:28,616 - Start Application................
+[INFO] 2017-11-23 10:30:30,147 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-23 10:30:30,147 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345"
+}
+[INFO] 2017-11-23 10:30:31,479 - sendHttp_Json >> RES size:431
+[INFO] 2017-11-23 10:30:31,744 - -->{}
+[INFO] 2017-11-23 10:30:31,744 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchCountryCode
+[INFO] 2017-11-23 10:30:31,744 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 10:30:34,760 - sendHttp_Json >> RES size:8480
+[INFO] 2017-11-23 10:30:34,760 - <--{"rows":249,"list":[{"country_code":"ZAR-Congo, Dem. Rep."},{"country_code":"AFG-Afghanistan"},{"country_code":"ALB-Albania"},{"country_code":"ATA-Antarctica"},{"country_code":"DZA-Algeria"},{"country_code":"ASM-American Samoa"},{"country_code":"AND-Andorra"},{"country_code":"AGO-Angola"},{"country_code":"ATG-Antigua and Barbuda"},{"country_code":"AZE-Azerbaijan"},{"country_code":"ARG-Argentina"},{"country_code":"AUS-Australia"},{"country_code":"AUT-Austria"},{"country_code":"BHS-Bahamas"},{"country_code":"BHR-Bahrain"},{"country_code":"BGD-Bangladesh"},{"country_code":"ARM-Armenia"},{"country_code":"BRB-Barbados"},{"country_code":"BEL-Belgium"},{"country_code":"BMU-Bermuda"},{"country_code":"BTN-Bhutan"},{"country_code":"BOL-Bolivia"},{"country_code":"BIH-Bosnia and Herzegovina"},{"country_code":"BWA-Botswana"},{"country_code":"BVT-Bouvet Island"},{"country_code":"BRA-Brazil"},{"country_code":"BLZ-Belize"},{"country_code":"IOT-British Indian Ocean Territory"},{"country_code":"SLB-Solomon Islands"},{"country_code":"VGB-British Virgin Islands"},{"country_code":"BRN-Brunei Darussalam"},{"country_code":"BGR-Bulgaria"},{"country_code":"MMR-Myanmar"},{"country_code":"BDI-Burundi"},{"country_code":"BLR-Belarus"},{"country_code":"KHM-Cambodia"},{"country_code":"CMR-Cameroon"},{"country_code":"CAN-Canada"},{"country_code":"CPV-Cape Verde"},{"country_code":"CYM-Cayman Islands"},{"country_code":"CAF-Central African Republic"},{"country_code":"LKA-Sri Lanka"},{"country_code":"TCD-Chad"},{"country_code":"CHL-Chile"},{"country_code":"CHN-China"},{"country_code":"TWN-Taiwan"},{"country_code":"CXR-Christmas Island"},{"country_code":"CCK-Cocos Islands"},{"country_code":"COL-Colombia"},{"country_code":"COM-Comoros"},{"country_code":"MYT-Mayotte"},{"country_code":"COG-Congo"},{"country_code":"COD-Congo"},{"country_code":"COK-Cook Islands"},{"country_code":"CRI-Costa Rica"},{"country_code":"HRV-Hrvatska"},{"country_code":"CUB-Cuba"},{"country_code":"CYP-Cyprus"},{"country_code":"CZE-Czech Republic"},{"country_code":"BEN-Benin"},{"country_code":"DNK-Denmark"},{"country_code":"DMA-Dominica"},{"country_code":"DOM-Dominican Republic"},{"country_code":"ECU-Ecuador"},{"country_code":"SLV-El Salvador"},{"country_code":"GNQ-Equatorial Guinea"},{"country_code":"ETH-Ethiopia"},{"country_code":"PCN-Pitcairn Island"},{"country_code":"ERI-Eritrea"},{"country_code":"EST-Estonia"},{"country_code":"FRO-Faeroe Islands"},{"country_code":"FLK-Falkland Islands"},{"country_code":"SGS-South Georgia and the South Sandwich Islands"},{"country_code":"FJI-Fiji"},{"country_code":"FIN-Finland"},{"country_code":"ALA-Aland Islands"},{"country_code":"FRA-France"},{"country_code":"GUF-French Guiana"},{"country_code":"PYF-French Polynesia"},{"country_code":"ATF-French Southern Territories"},{"country_code":"DJI-Djibouti"},{"country_code":"GAB-Gabon"},{"country_code":"GEO-Georgia"},{"country_code":"GMB-Gambia"},{"country_code":"PSE-Palestinian Territory"},{"country_code":"DEU-Germany"},{"country_code":"GHA-Ghana"},{"country_code":"GIB-Gibraltar"},{"country_code":"KIR-Kiribati"},{"country_code":"GRC-Greece"},{"country_code":"GRL-Greenland"},{"country_code":"GRD-Grenada"},{"country_code":"GLP-Guadaloupe"},{"country_code":"GUM-Guam"},{"country_code":"GTM-Guatemala"},{"country_code":"GIN-Guinea"},{"country_code":"GUY-Guyana"},{"country_code":"HTI-Haiti"},{"country_code":"HMD-Heard and McDonald Islands"},{"country_code":"VAT-Vatican City State"},{"country_code":"HND-Honduras"},{"country_code":"HKG-Hong Kong"},{"country_code":"HUN-Hungary"},{"country_code":"ISL-Iceland"},{"country_code":"IND-India"},{"country_code":"IDN-Indonesia"},{"country_code":"IRN-Iran"},{"country_code":"IRQ-Iraq"},{"country_code":"IRL-Ireland"},{"country_code":"ISR-Israel"},{"country_code":"ITA-Italy"},{"country_code":"CIV-Ivory Coast"},{"country_code":"JAM-Jamaica"},{"country_code":"JPN-Japan"},{"country_code":"KAZ-Kazakhstan"},{"country_code":"JOR-Jordan"},{"country_code":"KEN-Kenya"},{"country_code":"PRK-North Korea"},{"country_code":"KOR-South Korea"},{"country_code":"KWT-Kuwait"},{"country_code":"KGZ-Kyrgyz Republic"},{"country_code":"LAO-Lao"},{"country_code":"LBN-Lebanon"},{"country_code":"LSO-Lesotho"},{"country_code":"LVA-Latvia"},{"country_code":"LBR-Liberia"},{"country_code":"LBY-Libyan Arab Jamahiriya"},{"country_code":"LIE-Liechtenstein"},{"country_code":"LTU-Lithuania"},{"country_code":"LUX-Luxembourg"},{"country_code":"MAC-Macao"},{"country_code":"MDG-Madagascar"},{"country_code":"MWI-Malawi"},{"country_code":"MYS-Malaysia"},{"country_code":"MDV-Maldives"},{"country_code":"MLI-Mali"},{"country_code":"MLT-Malta"},{"country_code":"MTQ-Martinique"},{"country_code":"MRT-Mauritania"},{"country_code":"MUS-Mauritius"},{"country_code":"MEX-Mexico"},{"country_code":"MCO-Monaco"},{"country_code":"MNG-Mongolia"},{"country_code":"MDA-Moldova"},{"country_code":"MNE-Montenegro"},{"country_code":"MSR-Montserrat"},{"country_code":"MAR-Morocco"},{"country_code":"MOZ-Mozambique"},{"country_code":"OMN-Oman"},{"country_code":"NAM-Namibia"},{"country_code":"NRU-Nauru"},{"country_code":"NPL-Nepal"},{"country_code":"NLD-Netherlands"},{"country_code":"CUW-Curacao"},{"country_code":"ABW-Aruba"},{"country_code":"SXM-Sint Maarten"},{"country_code":"BES-Bonaire"},{"country_code":"NCL-New Caledonia"},{"country_code":"VUT-Vanuatu"},{"country_code":"NZL-New Zealand"},{"country_code":"NIC-Nicaragua"},{"country_code":"NER-Niger"},{"country_code":"NGA-Nigeria"},{"country_code":"NIU-Niue"},{"country_code":"NFK-Norfolk Island"},{"country_code":"NOR-Norway"},{"country_code":"MNP-Northern Mariana Islands"},{"country_code":"FSM-Micronesia"},{"country_code":"MHL-Marshall Islands"},{"country_code":"PLW-Palau"},{"country_code":"PAK-Pakistan"},{"country_code":"PAN-Panama"},{"country_code":"PNG-Papua New Guinea"},{"country_code":"PRY-Paraguay"},{"country_code":"PER-Peru"},{"country_code":"PHL-Philippines"},{"country_code":"POL-Poland"},{"country_code":"PRT-Portugal"},{"country_code":"GNB-Guinea-Bissau"},{"country_code":"TLS-Timor-Leste"},{"country_code":"PRI-Puerto Rico"},{"country_code":"QAT-Qatar"},{"country_code":"REU-Reunion"},{"country_code":"ROU-Romania"},{"country_code":"RUS-Russian Federation"},{"country_code":"RWA-Rwanda"},{"country_code":"SHN-Saint Helena"},{"country_code":"BLM-Saint Barthelemy"},{"country_code":"KNA-St. Kitts and Nevis"},{"country_code":"AIA-Anguilla"},{"country_code":"LCA-St. Lucia"},{"country_code":"MAF-Saint Martin"},{"country_code":"SPM-St. Pierre and Miquelon"},{"country_code":"VCT-St. Vincent and the Grenadines"},{"country_code":"SMR-San Marino"},{"country_code":"STP-Sao Tome and Principe"},{"country_code":"SAU-Saudi Arabia"},{"country_code":"SEN-Senegal"},{"country_code":"SRB-Serbia"},{"country_code":"SYC-Seychelles"},{"country_code":"SLE-Sierra Leone"},{"country_code":"SGP-Singapore"},{"country_code":"SVK-Slovakia"},{"country_code":"VNM-Viet Nam"},{"country_code":"SVN-Slovenia"},{"country_code":"SOM-Somalia"},{"country_code":"ZAF-South Africa"},{"country_code":"ZWE-Zimbabwe"},{"country_code":"ESP-Spain"},{"country_code":"ESH-Western Sahara"},{"country_code":"SDN-Sudan"},{"country_code":"SUR-Suriname"},{"country_code":"SJM-Svalbard & Jan Mayen Islands"},{"country_code":"SWZ-Swaziland"},{"country_code":"SWE-Sweden"},{"country_code":"CHE-Switzerland"},{"country_code":"SYR-Syrian Arab Republic"},{"country_code":"TJK-Tajikistan"},{"country_code":"THA-Thailand"},{"country_code":"TGO-Togo"},{"country_code":"TKL-Tokelau"},{"country_code":"TON-Tonga"},{"country_code":"TTO-Trinidad and Tobago"},{"country_code":"ARE-United Arab Emirates"},{"country_code":"TUN-Tunisia"},{"country_code":"TUR-Turkey"},{"country_code":"TKM-Turkmenistan"},{"country_code":"TCA-Turks and Caicos Islands"},{"country_code":"TUV-Tuvalu"},{"country_code":"UGA-Uganda"},{"country_code":"GGY-Guernsey"},{"country_code":"JEY-Jersey"},{"country_code":"IMN-Isle of Man"},{"country_code":"UKR-Ukraine"},{"country_code":"MKD-Macedonia"},{"country_code":"EGY-Egypt"},{"country_code":"GBR-United Kingdom"},{"country_code":"TZA-Tanzania"},{"country_code":"USA-United States of America"},{"country_code":"VIR-US Virgin Islands"},{"country_code":"BFA-Burkina Faso"},{"country_code":"URY-Uruguay"},{"country_code":"UZB-Uzbekistan"},{"country_code":"VEN-Venezuela"},{"country_code":"WLF-Wallis and Futuna Islands"},{"country_code":"WSM-Samoa"},{"country_code":"YEM-Yemen"},{"country_code":"ZMB-Zambia"},{"country_code":"UMI-United States Minor Outlying Islands"}]}
+[INFO] 2017-11-23 10:30:36,213 - -->{}
+[INFO] 2017-11-23 10:30:36,213 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getItemCodeList
+[INFO] 2017-11-23 10:30:36,213 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 10:30:37,840 - sendHttp_Json >> RES size:1539
+[INFO] 2017-11-23 10:30:37,840 - <--{"rows":33,"list":[{"code_name":"Arts & Antiques","code_id":"01"},{"code_name":"Automobile Acc.","code_id":"02"},{"code_name":"AV & IT","code_id":"03"},{"code_name":"Baby Products","code_id":"04"},{"code_name":"Cosmetic & Essence","code_id":"05"},{"code_name":"Dept. Store","code_id":"06"},{"code_name":"Eyewear & Optics","code_id":"07"},{"code_name":"Fashion & Clothing","code_id":"08"},{"code_name":"Fashion Acc.","code_id":"09"},{"code_name":"Footwear","code_id":"10"},{"code_name":"Furniture","code_id":"11"},{"code_name":"Games and Toys","code_id":"12"},{"code_name":"Glass & Crystal","code_id":"13"},{"code_name":"Handicraft","code_id":"14"},{"code_name":"Health & Beauty","code_id":"15"},{"code_name":"Home Appliances","code_id":"16"},{"code_name":"Jewellery","code_id":"17"},{"code_name":"Leather Goods","code_id":"18"},{"code_name":"Lingerie Apparels","code_id":"19"},{"code_name":"Mag & Stationery","code_id":"20"},{"code_name":"Medical Clinics","code_id":"21"},{"code_name":"Medical Equipment","code_id":"22"},{"code_name":"Other retailing","code_id":"23"},{"code_name":"Pharmaceutical","code_id":"24"},{"code_name":"Photo equipment","code_id":"25"},{"code_name":"Souvenirs & Gifts","code_id":"26"},{"code_name":"Sports equipment","code_id":"27"},{"code_name":"Telecommunications","code_id":"28"},{"code_name":"Textile & Carpets","code_id":"29"},{"code_name":"Tobacco & Wines","code_id":"30"},{"code_name":"Travel Accessories","code_id":"31"},{"code_name":"Video & Music","code_id":"32"},{"code_name":"Watches","code_id":"33"}]}
+[INFO] 2017-11-23 10:31:54,799 - Start Application................
+[INFO] 2017-11-23 10:31:57,344 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-23 10:31:57,344 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345"
+}
+[INFO] 2017-11-23 10:31:58,391 - sendHttp_Json >> RES size:431
+[INFO] 2017-11-23 10:31:58,641 - -->{}
+[INFO] 2017-11-23 10:31:58,641 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchCountryCode
+[INFO] 2017-11-23 10:31:58,641 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 10:32:01,408 - sendHttp_Json >> RES size:8480
+[INFO] 2017-11-23 10:32:01,423 - <--{"rows":249,"list":[{"country_code":"ZAR-Congo, Dem. Rep."},{"country_code":"AFG-Afghanistan"},{"country_code":"ALB-Albania"},{"country_code":"ATA-Antarctica"},{"country_code":"DZA-Algeria"},{"country_code":"ASM-American Samoa"},{"country_code":"AND-Andorra"},{"country_code":"AGO-Angola"},{"country_code":"ATG-Antigua and Barbuda"},{"country_code":"AZE-Azerbaijan"},{"country_code":"ARG-Argentina"},{"country_code":"AUS-Australia"},{"country_code":"AUT-Austria"},{"country_code":"BHS-Bahamas"},{"country_code":"BHR-Bahrain"},{"country_code":"BGD-Bangladesh"},{"country_code":"ARM-Armenia"},{"country_code":"BRB-Barbados"},{"country_code":"BEL-Belgium"},{"country_code":"BMU-Bermuda"},{"country_code":"BTN-Bhutan"},{"country_code":"BOL-Bolivia"},{"country_code":"BIH-Bosnia and Herzegovina"},{"country_code":"BWA-Botswana"},{"country_code":"BVT-Bouvet Island"},{"country_code":"BRA-Brazil"},{"country_code":"BLZ-Belize"},{"country_code":"IOT-British Indian Ocean Territory"},{"country_code":"SLB-Solomon Islands"},{"country_code":"VGB-British Virgin Islands"},{"country_code":"BRN-Brunei Darussalam"},{"country_code":"BGR-Bulgaria"},{"country_code":"MMR-Myanmar"},{"country_code":"BDI-Burundi"},{"country_code":"BLR-Belarus"},{"country_code":"KHM-Cambodia"},{"country_code":"CMR-Cameroon"},{"country_code":"CAN-Canada"},{"country_code":"CPV-Cape Verde"},{"country_code":"CYM-Cayman Islands"},{"country_code":"CAF-Central African Republic"},{"country_code":"LKA-Sri Lanka"},{"country_code":"TCD-Chad"},{"country_code":"CHL-Chile"},{"country_code":"CHN-China"},{"country_code":"TWN-Taiwan"},{"country_code":"CXR-Christmas Island"},{"country_code":"CCK-Cocos Islands"},{"country_code":"COL-Colombia"},{"country_code":"COM-Comoros"},{"country_code":"MYT-Mayotte"},{"country_code":"COG-Congo"},{"country_code":"COD-Congo"},{"country_code":"COK-Cook Islands"},{"country_code":"CRI-Costa Rica"},{"country_code":"HRV-Hrvatska"},{"country_code":"CUB-Cuba"},{"country_code":"CYP-Cyprus"},{"country_code":"CZE-Czech Republic"},{"country_code":"BEN-Benin"},{"country_code":"DNK-Denmark"},{"country_code":"DMA-Dominica"},{"country_code":"DOM-Dominican Republic"},{"country_code":"ECU-Ecuador"},{"country_code":"SLV-El Salvador"},{"country_code":"GNQ-Equatorial Guinea"},{"country_code":"ETH-Ethiopia"},{"country_code":"PCN-Pitcairn Island"},{"country_code":"ERI-Eritrea"},{"country_code":"EST-Estonia"},{"country_code":"FRO-Faeroe Islands"},{"country_code":"FLK-Falkland Islands"},{"country_code":"SGS-South Georgia and the South Sandwich Islands"},{"country_code":"FJI-Fiji"},{"country_code":"FIN-Finland"},{"country_code":"ALA-Aland Islands"},{"country_code":"FRA-France"},{"country_code":"GUF-French Guiana"},{"country_code":"PYF-French Polynesia"},{"country_code":"ATF-French Southern Territories"},{"country_code":"DJI-Djibouti"},{"country_code":"GAB-Gabon"},{"country_code":"GEO-Georgia"},{"country_code":"GMB-Gambia"},{"country_code":"PSE-Palestinian Territory"},{"country_code":"DEU-Germany"},{"country_code":"GHA-Ghana"},{"country_code":"GIB-Gibraltar"},{"country_code":"KIR-Kiribati"},{"country_code":"GRC-Greece"},{"country_code":"GRL-Greenland"},{"country_code":"GRD-Grenada"},{"country_code":"GLP-Guadaloupe"},{"country_code":"GUM-Guam"},{"country_code":"GTM-Guatemala"},{"country_code":"GIN-Guinea"},{"country_code":"GUY-Guyana"},{"country_code":"HTI-Haiti"},{"country_code":"HMD-Heard and McDonald Islands"},{"country_code":"VAT-Vatican City State"},{"country_code":"HND-Honduras"},{"country_code":"HKG-Hong Kong"},{"country_code":"HUN-Hungary"},{"country_code":"ISL-Iceland"},{"country_code":"IND-India"},{"country_code":"IDN-Indonesia"},{"country_code":"IRN-Iran"},{"country_code":"IRQ-Iraq"},{"country_code":"IRL-Ireland"},{"country_code":"ISR-Israel"},{"country_code":"ITA-Italy"},{"country_code":"CIV-Ivory Coast"},{"country_code":"JAM-Jamaica"},{"country_code":"JPN-Japan"},{"country_code":"KAZ-Kazakhstan"},{"country_code":"JOR-Jordan"},{"country_code":"KEN-Kenya"},{"country_code":"PRK-North Korea"},{"country_code":"KOR-South Korea"},{"country_code":"KWT-Kuwait"},{"country_code":"KGZ-Kyrgyz Republic"},{"country_code":"LAO-Lao"},{"country_code":"LBN-Lebanon"},{"country_code":"LSO-Lesotho"},{"country_code":"LVA-Latvia"},{"country_code":"LBR-Liberia"},{"country_code":"LBY-Libyan Arab Jamahiriya"},{"country_code":"LIE-Liechtenstein"},{"country_code":"LTU-Lithuania"},{"country_code":"LUX-Luxembourg"},{"country_code":"MAC-Macao"},{"country_code":"MDG-Madagascar"},{"country_code":"MWI-Malawi"},{"country_code":"MYS-Malaysia"},{"country_code":"MDV-Maldives"},{"country_code":"MLI-Mali"},{"country_code":"MLT-Malta"},{"country_code":"MTQ-Martinique"},{"country_code":"MRT-Mauritania"},{"country_code":"MUS-Mauritius"},{"country_code":"MEX-Mexico"},{"country_code":"MCO-Monaco"},{"country_code":"MNG-Mongolia"},{"country_code":"MDA-Moldova"},{"country_code":"MNE-Montenegro"},{"country_code":"MSR-Montserrat"},{"country_code":"MAR-Morocco"},{"country_code":"MOZ-Mozambique"},{"country_code":"OMN-Oman"},{"country_code":"NAM-Namibia"},{"country_code":"NRU-Nauru"},{"country_code":"NPL-Nepal"},{"country_code":"NLD-Netherlands"},{"country_code":"CUW-Curacao"},{"country_code":"ABW-Aruba"},{"country_code":"SXM-Sint Maarten"},{"country_code":"BES-Bonaire"},{"country_code":"NCL-New Caledonia"},{"country_code":"VUT-Vanuatu"},{"country_code":"NZL-New Zealand"},{"country_code":"NIC-Nicaragua"},{"country_code":"NER-Niger"},{"country_code":"NGA-Nigeria"},{"country_code":"NIU-Niue"},{"country_code":"NFK-Norfolk Island"},{"country_code":"NOR-Norway"},{"country_code":"MNP-Northern Mariana Islands"},{"country_code":"FSM-Micronesia"},{"country_code":"MHL-Marshall Islands"},{"country_code":"PLW-Palau"},{"country_code":"PAK-Pakistan"},{"country_code":"PAN-Panama"},{"country_code":"PNG-Papua New Guinea"},{"country_code":"PRY-Paraguay"},{"country_code":"PER-Peru"},{"country_code":"PHL-Philippines"},{"country_code":"POL-Poland"},{"country_code":"PRT-Portugal"},{"country_code":"GNB-Guinea-Bissau"},{"country_code":"TLS-Timor-Leste"},{"country_code":"PRI-Puerto Rico"},{"country_code":"QAT-Qatar"},{"country_code":"REU-Reunion"},{"country_code":"ROU-Romania"},{"country_code":"RUS-Russian Federation"},{"country_code":"RWA-Rwanda"},{"country_code":"SHN-Saint Helena"},{"country_code":"BLM-Saint Barthelemy"},{"country_code":"KNA-St. Kitts and Nevis"},{"country_code":"AIA-Anguilla"},{"country_code":"LCA-St. Lucia"},{"country_code":"MAF-Saint Martin"},{"country_code":"SPM-St. Pierre and Miquelon"},{"country_code":"VCT-St. Vincent and the Grenadines"},{"country_code":"SMR-San Marino"},{"country_code":"STP-Sao Tome and Principe"},{"country_code":"SAU-Saudi Arabia"},{"country_code":"SEN-Senegal"},{"country_code":"SRB-Serbia"},{"country_code":"SYC-Seychelles"},{"country_code":"SLE-Sierra Leone"},{"country_code":"SGP-Singapore"},{"country_code":"SVK-Slovakia"},{"country_code":"VNM-Viet Nam"},{"country_code":"SVN-Slovenia"},{"country_code":"SOM-Somalia"},{"country_code":"ZAF-South Africa"},{"country_code":"ZWE-Zimbabwe"},{"country_code":"ESP-Spain"},{"country_code":"ESH-Western Sahara"},{"country_code":"SDN-Sudan"},{"country_code":"SUR-Suriname"},{"country_code":"SJM-Svalbard & Jan Mayen Islands"},{"country_code":"SWZ-Swaziland"},{"country_code":"SWE-Sweden"},{"country_code":"CHE-Switzerland"},{"country_code":"SYR-Syrian Arab Republic"},{"country_code":"TJK-Tajikistan"},{"country_code":"THA-Thailand"},{"country_code":"TGO-Togo"},{"country_code":"TKL-Tokelau"},{"country_code":"TON-Tonga"},{"country_code":"TTO-Trinidad and Tobago"},{"country_code":"ARE-United Arab Emirates"},{"country_code":"TUN-Tunisia"},{"country_code":"TUR-Turkey"},{"country_code":"TKM-Turkmenistan"},{"country_code":"TCA-Turks and Caicos Islands"},{"country_code":"TUV-Tuvalu"},{"country_code":"UGA-Uganda"},{"country_code":"GGY-Guernsey"},{"country_code":"JEY-Jersey"},{"country_code":"IMN-Isle of Man"},{"country_code":"UKR-Ukraine"},{"country_code":"MKD-Macedonia"},{"country_code":"EGY-Egypt"},{"country_code":"GBR-United Kingdom"},{"country_code":"TZA-Tanzania"},{"country_code":"USA-United States of America"},{"country_code":"VIR-US Virgin Islands"},{"country_code":"BFA-Burkina Faso"},{"country_code":"URY-Uruguay"},{"country_code":"UZB-Uzbekistan"},{"country_code":"VEN-Venezuela"},{"country_code":"WLF-Wallis and Futuna Islands"},{"country_code":"WSM-Samoa"},{"country_code":"YEM-Yemen"},{"country_code":"ZMB-Zambia"},{"country_code":"UMI-United States Minor Outlying Islands"}]}
+[INFO] 2017-11-23 10:32:02,892 - -->{}
+[INFO] 2017-11-23 10:32:02,892 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getItemCodeList
+[INFO] 2017-11-23 10:32:02,892 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 10:32:03,645 - sendHttp_Json >> RES size:1539
+[INFO] 2017-11-23 10:32:03,645 - <--{"rows":33,"list":[{"code_name":"Arts & Antiques","code_id":"01"},{"code_name":"Automobile Acc.","code_id":"02"},{"code_name":"AV & IT","code_id":"03"},{"code_name":"Baby Products","code_id":"04"},{"code_name":"Cosmetic & Essence","code_id":"05"},{"code_name":"Dept. Store","code_id":"06"},{"code_name":"Eyewear & Optics","code_id":"07"},{"code_name":"Fashion & Clothing","code_id":"08"},{"code_name":"Fashion Acc.","code_id":"09"},{"code_name":"Footwear","code_id":"10"},{"code_name":"Furniture","code_id":"11"},{"code_name":"Games and Toys","code_id":"12"},{"code_name":"Glass & Crystal","code_id":"13"},{"code_name":"Handicraft","code_id":"14"},{"code_name":"Health & Beauty","code_id":"15"},{"code_name":"Home Appliances","code_id":"16"},{"code_name":"Jewellery","code_id":"17"},{"code_name":"Leather Goods","code_id":"18"},{"code_name":"Lingerie Apparels","code_id":"19"},{"code_name":"Mag & Stationery","code_id":"20"},{"code_name":"Medical Clinics","code_id":"21"},{"code_name":"Medical Equipment","code_id":"22"},{"code_name":"Other retailing","code_id":"23"},{"code_name":"Pharmaceutical","code_id":"24"},{"code_name":"Photo equipment","code_id":"25"},{"code_name":"Souvenirs & Gifts","code_id":"26"},{"code_name":"Sports equipment","code_id":"27"},{"code_name":"Telecommunications","code_id":"28"},{"code_name":"Textile & Carpets","code_id":"29"},{"code_name":"Tobacco & Wines","code_id":"30"},{"code_name":"Travel Accessories","code_id":"31"},{"code_name":"Video & Music","code_id":"32"},{"code_name":"Watches","code_id":"33"}]}
+[ERROR] 2017-11-23 10:32:11,204 - 0번쨰 실행 성공[1] 실패[0]
+[ERROR] 2017-11-23 10:32:29,878 - 1번쨰 실행 성공[1] 실패[1]
+[ERROR] 2017-11-23 10:32:35,738 - 2번쨰 실행 성공[2] 실패[1]
+[ERROR] 2017-11-23 10:32:41,560 - 3번쨰 실행 성공[3] 실패[1]
+[ERROR] 2017-11-23 10:32:47,388 - 4번쨰 실행 성공[4] 실패[1]
+[ERROR] 2017-11-23 10:32:53,193 - 5번쨰 실행 성공[5] 실패[1]
+[ERROR] 2017-11-23 10:32:59,019 - 6번쨰 실행 성공[6] 실패[1]
+[ERROR] 2017-11-23 10:33:04,817 - 7번쨰 실행 성공[7] 실패[1]
+[ERROR] 2017-11-23 10:33:11,099 - 8번쨰 실행 성공[8] 실패[1]
+[ERROR] 2017-11-23 10:33:16,910 - 9번쨰 실행 성공[9] 실패[1]
+[ERROR] 2017-11-23 10:33:22,721 - 10번쨰 실행 성공[10] 실패[1]
+[ERROR] 2017-11-23 10:33:28,518 - 11번쨰 실행 성공[11] 실패[1]
+[ERROR] 2017-11-23 10:33:34,315 - 12번쨰 실행 성공[12] 실패[1]
+[ERROR] 2017-11-23 10:33:40,126 - 13번쨰 실행 성공[13] 실패[1]
+[ERROR] 2017-11-23 10:33:45,924 - 14번쨰 실행 성공[14] 실패[1]
+[ERROR] 2017-11-23 10:33:51,739 - 15번쨰 실행 성공[15] 실패[1]
+[ERROR] 2017-11-23 10:33:57,552 - 16번쨰 실행 성공[16] 실패[1]
+[ERROR] 2017-11-23 10:34:03,361 - 17번쨰 실행 성공[17] 실패[1]
+[ERROR] 2017-11-23 10:34:09,159 - 18번쨰 실행 성공[18] 실패[1]
+[ERROR] 2017-11-23 10:34:14,974 - 19번쨰 실행 성공[19] 실패[1]
+[ERROR] 2017-11-23 10:34:21,146 - 20번쨰 실행 성공[20] 실패[1]
+[ERROR] 2017-11-23 10:34:26,973 - 21번쨰 실행 성공[21] 실패[1]
+[ERROR] 2017-11-23 10:34:33,159 - 22번쨰 실행 성공[22] 실패[1]
+[ERROR] 2017-11-23 10:34:38,988 - 23번쨰 실행 성공[23] 실패[1]
+[ERROR] 2017-11-23 10:34:44,819 - 24번쨰 실행 성공[24] 실패[1]
+[ERROR] 2017-11-23 10:34:50,647 - 25번쨰 실행 성공[25] 실패[1]
+[ERROR] 2017-11-23 10:34:56,474 - 26번쨰 실행 성공[26] 실패[1]
+[ERROR] 2017-11-23 10:35:02,299 - 27번쨰 실행 성공[27] 실패[1]
+[ERROR] 2017-11-23 10:35:08,316 - 28번쨰 실행 성공[28] 실패[1]
+[ERROR] 2017-11-23 10:35:14,200 - 29번쨰 실행 성공[29] 실패[1]
+[ERROR] 2017-11-23 10:35:20,567 - 30번쨰 실행 성공[30] 실패[1]
+[ERROR] 2017-11-23 10:35:26,501 - 31번쨰 실행 성공[31] 실패[1]
+[ERROR] 2017-11-23 10:35:32,454 - 32번쨰 실행 성공[32] 실패[1]
+[ERROR] 2017-11-23 10:35:38,423 - 33번쨰 실행 성공[33] 실패[1]
+[ERROR] 2017-11-23 10:35:44,516 - 34번쨰 실행 성공[34] 실패[1]
+[ERROR] 2017-11-23 10:35:50,407 - 35번쨰 실행 성공[35] 실패[1]
+[ERROR] 2017-11-23 10:35:56,342 - 36번쨰 실행 성공[36] 실패[1]
+[ERROR] 2017-11-23 10:36:15,031 - 37번쨰 실행 성공[36] 실패[2]
+[ERROR] 2017-11-23 10:36:21,127 - 38번쨰 실행 성공[37] 실패[2]
+[ERROR] 2017-11-23 10:36:39,797 - 39번쨰 실행 성공[37] 실패[3]
+[ERROR] 2017-11-23 10:36:58,474 - 40번쨰 실행 성공[37] 실패[4]
+[ERROR] 2017-11-23 10:37:04,831 - 41번쨰 실행 성공[38] 실패[4]
+[ERROR] 2017-11-23 10:37:10,694 - 42번쨰 실행 성공[39] 실패[4]
+[ERROR] 2017-11-23 10:37:16,772 - 43번쨰 실행 성공[40] 실패[4]
+[ERROR] 2017-11-23 10:37:22,707 - 44번쨰 실행 성공[41] 실패[4]
+[ERROR] 2017-11-23 10:37:28,610 - 45번쨰 실행 성공[42] 실패[4]
+[ERROR] 2017-11-23 10:37:34,583 - 46번쨰 실행 성공[43] 실패[4]
+[ERROR] 2017-11-23 10:37:41,271 - 47번쨰 실행 성공[44] 실패[4]
+[ERROR] 2017-11-23 10:37:47,194 - 48번쨰 실행 성공[45] 실패[4]
+[ERROR] 2017-11-23 10:37:53,026 - 49번쨰 실행 성공[46] 실패[4]
+[ERROR] 2017-11-23 10:37:58,835 - 50번쨰 실행 성공[47] 실패[4]
+[ERROR] 2017-11-23 10:38:04,641 - 51번쨰 실행 성공[48] 실패[4]
+[ERROR] 2017-11-23 10:38:10,463 - 52번쨰 실행 성공[49] 실패[4]
+[ERROR] 2017-11-23 10:38:16,268 - 53번쨰 실행 성공[50] 실패[4]
+[ERROR] 2017-11-23 10:38:22,063 - 54번쨰 실행 성공[51] 실패[4]
+[ERROR] 2017-11-23 10:38:27,859 - 55번쨰 실행 성공[52] 실패[4]
+[ERROR] 2017-11-23 10:38:33,664 - 56번쨰 실행 성공[53] 실패[4]
+[ERROR] 2017-11-23 10:38:39,478 - 57번쨰 실행 성공[54] 실패[4]
+[ERROR] 2017-11-23 10:38:45,287 - 58번쨰 실행 성공[55] 실패[4]
+[ERROR] 2017-11-23 10:38:51,101 - 59번쨰 실행 성공[56] 실패[4]
+[ERROR] 2017-11-23 10:38:56,930 - 60번쨰 실행 성공[57] 실패[4]
+[ERROR] 2017-11-23 10:39:02,757 - 61번쨰 실행 성공[58] 실패[4]
+[ERROR] 2017-11-23 10:39:08,586 - 62번쨰 실행 성공[59] 실패[4]
+[ERROR] 2017-11-23 10:39:14,593 - 63번쨰 실행 성공[60] 실패[4]
+[ERROR] 2017-11-23 10:39:20,624 - 64번쨰 실행 성공[61] 실패[4]
+[ERROR] 2017-11-23 10:39:26,517 - 65번쨰 실행 성공[62] 실패[4]
+[ERROR] 2017-11-23 10:39:32,532 - 66번쨰 실행 성공[63] 실패[4]
+[ERROR] 2017-11-23 10:39:38,485 - 67번쨰 실행 성공[64] 실패[4]
+[ERROR] 2017-11-23 10:39:57,084 - 68번쨰 실행 성공[64] 실패[5]
+[ERROR] 2017-11-23 10:40:03,192 - 69번쨰 실행 성공[65] 실패[5]
+[ERROR] 2017-11-23 10:40:09,603 - 70번쨰 실행 성공[66] 실패[5]
+[ERROR] 2017-11-23 10:40:28,294 - 71번쨰 실행 성공[66] 실패[6]
+[ERROR] 2017-11-23 10:40:46,986 - 72번쨰 실행 성공[66] 실패[7]
+[ERROR] 2017-11-23 10:40:52,987 - 73번쨰 실행 성공[67] 실패[7]
+[ERROR] 2017-11-23 10:41:11,660 - 74번쨰 실행 성공[67] 실패[8]
+[ERROR] 2017-11-23 10:41:30,346 - 75번쨰 실행 성공[67] 실패[9]
+[ERROR] 2017-11-23 10:41:36,253 - 76번쨰 실행 성공[68] 실패[9]
+[ERROR] 2017-11-23 10:41:42,114 - 77번쨰 실행 성공[69] 실패[9]
+[ERROR] 2017-11-23 10:41:47,942 - 78번쨰 실행 성공[70] 실패[9]
+[ERROR] 2017-11-23 10:41:53,754 - 79번쨰 실행 성공[71] 실패[9]
+[ERROR] 2017-11-23 10:41:59,552 - 80번쨰 실행 성공[72] 실패[9]
+[ERROR] 2017-11-23 10:42:05,335 - 81번쨰 실행 성공[73] 실패[9]
+[ERROR] 2017-11-23 10:42:11,120 - 82번쨰 실행 성공[74] 실패[9]
+[ERROR] 2017-11-23 10:42:16,905 - 83번쨰 실행 성공[75] 실패[9]
+[ERROR] 2017-11-23 10:42:22,889 - 84번쨰 실행 성공[76] 실패[9]
+[ERROR] 2017-11-23 10:42:28,737 - 85번쨰 실행 성공[77] 실패[9]
+[ERROR] 2017-11-23 10:42:34,612 - 86번쨰 실행 성공[78] 실패[9]
+[ERROR] 2017-11-23 10:42:40,455 - 87번쨰 실행 성공[79] 실패[9]
+[ERROR] 2017-11-23 10:42:46,298 - 88번쨰 실행 성공[80] 실패[9]
+[ERROR] 2017-11-23 10:42:52,424 - 89번쨰 실행 성공[81] 실패[9]
+[ERROR] 2017-11-23 10:42:58,413 - 90번쨰 실행 성공[82] 실패[9]
+[ERROR] 2017-11-23 10:43:04,353 - 91번쨰 실행 성공[83] 실패[9]
+[ERROR] 2017-11-23 10:43:10,385 - 92번쨰 실행 성공[84] 실패[9]
+[ERROR] 2017-11-23 10:43:16,432 - 93번쨰 실행 성공[85] 실패[9]
+[ERROR] 2017-11-23 10:43:22,478 - 94번쨰 실행 성공[86] 실패[9]
+[ERROR] 2017-11-23 10:43:28,338 - 95번쨰 실행 성공[87] 실패[9]
+[ERROR] 2017-11-23 10:43:34,326 - 96번쨰 실행 성공[88] 실패[9]
+[ERROR] 2017-11-23 10:43:40,217 - 97번쨰 실행 성공[89] 실패[9]
+[ERROR] 2017-11-23 10:43:46,204 - 98번쨰 실행 성공[90] 실패[9]
+[ERROR] 2017-11-23 10:43:52,550 - 99번쨰 실행 성공[91] 실패[9]
+[INFO] 2017-11-23 10:51:29,671 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-23 10:51:29,671 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345"
+}
+[INFO] 2017-11-23 10:51:32,220 - sendHttp_Json >> RES size:431
+[ERROR] 2017-11-23 10:51:50,939 - 0번쨰 실행 성공[1] 실패[0]
+[ERROR] 2017-11-23 10:51:56,673 - 1번쨰 실행 성공[2] 실패[0]
+[ERROR] 2017-11-23 10:52:02,401 - 2번쨰 실행 성공[3] 실패[0]
+[ERROR] 2017-11-23 10:52:08,121 - 3번쨰 실행 성공[4] 실패[0]
+[ERROR] 2017-11-23 10:52:13,760 - 4번쨰 실행 성공[5] 실패[0]
+[ERROR] 2017-11-23 10:52:19,525 - 5번쨰 실행 성공[6] 실패[0]
+[ERROR] 2017-11-23 10:52:25,165 - 6번쨰 실행 성공[7] 실패[0]
+[ERROR] 2017-11-23 10:52:30,885 - 7번쨰 실행 성공[8] 실패[0]
+[ERROR] 2017-11-23 10:52:36,509 - 8번쨰 실행 성공[9] 실패[0]
+[ERROR] 2017-11-23 10:52:42,242 - 9번쨰 실행 성공[10] 실패[0]
+[ERROR] 2017-11-23 10:52:47,879 - 10번쨰 실행 성공[11] 실패[0]
+[ERROR] 2017-11-23 10:52:53,610 - 11번쨰 실행 성공[12] 실패[0]
+[ERROR] 2017-11-23 10:52:59,253 - 12번쨰 실행 성공[13] 실패[0]
+[ERROR] 2017-11-23 10:53:04,971 - 13번쨰 실행 성공[14] 실패[0]
+[ERROR] 2017-11-23 10:53:10,596 - 14번쨰 실행 성공[15] 실패[0]
+[ERROR] 2017-11-23 10:53:16,329 - 15번쨰 실행 성공[16] 실패[0]
+[ERROR] 2017-11-23 10:53:21,969 - 16번쨰 실행 성공[17] 실패[0]
+[ERROR] 2017-11-23 10:53:27,708 - 17번쨰 실행 성공[18] 실패[0]
+[ERROR] 2017-11-23 10:53:33,348 - 18번쨰 실행 성공[19] 실패[0]
+[ERROR] 2017-11-23 10:53:49,462 - 19번쨰 실행 성공[20] 실패[0]
+[ERROR] 2017-11-23 10:53:55,158 - 20번쨰 실행 성공[21] 실패[0]
+[ERROR] 2017-11-23 10:54:00,874 - 21번쨰 실행 성공[22] 실패[0]
+[ERROR] 2017-11-23 10:54:06,523 - 22번쨰 실행 성공[23] 실패[0]
+[ERROR] 2017-11-23 10:54:12,206 - 23번쨰 실행 성공[24] 실패[0]
+[ERROR] 2017-11-23 10:54:17,893 - 24번쨰 실행 성공[25] 실패[0]
+[ERROR] 2017-11-23 10:54:23,527 - 25번쨰 실행 성공[26] 실패[0]
+[ERROR] 2017-11-23 10:54:29,274 - 26번쨰 실행 성공[27] 실패[0]
+[ERROR] 2017-11-23 10:54:34,994 - 27번쨰 실행 성공[28] 실패[0]
+[ERROR] 2017-11-23 10:54:40,625 - 28번쨰 실행 성공[29] 실패[0]
+[ERROR] 2017-11-23 10:54:46,303 - 29번쨰 실행 성공[30] 실패[0]
+[ERROR] 2017-11-23 10:54:51,903 - 30번쨰 실행 성공[31] 실패[0]
+[ERROR] 2017-11-23 10:54:57,515 - 31번쨰 실행 성공[32] 실패[0]
+[ERROR] 2017-11-23 10:55:03,125 - 32번쨰 실행 성공[33] 실패[0]
+[ERROR] 2017-11-23 10:55:08,779 - 33번쨰 실행 성공[34] 실패[0]
+[ERROR] 2017-11-23 10:55:14,392 - 34번쨰 실행 성공[35] 실패[0]
+[ERROR] 2017-11-23 10:55:20,096 - 35번쨰 실행 성공[36] 실패[0]
+[ERROR] 2017-11-23 10:55:25,722 - 36번쨰 실행 성공[37] 실패[0]
+[ERROR] 2017-11-23 10:55:31,338 - 37번쨰 실행 성공[38] 실패[0]
+[ERROR] 2017-11-23 10:55:37,027 - 38번쨰 실행 성공[39] 실패[0]
+[ERROR] 2017-11-23 10:55:42,642 - 39번쨰 실행 성공[40] 실패[0]
+[ERROR] 2017-11-23 10:55:48,229 - 40번쨰 실행 성공[41] 실패[0]
+[ERROR] 2017-11-23 10:55:53,947 - 41번쨰 실행 성공[42] 실패[0]
+[ERROR] 2017-11-23 10:55:59,658 - 42번쨰 실행 성공[43] 실패[0]
+[ERROR] 2017-11-23 10:56:05,308 - 43번쨰 실행 성공[44] 실패[0]
+[ERROR] 2017-11-23 10:56:10,982 - 44번쨰 실행 성공[45] 실패[0]
+[ERROR] 2017-11-23 10:56:16,698 - 45번쨰 실행 성공[46] 실패[0]
+[ERROR] 2017-11-23 10:56:22,380 - 46번쨰 실행 성공[47] 실패[0]
+[ERROR] 2017-11-23 10:56:28,002 - 47번쨰 실행 성공[48] 실패[0]
+[ERROR] 2017-11-23 10:56:33,742 - 48번쨰 실행 성공[49] 실패[0]
+[ERROR] 2017-11-23 10:56:39,384 - 49번쨰 실행 성공[50] 실패[0]
+[ERROR] 2017-11-23 10:56:45,093 - 50번쨰 실행 성공[51] 실패[0]
+[ERROR] 2017-11-23 10:56:50,711 - 51번쨰 실행 성공[52] 실패[0]
+[ERROR] 2017-11-23 10:56:56,329 - 52번쨰 실행 성공[53] 실패[0]
+[ERROR] 2017-11-23 10:57:01,948 - 53번쨰 실행 성공[54] 실패[0]
+[ERROR] 2017-11-23 10:57:07,587 - 54번쨰 실행 성공[55] 실패[0]
+[ERROR] 2017-11-23 10:57:13,208 - 55번쨰 실행 성공[56] 실패[0]
+[ERROR] 2017-11-23 10:57:18,826 - 56번쨰 실행 성공[57] 실패[0]
+[ERROR] 2017-11-23 10:57:24,440 - 57번쨰 실행 성공[58] 실패[0]
+[ERROR] 2017-11-23 10:57:30,066 - 58번쨰 실행 성공[59] 실패[0]
+[ERROR] 2017-11-23 10:57:35,703 - 59번쨰 실행 성공[60] 실패[0]
+[ERROR] 2017-11-23 10:57:41,441 - 60번쨰 실행 성공[61] 실패[0]
+[ERROR] 2017-11-23 10:57:47,073 - 61번쨰 실행 성공[62] 실패[0]
+[ERROR] 2017-11-23 10:57:52,752 - 62번쨰 실행 성공[63] 실패[0]
+[ERROR] 2017-11-23 10:57:58,392 - 63번쨰 실행 성공[64] 실패[0]
+[ERROR] 2017-11-23 10:58:04,020 - 64번쨰 실행 성공[65] 실패[0]
+[ERROR] 2017-11-23 10:58:09,714 - 65번쨰 실행 성공[66] 실패[0]
+[ERROR] 2017-11-23 10:58:15,326 - 66번쨰 실행 성공[67] 실패[0]
+[ERROR] 2017-11-23 10:58:20,950 - 67번쨰 실행 성공[68] 실패[0]
+[ERROR] 2017-11-23 10:58:26,622 - 68번쨰 실행 성공[69] 실패[0]
+[ERROR] 2017-11-23 10:58:32,152 -    위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: GTF_Passport.GTF_PassportScanner.GetNationality()
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_SCAN_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 175
+[INFO] 2017-11-23 10:58:41,765 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-23 10:58:41,765 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345"
+}
+[INFO] 2017-11-23 10:58:44,849 - sendHttp_Json >> RES size:431
+[ERROR] 2017-11-23 10:58:52,194 - 0번쨰 실행 성공[1] 실패[0]
+[ERROR] 2017-11-23 10:58:57,811 - 1번쨰 실행 성공[2] 실패[0]
+[ERROR] 2017-11-23 10:59:03,525 - 2번쨰 실행 성공[3] 실패[0]
+[ERROR] 2017-11-23 10:59:09,243 - 3번쨰 실행 성공[4] 실패[0]
+[ERROR] 2017-11-23 10:59:14,852 - 4번쨰 실행 성공[5] 실패[0]
+[ERROR] 2017-11-23 10:59:20,467 - 5번쨰 실행 성공[6] 실패[0]
+[ERROR] 2017-11-23 10:59:26,160 - 6번쨰 실행 성공[7] 실패[0]
+[ERROR] 2017-11-23 10:59:31,884 - 7번쨰 실행 성공[8] 실패[0]
+[ERROR] 2017-11-23 10:59:37,526 - 8번쨰 실행 성공[9] 실패[0]
+[ERROR] 2017-11-23 10:59:43,211 - 9번쨰 실행 성공[10] 실패[0]
+[ERROR] 2017-11-23 10:59:48,908 - 10번쨰 실행 성공[11] 실패[0]
+[ERROR] 2017-11-23 10:59:54,572 - 11번쨰 실행 성공[12] 실패[0]
+[ERROR] 2017-11-23 11:00:00,289 - 12번쨰 실행 성공[13] 실패[0]
+[ERROR] 2017-11-23 11:00:29,347 - 13번쨰 실행 성공[14] 실패[0]
+[ERROR] 2017-11-23 11:00:34,983 - 14번쨰 실행 성공[15] 실패[0]
+[ERROR] 2017-11-23 11:00:40,726 - 15번쨰 실행 성공[16] 실패[0]
+[ERROR] 2017-11-23 11:00:46,452 - 16번쨰 실행 성공[17] 실패[0]
+[ERROR] 2017-11-23 11:00:51,961 -    위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: GTF_Passport.GTF_PassportScanner.GetNationality()
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_SCAN_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 175
+[INFO] 2017-11-23 11:01:41,349 - Start Application................
+[INFO] 2017-11-23 11:01:42,974 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-23 11:01:42,974 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345"
+}
+[INFO] 2017-11-23 11:01:45,569 - sendHttp_Json >> RES size:431
+[INFO] 2017-11-23 11:01:45,850 - -->{}
+[INFO] 2017-11-23 11:01:45,850 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchCountryCode
+[INFO] 2017-11-23 11:01:45,850 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 11:01:49,161 - sendHttp_Json >> RES size:8480
+[INFO] 2017-11-23 11:01:49,161 - <--{"rows":249,"list":[{"country_code":"ZAR-Congo, Dem. Rep."},{"country_code":"AFG-Afghanistan"},{"country_code":"ALB-Albania"},{"country_code":"ATA-Antarctica"},{"country_code":"DZA-Algeria"},{"country_code":"ASM-American Samoa"},{"country_code":"AND-Andorra"},{"country_code":"AGO-Angola"},{"country_code":"ATG-Antigua and Barbuda"},{"country_code":"AZE-Azerbaijan"},{"country_code":"ARG-Argentina"},{"country_code":"AUS-Australia"},{"country_code":"AUT-Austria"},{"country_code":"BHS-Bahamas"},{"country_code":"BHR-Bahrain"},{"country_code":"BGD-Bangladesh"},{"country_code":"ARM-Armenia"},{"country_code":"BRB-Barbados"},{"country_code":"BEL-Belgium"},{"country_code":"BMU-Bermuda"},{"country_code":"BTN-Bhutan"},{"country_code":"BOL-Bolivia"},{"country_code":"BIH-Bosnia and Herzegovina"},{"country_code":"BWA-Botswana"},{"country_code":"BVT-Bouvet Island"},{"country_code":"BRA-Brazil"},{"country_code":"BLZ-Belize"},{"country_code":"IOT-British Indian Ocean Territory"},{"country_code":"SLB-Solomon Islands"},{"country_code":"VGB-British Virgin Islands"},{"country_code":"BRN-Brunei Darussalam"},{"country_code":"BGR-Bulgaria"},{"country_code":"MMR-Myanmar"},{"country_code":"BDI-Burundi"},{"country_code":"BLR-Belarus"},{"country_code":"KHM-Cambodia"},{"country_code":"CMR-Cameroon"},{"country_code":"CAN-Canada"},{"country_code":"CPV-Cape Verde"},{"country_code":"CYM-Cayman Islands"},{"country_code":"CAF-Central African Republic"},{"country_code":"LKA-Sri Lanka"},{"country_code":"TCD-Chad"},{"country_code":"CHL-Chile"},{"country_code":"CHN-China"},{"country_code":"TWN-Taiwan"},{"country_code":"CXR-Christmas Island"},{"country_code":"CCK-Cocos Islands"},{"country_code":"COL-Colombia"},{"country_code":"COM-Comoros"},{"country_code":"MYT-Mayotte"},{"country_code":"COG-Congo"},{"country_code":"COD-Congo"},{"country_code":"COK-Cook Islands"},{"country_code":"CRI-Costa Rica"},{"country_code":"HRV-Hrvatska"},{"country_code":"CUB-Cuba"},{"country_code":"CYP-Cyprus"},{"country_code":"CZE-Czech Republic"},{"country_code":"BEN-Benin"},{"country_code":"DNK-Denmark"},{"country_code":"DMA-Dominica"},{"country_code":"DOM-Dominican Republic"},{"country_code":"ECU-Ecuador"},{"country_code":"SLV-El Salvador"},{"country_code":"GNQ-Equatorial Guinea"},{"country_code":"ETH-Ethiopia"},{"country_code":"PCN-Pitcairn Island"},{"country_code":"ERI-Eritrea"},{"country_code":"EST-Estonia"},{"country_code":"FRO-Faeroe Islands"},{"country_code":"FLK-Falkland Islands"},{"country_code":"SGS-South Georgia and the South Sandwich Islands"},{"country_code":"FJI-Fiji"},{"country_code":"FIN-Finland"},{"country_code":"ALA-Aland Islands"},{"country_code":"FRA-France"},{"country_code":"GUF-French Guiana"},{"country_code":"PYF-French Polynesia"},{"country_code":"ATF-French Southern Territories"},{"country_code":"DJI-Djibouti"},{"country_code":"GAB-Gabon"},{"country_code":"GEO-Georgia"},{"country_code":"GMB-Gambia"},{"country_code":"PSE-Palestinian Territory"},{"country_code":"DEU-Germany"},{"country_code":"GHA-Ghana"},{"country_code":"GIB-Gibraltar"},{"country_code":"KIR-Kiribati"},{"country_code":"GRC-Greece"},{"country_code":"GRL-Greenland"},{"country_code":"GRD-Grenada"},{"country_code":"GLP-Guadaloupe"},{"country_code":"GUM-Guam"},{"country_code":"GTM-Guatemala"},{"country_code":"GIN-Guinea"},{"country_code":"GUY-Guyana"},{"country_code":"HTI-Haiti"},{"country_code":"HMD-Heard and McDonald Islands"},{"country_code":"VAT-Vatican City State"},{"country_code":"HND-Honduras"},{"country_code":"HKG-Hong Kong"},{"country_code":"HUN-Hungary"},{"country_code":"ISL-Iceland"},{"country_code":"IND-India"},{"country_code":"IDN-Indonesia"},{"country_code":"IRN-Iran"},{"country_code":"IRQ-Iraq"},{"country_code":"IRL-Ireland"},{"country_code":"ISR-Israel"},{"country_code":"ITA-Italy"},{"country_code":"CIV-Ivory Coast"},{"country_code":"JAM-Jamaica"},{"country_code":"JPN-Japan"},{"country_code":"KAZ-Kazakhstan"},{"country_code":"JOR-Jordan"},{"country_code":"KEN-Kenya"},{"country_code":"PRK-North Korea"},{"country_code":"KOR-South Korea"},{"country_code":"KWT-Kuwait"},{"country_code":"KGZ-Kyrgyz Republic"},{"country_code":"LAO-Lao"},{"country_code":"LBN-Lebanon"},{"country_code":"LSO-Lesotho"},{"country_code":"LVA-Latvia"},{"country_code":"LBR-Liberia"},{"country_code":"LBY-Libyan Arab Jamahiriya"},{"country_code":"LIE-Liechtenstein"},{"country_code":"LTU-Lithuania"},{"country_code":"LUX-Luxembourg"},{"country_code":"MAC-Macao"},{"country_code":"MDG-Madagascar"},{"country_code":"MWI-Malawi"},{"country_code":"MYS-Malaysia"},{"country_code":"MDV-Maldives"},{"country_code":"MLI-Mali"},{"country_code":"MLT-Malta"},{"country_code":"MTQ-Martinique"},{"country_code":"MRT-Mauritania"},{"country_code":"MUS-Mauritius"},{"country_code":"MEX-Mexico"},{"country_code":"MCO-Monaco"},{"country_code":"MNG-Mongolia"},{"country_code":"MDA-Moldova"},{"country_code":"MNE-Montenegro"},{"country_code":"MSR-Montserrat"},{"country_code":"MAR-Morocco"},{"country_code":"MOZ-Mozambique"},{"country_code":"OMN-Oman"},{"country_code":"NAM-Namibia"},{"country_code":"NRU-Nauru"},{"country_code":"NPL-Nepal"},{"country_code":"NLD-Netherlands"},{"country_code":"CUW-Curacao"},{"country_code":"ABW-Aruba"},{"country_code":"SXM-Sint Maarten"},{"country_code":"BES-Bonaire"},{"country_code":"NCL-New Caledonia"},{"country_code":"VUT-Vanuatu"},{"country_code":"NZL-New Zealand"},{"country_code":"NIC-Nicaragua"},{"country_code":"NER-Niger"},{"country_code":"NGA-Nigeria"},{"country_code":"NIU-Niue"},{"country_code":"NFK-Norfolk Island"},{"country_code":"NOR-Norway"},{"country_code":"MNP-Northern Mariana Islands"},{"country_code":"FSM-Micronesia"},{"country_code":"MHL-Marshall Islands"},{"country_code":"PLW-Palau"},{"country_code":"PAK-Pakistan"},{"country_code":"PAN-Panama"},{"country_code":"PNG-Papua New Guinea"},{"country_code":"PRY-Paraguay"},{"country_code":"PER-Peru"},{"country_code":"PHL-Philippines"},{"country_code":"POL-Poland"},{"country_code":"PRT-Portugal"},{"country_code":"GNB-Guinea-Bissau"},{"country_code":"TLS-Timor-Leste"},{"country_code":"PRI-Puerto Rico"},{"country_code":"QAT-Qatar"},{"country_code":"REU-Reunion"},{"country_code":"ROU-Romania"},{"country_code":"RUS-Russian Federation"},{"country_code":"RWA-Rwanda"},{"country_code":"SHN-Saint Helena"},{"country_code":"BLM-Saint Barthelemy"},{"country_code":"KNA-St. Kitts and Nevis"},{"country_code":"AIA-Anguilla"},{"country_code":"LCA-St. Lucia"},{"country_code":"MAF-Saint Martin"},{"country_code":"SPM-St. Pierre and Miquelon"},{"country_code":"VCT-St. Vincent and the Grenadines"},{"country_code":"SMR-San Marino"},{"country_code":"STP-Sao Tome and Principe"},{"country_code":"SAU-Saudi Arabia"},{"country_code":"SEN-Senegal"},{"country_code":"SRB-Serbia"},{"country_code":"SYC-Seychelles"},{"country_code":"SLE-Sierra Leone"},{"country_code":"SGP-Singapore"},{"country_code":"SVK-Slovakia"},{"country_code":"VNM-Viet Nam"},{"country_code":"SVN-Slovenia"},{"country_code":"SOM-Somalia"},{"country_code":"ZAF-South Africa"},{"country_code":"ZWE-Zimbabwe"},{"country_code":"ESP-Spain"},{"country_code":"ESH-Western Sahara"},{"country_code":"SDN-Sudan"},{"country_code":"SUR-Suriname"},{"country_code":"SJM-Svalbard & Jan Mayen Islands"},{"country_code":"SWZ-Swaziland"},{"country_code":"SWE-Sweden"},{"country_code":"CHE-Switzerland"},{"country_code":"SYR-Syrian Arab Republic"},{"country_code":"TJK-Tajikistan"},{"country_code":"THA-Thailand"},{"country_code":"TGO-Togo"},{"country_code":"TKL-Tokelau"},{"country_code":"TON-Tonga"},{"country_code":"TTO-Trinidad and Tobago"},{"country_code":"ARE-United Arab Emirates"},{"country_code":"TUN-Tunisia"},{"country_code":"TUR-Turkey"},{"country_code":"TKM-Turkmenistan"},{"country_code":"TCA-Turks and Caicos Islands"},{"country_code":"TUV-Tuvalu"},{"country_code":"UGA-Uganda"},{"country_code":"GGY-Guernsey"},{"country_code":"JEY-Jersey"},{"country_code":"IMN-Isle of Man"},{"country_code":"UKR-Ukraine"},{"country_code":"MKD-Macedonia"},{"country_code":"EGY-Egypt"},{"country_code":"GBR-United Kingdom"},{"country_code":"TZA-Tanzania"},{"country_code":"USA-United States of America"},{"country_code":"VIR-US Virgin Islands"},{"country_code":"BFA-Burkina Faso"},{"country_code":"URY-Uruguay"},{"country_code":"UZB-Uzbekistan"},{"country_code":"VEN-Venezuela"},{"country_code":"WLF-Wallis and Futuna Islands"},{"country_code":"WSM-Samoa"},{"country_code":"YEM-Yemen"},{"country_code":"ZMB-Zambia"},{"country_code":"UMI-United States Minor Outlying Islands"}]}
+[INFO] 2017-11-23 11:01:50,614 - -->{}
+[INFO] 2017-11-23 11:01:50,614 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getItemCodeList
+[INFO] 2017-11-23 11:01:50,614 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 11:01:51,364 - sendHttp_Json >> RES size:1539
+[INFO] 2017-11-23 11:01:51,364 - <--{"rows":33,"list":[{"code_name":"Arts & Antiques","code_id":"01"},{"code_name":"Automobile Acc.","code_id":"02"},{"code_name":"AV & IT","code_id":"03"},{"code_name":"Baby Products","code_id":"04"},{"code_name":"Cosmetic & Essence","code_id":"05"},{"code_name":"Dept. Store","code_id":"06"},{"code_name":"Eyewear & Optics","code_id":"07"},{"code_name":"Fashion & Clothing","code_id":"08"},{"code_name":"Fashion Acc.","code_id":"09"},{"code_name":"Footwear","code_id":"10"},{"code_name":"Furniture","code_id":"11"},{"code_name":"Games and Toys","code_id":"12"},{"code_name":"Glass & Crystal","code_id":"13"},{"code_name":"Handicraft","code_id":"14"},{"code_name":"Health & Beauty","code_id":"15"},{"code_name":"Home Appliances","code_id":"16"},{"code_name":"Jewellery","code_id":"17"},{"code_name":"Leather Goods","code_id":"18"},{"code_name":"Lingerie Apparels","code_id":"19"},{"code_name":"Mag & Stationery","code_id":"20"},{"code_name":"Medical Clinics","code_id":"21"},{"code_name":"Medical Equipment","code_id":"22"},{"code_name":"Other retailing","code_id":"23"},{"code_name":"Pharmaceutical","code_id":"24"},{"code_name":"Photo equipment","code_id":"25"},{"code_name":"Souvenirs & Gifts","code_id":"26"},{"code_name":"Sports equipment","code_id":"27"},{"code_name":"Telecommunications","code_id":"28"},{"code_name":"Textile & Carpets","code_id":"29"},{"code_name":"Tobacco & Wines","code_id":"30"},{"code_name":"Travel Accessories","code_id":"31"},{"code_name":"Video & Music","code_id":"32"},{"code_name":"Watches","code_id":"33"}]}
+[ERROR] 2017-11-23 11:02:13,539 - 0번쨰 실행 성공[1] 실패[0]
+[ERROR] 2017-11-23 11:02:19,271 - 1번쨰 실행 성공[2] 실패[0]
+[ERROR] 2017-11-23 11:02:24,910 - 2번쨰 실행 성공[3] 실패[0]
+[ERROR] 2017-11-23 11:02:30,632 - 3번쨰 실행 성공[4] 실패[0]
+[ERROR] 2017-11-23 11:02:36,285 - 4번쨰 실행 성공[5] 실패[0]
+[ERROR] 2017-11-23 11:02:41,911 - 5번쨰 실행 성공[6] 실패[0]
+[ERROR] 2017-11-23 11:02:47,521 - 6번쨰 실행 성공[7] 실패[0]
+[ERROR] 2017-11-23 11:02:53,253 - 7번쨰 실행 성공[8] 실패[0]
+[ERROR] 2017-11-23 11:02:58,972 - 8번쨰 실행 성공[9] 실패[0]
+[ERROR] 2017-11-23 11:03:04,633 - 9번쨰 실행 성공[10] 실패[0]
+[ERROR] 2017-11-23 11:03:10,366 - 10번쨰 실행 성공[11] 실패[0]
+[ERROR] 2017-11-23 11:03:16,087 - 11번쨰 실행 성공[12] 실패[0]
+[ERROR] 2017-11-23 11:03:21,712 - 12번쨰 실행 성공[13] 실패[0]
+[ERROR] 2017-11-23 11:03:27,371 - 13번쨰 실행 성공[14] 실패[0]
+[ERROR] 2017-11-23 11:03:33,121 - 14번쨰 실행 성공[15] 실패[0]
+[ERROR] 2017-11-23 11:03:38,763 - 15번쨰 실행 성공[16] 실패[0]
+[ERROR] 2017-11-23 11:03:44,404 - 16번쨰 실행 성공[17] 실패[0]
+[ERROR] 2017-11-23 11:03:50,138 - 17번쨰 실행 성공[18] 실패[0]
+[ERROR] 2017-11-23 11:03:55,762 - 18번쨰 실행 성공[19] 실패[0]
+[ERROR] 2017-11-23 11:04:01,481 - 19번쨰 실행 성공[20] 실패[0]
+[ERROR] 2017-11-23 11:04:07,103 - 20번쨰 실행 성공[21] 실패[0]
+[ERROR] 2017-11-23 11:04:12,841 - 21번쨰 실행 성공[22] 실패[0]
+[ERROR] 2017-11-23 11:04:18,583 - 22번쨰 실행 성공[22] 실패[1]
+[ERROR] 2017-11-23 11:04:24,193 - 23번쨰 실행 성공[23] 실패[1]
+[ERROR] 2017-11-23 11:04:29,951 - 24번쨰 실행 성공[24] 실패[1]
+[ERROR] 2017-11-23 11:04:35,575 - 25번쨰 실행 성공[25] 실패[1]
+[ERROR] 2017-11-23 11:04:41,221 - 26번쨰 실행 성공[26] 실패[1]
+[ERROR] 2017-11-23 11:04:46,836 - 27번쨰 실행 성공[27] 실패[1]
+[ERROR] 2017-11-23 11:04:52,467 - 28번쨰 실행 성공[28] 실패[1]
+[ERROR] 2017-11-23 11:04:58,049 - 29번쨰 실행 성공[29] 실패[1]
+[ERROR] 2017-11-23 11:05:03,715 - 30번쨰 실행 성공[30] 실패[1]
+[ERROR] 2017-11-23 11:05:09,358 - 31번쨰 실행 성공[31] 실패[1]
+[ERROR] 2017-11-23 11:05:14,975 - 32번쨰 실행 성공[32] 실패[1]
+[ERROR] 2017-11-23 11:05:20,702 - 33번쨰 실행 성공[33] 실패[1]
+[ERROR] 2017-11-23 11:05:26,353 - 34번쨰 실행 성공[34] 실패[1]
+[ERROR] 2017-11-23 11:05:32,069 - 35번쨰 실행 성공[35] 실패[1]
+[ERROR] 2017-11-23 11:05:37,669 - 36번쨰 실행 성공[36] 실패[1]
+[ERROR] 2017-11-23 11:05:43,365 - 37번쨰 실행 성공[37] 실패[1]
+[ERROR] 2017-11-23 11:05:48,945 - 38번쨰 실행 성공[38] 실패[1]
+[ERROR] 2017-11-23 11:05:54,660 - 39번쨰 실행 성공[39] 실패[1]
+[ERROR] 2017-11-23 11:06:00,345 - 40번쨰 실행 성공[40] 실패[1]
+[ERROR] 2017-11-23 11:06:06,058 - 41번쨰 실행 성공[41] 실패[1]
+[ERROR] 2017-11-23 11:06:11,752 - 42번쨰 실행 성공[42] 실패[1]
+[ERROR] 2017-11-23 11:06:17,420 - 43번쨰 실행 성공[43] 실패[1]
+[ERROR] 2017-11-23 11:06:23,034 - 44번쨰 실행 성공[44] 실패[1]
+[ERROR] 2017-11-23 11:06:28,632 - 45번쨰 실행 성공[45] 실패[1]
+[ERROR] 2017-11-23 11:06:34,313 - 46번쨰 실행 성공[46] 실패[1]
+[ERROR] 2017-11-23 11:06:39,957 - 47번쨰 실행 성공[47] 실패[1]
+[ERROR] 2017-11-23 11:06:45,624 - 48번쨰 실행 성공[48] 실패[1]
+[ERROR] 2017-11-23 11:06:51,239 - 49번쨰 실행 성공[49] 실패[1]
+[ERROR] 2017-11-23 11:06:56,854 - 50번쨰 실행 성공[50] 실패[1]
+[ERROR] 2017-11-23 11:07:02,482 - 51번쨰 실행 성공[51] 실패[1]
+[ERROR] 2017-11-23 11:07:08,262 - 52번쨰 실행 성공[52] 실패[1]
+[ERROR] 2017-11-23 11:07:13,949 - 53번쨰 실행 성공[53] 실패[1]
+[ERROR] 2017-11-23 11:07:19,643 - 54번쨰 실행 성공[54] 실패[1]
+[ERROR] 2017-11-23 11:07:25,325 - 55번쨰 실행 성공[55] 실패[1]
+[ERROR] 2017-11-23 11:07:31,037 - 56번쨰 실행 성공[56] 실패[1]
+[ERROR] 2017-11-23 11:07:36,721 - 57번쨰 실행 성공[57] 실패[1]
+[ERROR] 2017-11-23 11:07:42,434 - 58번쨰 실행 성공[58] 실패[1]
+[ERROR] 2017-11-23 11:07:48,132 - 59번쨰 실행 성공[59] 실패[1]
+[ERROR] 2017-11-23 11:07:53,845 - 60번쨰 실행 성공[60] 실패[1]
+[ERROR] 2017-11-23 11:07:59,547 - 61번쨰 실행 성공[61] 실패[1]
+[ERROR] 2017-11-23 11:08:05,227 - 62번쨰 실행 성공[62] 실패[1]
+[ERROR] 2017-11-23 11:08:10,891 - 63번쨰 실행 성공[63] 실패[1]
+[ERROR] 2017-11-23 11:08:16,591 - 64번쨰 실행 성공[64] 실패[1]
+[ERROR] 2017-11-23 11:08:22,222 - 65번쨰 실행 성공[65] 실패[1]
+[ERROR] 2017-11-23 11:08:27,843 - 66번쨰 실행 성공[66] 실패[1]
+[ERROR] 2017-11-23 11:08:33,557 - 67번쨰 실행 성공[67] 실패[1]
+[ERROR] 2017-11-23 11:08:39,266 - 68번쨰 실행 성공[68] 실패[1]
+[ERROR] 2017-11-23 11:08:44,966 - 69번쨰 실행 성공[69] 실패[1]
+[ERROR] 2017-11-23 11:08:50,646 - 70번쨰 실행 성공[70] 실패[1]
+[ERROR] 2017-11-23 11:08:56,275 - 71번쨰 실행 성공[71] 실패[1]
+[ERROR] 2017-11-23 11:09:01,973 - 72번쨰 실행 성공[72] 실패[1]
+[ERROR] 2017-11-23 11:09:07,672 - 73번쨰 실행 성공[73] 실패[1]
+[ERROR] 2017-11-23 11:09:13,401 - 74번쨰 실행 성공[74] 실패[1]
+[ERROR] 2017-11-23 11:09:19,002 - 75번쨰 실행 성공[75] 실패[1]
+[ERROR] 2017-11-23 11:09:24,714 - 76번쨰 실행 성공[76] 실패[1]
+[ERROR] 2017-11-23 11:09:30,444 - 77번쨰 실행 성공[77] 실패[1]
+[ERROR] 2017-11-23 11:09:36,142 - 78번쨰 실행 성공[78] 실패[1]
+[ERROR] 2017-11-23 11:09:41,844 - 79번쨰 실행 성공[79] 실패[1]
+[ERROR] 2017-11-23 11:09:47,540 - 80번쨰 실행 성공[80] 실패[1]
+[ERROR] 2017-11-23 11:09:53,186 - 81번쨰 실행 성공[81] 실패[1]
+[ERROR] 2017-11-23 11:09:58,900 - 82번쨰 실행 성공[82] 실패[1]
+[ERROR] 2017-11-23 11:10:04,567 - 83번쨰 실행 성공[83] 실패[1]
+[ERROR] 2017-11-23 11:10:10,231 - 84번쨰 실행 성공[84] 실패[1]
+[ERROR] 2017-11-23 11:10:15,944 - 85번쨰 실행 성공[85] 실패[1]
+[ERROR] 2017-11-23 11:10:21,628 - 86번쨰 실행 성공[86] 실패[1]
+[ERROR] 2017-11-23 11:10:27,243 - 87번쨰 실행 성공[87] 실패[1]
+[ERROR] 2017-11-23 11:10:32,939 - 88번쨰 실행 성공[88] 실패[1]
+[ERROR] 2017-11-23 11:10:38,636 - 89번쨰 실행 성공[89] 실패[1]
+[ERROR] 2017-11-23 11:10:44,350 - 90번쨰 실행 성공[90] 실패[1]
+[ERROR] 2017-11-23 11:10:50,039 - 91번쨰 실행 성공[91] 실패[1]
+[ERROR] 2017-11-23 11:10:55,729 - 92번쨰 실행 성공[92] 실패[1]
+[ERROR] 2017-11-23 11:11:01,263 -    위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: GTF_Passport.GTF_PassportScanner.GetNationality()
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_SCAN_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 175
+[INFO] 2017-11-23 11:13:36,502 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-23 11:13:36,502 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345"
+}
+[INFO] 2017-11-23 11:13:39,001 - sendHttp_Json >> RES size:431
+[INFO] 2017-11-23 11:14:07,344 - Start Application................
+[INFO] 2017-11-23 11:14:08,622 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-23 11:14:08,622 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345"
+}
+[INFO] 2017-11-23 11:14:10,288 - sendHttp_Json >> RES size:431
+[INFO] 2017-11-23 11:14:10,557 - -->{}
+[INFO] 2017-11-23 11:14:10,557 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchCountryCode
+[INFO] 2017-11-23 11:14:10,557 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 11:14:15,044 - sendHttp_Json >> RES size:8480
+[INFO] 2017-11-23 11:14:15,045 - <--{"rows":249,"list":[{"country_code":"ZAR-Congo, Dem. Rep."},{"country_code":"AFG-Afghanistan"},{"country_code":"ALB-Albania"},{"country_code":"ATA-Antarctica"},{"country_code":"DZA-Algeria"},{"country_code":"ASM-American Samoa"},{"country_code":"AND-Andorra"},{"country_code":"AGO-Angola"},{"country_code":"ATG-Antigua and Barbuda"},{"country_code":"AZE-Azerbaijan"},{"country_code":"ARG-Argentina"},{"country_code":"AUS-Australia"},{"country_code":"AUT-Austria"},{"country_code":"BHS-Bahamas"},{"country_code":"BHR-Bahrain"},{"country_code":"BGD-Bangladesh"},{"country_code":"ARM-Armenia"},{"country_code":"BRB-Barbados"},{"country_code":"BEL-Belgium"},{"country_code":"BMU-Bermuda"},{"country_code":"BTN-Bhutan"},{"country_code":"BOL-Bolivia"},{"country_code":"BIH-Bosnia and Herzegovina"},{"country_code":"BWA-Botswana"},{"country_code":"BVT-Bouvet Island"},{"country_code":"BRA-Brazil"},{"country_code":"BLZ-Belize"},{"country_code":"IOT-British Indian Ocean Territory"},{"country_code":"SLB-Solomon Islands"},{"country_code":"VGB-British Virgin Islands"},{"country_code":"BRN-Brunei Darussalam"},{"country_code":"BGR-Bulgaria"},{"country_code":"MMR-Myanmar"},{"country_code":"BDI-Burundi"},{"country_code":"BLR-Belarus"},{"country_code":"KHM-Cambodia"},{"country_code":"CMR-Cameroon"},{"country_code":"CAN-Canada"},{"country_code":"CPV-Cape Verde"},{"country_code":"CYM-Cayman Islands"},{"country_code":"CAF-Central African Republic"},{"country_code":"LKA-Sri Lanka"},{"country_code":"TCD-Chad"},{"country_code":"CHL-Chile"},{"country_code":"CHN-China"},{"country_code":"TWN-Taiwan"},{"country_code":"CXR-Christmas Island"},{"country_code":"CCK-Cocos Islands"},{"country_code":"COL-Colombia"},{"country_code":"COM-Comoros"},{"country_code":"MYT-Mayotte"},{"country_code":"COG-Congo"},{"country_code":"COD-Congo"},{"country_code":"COK-Cook Islands"},{"country_code":"CRI-Costa Rica"},{"country_code":"HRV-Hrvatska"},{"country_code":"CUB-Cuba"},{"country_code":"CYP-Cyprus"},{"country_code":"CZE-Czech Republic"},{"country_code":"BEN-Benin"},{"country_code":"DNK-Denmark"},{"country_code":"DMA-Dominica"},{"country_code":"DOM-Dominican Republic"},{"country_code":"ECU-Ecuador"},{"country_code":"SLV-El Salvador"},{"country_code":"GNQ-Equatorial Guinea"},{"country_code":"ETH-Ethiopia"},{"country_code":"PCN-Pitcairn Island"},{"country_code":"ERI-Eritrea"},{"country_code":"EST-Estonia"},{"country_code":"FRO-Faeroe Islands"},{"country_code":"FLK-Falkland Islands"},{"country_code":"SGS-South Georgia and the South Sandwich Islands"},{"country_code":"FJI-Fiji"},{"country_code":"FIN-Finland"},{"country_code":"ALA-Aland Islands"},{"country_code":"FRA-France"},{"country_code":"GUF-French Guiana"},{"country_code":"PYF-French Polynesia"},{"country_code":"ATF-French Southern Territories"},{"country_code":"DJI-Djibouti"},{"country_code":"GAB-Gabon"},{"country_code":"GEO-Georgia"},{"country_code":"GMB-Gambia"},{"country_code":"PSE-Palestinian Territory"},{"country_code":"DEU-Germany"},{"country_code":"GHA-Ghana"},{"country_code":"GIB-Gibraltar"},{"country_code":"KIR-Kiribati"},{"country_code":"GRC-Greece"},{"country_code":"GRL-Greenland"},{"country_code":"GRD-Grenada"},{"country_code":"GLP-Guadaloupe"},{"country_code":"GUM-Guam"},{"country_code":"GTM-Guatemala"},{"country_code":"GIN-Guinea"},{"country_code":"GUY-Guyana"},{"country_code":"HTI-Haiti"},{"country_code":"HMD-Heard and McDonald Islands"},{"country_code":"VAT-Vatican City State"},{"country_code":"HND-Honduras"},{"country_code":"HKG-Hong Kong"},{"country_code":"HUN-Hungary"},{"country_code":"ISL-Iceland"},{"country_code":"IND-India"},{"country_code":"IDN-Indonesia"},{"country_code":"IRN-Iran"},{"country_code":"IRQ-Iraq"},{"country_code":"IRL-Ireland"},{"country_code":"ISR-Israel"},{"country_code":"ITA-Italy"},{"country_code":"CIV-Ivory Coast"},{"country_code":"JAM-Jamaica"},{"country_code":"JPN-Japan"},{"country_code":"KAZ-Kazakhstan"},{"country_code":"JOR-Jordan"},{"country_code":"KEN-Kenya"},{"country_code":"PRK-North Korea"},{"country_code":"KOR-South Korea"},{"country_code":"KWT-Kuwait"},{"country_code":"KGZ-Kyrgyz Republic"},{"country_code":"LAO-Lao"},{"country_code":"LBN-Lebanon"},{"country_code":"LSO-Lesotho"},{"country_code":"LVA-Latvia"},{"country_code":"LBR-Liberia"},{"country_code":"LBY-Libyan Arab Jamahiriya"},{"country_code":"LIE-Liechtenstein"},{"country_code":"LTU-Lithuania"},{"country_code":"LUX-Luxembourg"},{"country_code":"MAC-Macao"},{"country_code":"MDG-Madagascar"},{"country_code":"MWI-Malawi"},{"country_code":"MYS-Malaysia"},{"country_code":"MDV-Maldives"},{"country_code":"MLI-Mali"},{"country_code":"MLT-Malta"},{"country_code":"MTQ-Martinique"},{"country_code":"MRT-Mauritania"},{"country_code":"MUS-Mauritius"},{"country_code":"MEX-Mexico"},{"country_code":"MCO-Monaco"},{"country_code":"MNG-Mongolia"},{"country_code":"MDA-Moldova"},{"country_code":"MNE-Montenegro"},{"country_code":"MSR-Montserrat"},{"country_code":"MAR-Morocco"},{"country_code":"MOZ-Mozambique"},{"country_code":"OMN-Oman"},{"country_code":"NAM-Namibia"},{"country_code":"NRU-Nauru"},{"country_code":"NPL-Nepal"},{"country_code":"NLD-Netherlands"},{"country_code":"CUW-Curacao"},{"country_code":"ABW-Aruba"},{"country_code":"SXM-Sint Maarten"},{"country_code":"BES-Bonaire"},{"country_code":"NCL-New Caledonia"},{"country_code":"VUT-Vanuatu"},{"country_code":"NZL-New Zealand"},{"country_code":"NIC-Nicaragua"},{"country_code":"NER-Niger"},{"country_code":"NGA-Nigeria"},{"country_code":"NIU-Niue"},{"country_code":"NFK-Norfolk Island"},{"country_code":"NOR-Norway"},{"country_code":"MNP-Northern Mariana Islands"},{"country_code":"FSM-Micronesia"},{"country_code":"MHL-Marshall Islands"},{"country_code":"PLW-Palau"},{"country_code":"PAK-Pakistan"},{"country_code":"PAN-Panama"},{"country_code":"PNG-Papua New Guinea"},{"country_code":"PRY-Paraguay"},{"country_code":"PER-Peru"},{"country_code":"PHL-Philippines"},{"country_code":"POL-Poland"},{"country_code":"PRT-Portugal"},{"country_code":"GNB-Guinea-Bissau"},{"country_code":"TLS-Timor-Leste"},{"country_code":"PRI-Puerto Rico"},{"country_code":"QAT-Qatar"},{"country_code":"REU-Reunion"},{"country_code":"ROU-Romania"},{"country_code":"RUS-Russian Federation"},{"country_code":"RWA-Rwanda"},{"country_code":"SHN-Saint Helena"},{"country_code":"BLM-Saint Barthelemy"},{"country_code":"KNA-St. Kitts and Nevis"},{"country_code":"AIA-Anguilla"},{"country_code":"LCA-St. Lucia"},{"country_code":"MAF-Saint Martin"},{"country_code":"SPM-St. Pierre and Miquelon"},{"country_code":"VCT-St. Vincent and the Grenadines"},{"country_code":"SMR-San Marino"},{"country_code":"STP-Sao Tome and Principe"},{"country_code":"SAU-Saudi Arabia"},{"country_code":"SEN-Senegal"},{"country_code":"SRB-Serbia"},{"country_code":"SYC-Seychelles"},{"country_code":"SLE-Sierra Leone"},{"country_code":"SGP-Singapore"},{"country_code":"SVK-Slovakia"},{"country_code":"VNM-Viet Nam"},{"country_code":"SVN-Slovenia"},{"country_code":"SOM-Somalia"},{"country_code":"ZAF-South Africa"},{"country_code":"ZWE-Zimbabwe"},{"country_code":"ESP-Spain"},{"country_code":"ESH-Western Sahara"},{"country_code":"SDN-Sudan"},{"country_code":"SUR-Suriname"},{"country_code":"SJM-Svalbard & Jan Mayen Islands"},{"country_code":"SWZ-Swaziland"},{"country_code":"SWE-Sweden"},{"country_code":"CHE-Switzerland"},{"country_code":"SYR-Syrian Arab Republic"},{"country_code":"TJK-Tajikistan"},{"country_code":"THA-Thailand"},{"country_code":"TGO-Togo"},{"country_code":"TKL-Tokelau"},{"country_code":"TON-Tonga"},{"country_code":"TTO-Trinidad and Tobago"},{"country_code":"ARE-United Arab Emirates"},{"country_code":"TUN-Tunisia"},{"country_code":"TUR-Turkey"},{"country_code":"TKM-Turkmenistan"},{"country_code":"TCA-Turks and Caicos Islands"},{"country_code":"TUV-Tuvalu"},{"country_code":"UGA-Uganda"},{"country_code":"GGY-Guernsey"},{"country_code":"JEY-Jersey"},{"country_code":"IMN-Isle of Man"},{"country_code":"UKR-Ukraine"},{"country_code":"MKD-Macedonia"},{"country_code":"EGY-Egypt"},{"country_code":"GBR-United Kingdom"},{"country_code":"TZA-Tanzania"},{"country_code":"USA-United States of America"},{"country_code":"VIR-US Virgin Islands"},{"country_code":"BFA-Burkina Faso"},{"country_code":"URY-Uruguay"},{"country_code":"UZB-Uzbekistan"},{"country_code":"VEN-Venezuela"},{"country_code":"WLF-Wallis and Futuna Islands"},{"country_code":"WSM-Samoa"},{"country_code":"YEM-Yemen"},{"country_code":"ZMB-Zambia"},{"country_code":"UMI-United States Minor Outlying Islands"}]}
+[INFO] 2017-11-23 11:14:16,557 - -->{}
+[INFO] 2017-11-23 11:14:16,557 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getItemCodeList
+[INFO] 2017-11-23 11:14:16,558 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-23 11:14:18,162 - sendHttp_Json >> RES size:1539
+[INFO] 2017-11-23 11:14:18,163 - <--{"rows":33,"list":[{"code_name":"Arts & Antiques","code_id":"01"},{"code_name":"Automobile Acc.","code_id":"02"},{"code_name":"AV & IT","code_id":"03"},{"code_name":"Baby Products","code_id":"04"},{"code_name":"Cosmetic & Essence","code_id":"05"},{"code_name":"Dept. Store","code_id":"06"},{"code_name":"Eyewear & Optics","code_id":"07"},{"code_name":"Fashion & Clothing","code_id":"08"},{"code_name":"Fashion Acc.","code_id":"09"},{"code_name":"Footwear","code_id":"10"},{"code_name":"Furniture","code_id":"11"},{"code_name":"Games and Toys","code_id":"12"},{"code_name":"Glass & Crystal","code_id":"13"},{"code_name":"Handicraft","code_id":"14"},{"code_name":"Health & Beauty","code_id":"15"},{"code_name":"Home Appliances","code_id":"16"},{"code_name":"Jewellery","code_id":"17"},{"code_name":"Leather Goods","code_id":"18"},{"code_name":"Lingerie Apparels","code_id":"19"},{"code_name":"Mag & Stationery","code_id":"20"},{"code_name":"Medical Clinics","code_id":"21"},{"code_name":"Medical Equipment","code_id":"22"},{"code_name":"Other retailing","code_id":"23"},{"code_name":"Pharmaceutical","code_id":"24"},{"code_name":"Photo equipment","code_id":"25"},{"code_name":"Souvenirs & Gifts","code_id":"26"},{"code_name":"Sports equipment","code_id":"27"},{"code_name":"Telecommunications","code_id":"28"},{"code_name":"Textile & Carpets","code_id":"29"},{"code_name":"Tobacco & Wines","code_id":"30"},{"code_name":"Travel Accessories","code_id":"31"},{"code_name":"Video & Music","code_id":"32"},{"code_name":"Watches","code_id":"33"}]}
+[ERROR] 2017-11-23 11:14:26,139 - 0번쨰 실행 성공[1] 실패[0]
+[ERROR] 2017-11-23 11:14:31,732 - 1번쨰 실행 성공[2] 실패[0]
+[ERROR] 2017-11-23 11:14:37,338 - 2번쨰 실행 성공[3] 실패[0]
+[ERROR] 2017-11-23 11:14:43,025 - 3번쨰 실행 성공[4] 실패[0]
+[ERROR] 2017-11-23 11:14:48,693 - 4번쨰 실행 성공[5] 실패[0]
+[ERROR] 2017-11-23 11:14:54,391 - 5번쨰 실행 성공[6] 실패[0]
+[ERROR] 2017-11-23 11:15:00,068 - 6번쨰 실행 성공[7] 실패[0]
+[ERROR] 2017-11-23 11:15:05,798 - 7번쨰 실행 성공[8] 실패[0]
+[ERROR] 2017-11-23 11:15:11,520 - 8번쨰 실행 성공[9] 실패[0]
+[ERROR] 2017-11-23 11:15:17,229 - 9번쨰 실행 성공[10] 실패[0]
+[ERROR] 2017-11-23 11:15:22,923 - 10번쨰 실행 성공[11] 실패[0]
+[ERROR] 2017-11-23 11:15:28,591 - 11번쨰 실행 성공[12] 실패[0]
+[ERROR] 2017-11-23 11:15:34,211 - 12번쨰 실행 성공[13] 실패[0]
+[ERROR] 2017-11-23 11:15:39,815 - 13번쨰 실행 성공[14] 실패[0]
+[ERROR] 2017-11-23 11:15:45,421 - 14번쨰 실행 성공[15] 실패[0]
+[ERROR] 2017-11-23 11:15:51,069 - 15번쨰 실행 성공[16] 실패[0]
+[ERROR] 2017-11-23 11:15:56,738 - 16번쨰 실행 성공[17] 실패[0]
+[ERROR] 2017-11-23 11:16:02,187 -    위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: GTF_Passport.GTF_PassportScanner.GetNationality()
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_SCAN_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 175
+[ERROR] 2017-11-23 11:16:57,444 - 0번쨰 실행 성공[1] 실패[0]
+[ERROR] 2017-11-23 11:17:03,210 - 1번쨰 실행 성공[1] 실패[1]
+[ERROR] 2017-11-23 11:17:08,886 - 2번쨰 실행 성공[2] 실패[1]
+[ERROR] 2017-11-23 11:17:14,571 - 3번쨰 실행 성공[3] 실패[1]
+[ERROR] 2017-11-23 11:17:20,254 - 4번쨰 실행 성공[4] 실패[1]
+[ERROR] 2017-11-23 11:17:25,927 - 5번쨰 실행 성공[5] 실패[1]
+[ERROR] 2017-11-23 11:17:31,594 - 6번쨰 실행 성공[6] 실패[1]
+[ERROR] 2017-11-23 11:17:37,213 - 7번쨰 실행 성공[7] 실패[1]
+[ERROR] 2017-11-23 11:17:42,934 - 8번쨰 실행 성공[8] 실패[1]
+[ERROR] 2017-11-23 11:17:48,622 - 9번쨰 실행 성공[9] 실패[1]
+[ERROR] 2017-11-23 11:17:54,253 - 10번쨰 실행 성공[10] 실패[1]
+[ERROR] 2017-11-23 11:17:59,865 - 11번쨰 실행 성공[11] 실패[1]
+[ERROR] 2017-11-23 11:18:05,564 - 12번쨰 실행 성공[12] 실패[1]
+[ERROR] 2017-11-23 11:18:11,289 - 13번쨰 실행 성공[13] 실패[1]
+[ERROR] 2017-11-23 11:18:16,902 - 14번쨰 실행 성공[14] 실패[1]
+[ERROR] 2017-11-23 11:18:22,588 - 15번쨰 실행 성공[15] 실패[1]
+[ERROR] 2017-11-23 11:18:28,264 - 16번쨰 실행 성공[16] 실패[1]
+[ERROR] 2017-11-23 11:18:33,957 - 17번쨰 실행 성공[17] 실패[1]
+[ERROR] 2017-11-23 11:18:39,605 - 18번쨰 실행 성공[18] 실패[1]
+[ERROR] 2017-11-23 11:18:45,265 - 19번쨰 실행 성공[19] 실패[1]
+[ERROR] 2017-11-23 11:18:50,950 - 20번쨰 실행 성공[20] 실패[1]

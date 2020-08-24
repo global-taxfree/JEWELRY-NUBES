@@ -1,0 +1,40 @@
+[INFO] 2017-11-27 10:57:34,411 - Start Application................
+[ERROR] 2017-11-27 10:57:37,891 -    위치: System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   위치: System.Net.WebClient.UploadString(Uri address, String method, String data)
+   위치: GTF_Comm.GTF_CommManager.sendHttp_Json(String url, String strJsondata, Boolean bhttps, Int32 nTimeout)
+[ERROR] 2017-11-27 10:57:37,899 - Error reading JObject from JsonReader. Path '', line 0, position 0.
+[ERROR] 2017-11-27 10:57:37,903 -    위치: Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   위치: Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   위치: GTF_STFM.Tran.Transaction.Login(String strUserId, String strPassword) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Tran\Transaction.cs:줄 63
+[ERROR] 2017-11-27 11:00:19,623 - 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[ERROR] 2017-11-27 11:00:19,637 -    위치: GTF_STFM.Tran.Transaction.Login(String strUserId, String strPassword) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Tran\Transaction.cs:줄 116
+[INFO] 2017-11-27 11:02:05,938 - Start Application................
+[INFO] 2017-11-27 15:15:32,935 - Start Application................
+[INFO] 2017-11-27 15:17:30,016 - Start Application................
+[INFO] 2017-11-27 16:16:11,552 - Start Application................
+[INFO] 2017-11-27 16:21:54,159 - Start Application................
+[INFO] 2017-11-27 16:23:35,830 - txt_StartDate.Value : 2017-11-27 오전 12:00:00
+[INFO] 2017-11-27 16:23:35,830 - txt_EndDate.Value : 2017-11-27 오전 12:00:00
+[INFO] 2017-11-27 16:23:35,831 - diff : 0
+[INFO] 2017-11-27 16:23:35,831 - date_cnt : 0
+[INFO] 2017-11-27 16:23:35,832 - -->{
+  "group_id": "0000000002",
+  "date_div": "P",
+  "start_date": "20171127",
+  "end_date": "20171127"
+}
+[INFO] 2017-11-27 16:23:36,327 - <--{"total_cnt":6,"code":"1","message":"Success"}
+[INFO] 2017-11-27 16:23:36,335 - -->{
+  "query_div": "",
+  "page_num": "1",
+  "display_num": 20,
+  "group_id": "0000000002",
+  "date_div": "P",
+  "start_date": "20171127",
+  "end_date": "20171127"
+}
+[INFO] 2017-11-27 16:23:36,832 - <--{"rows":6,"list":[{"DOC_ID":"20052503082170000753","PACKED_YN":"Y","ISSUE_TIME":"152250","ROW_NO":1,"SEAL_BAG_NO":"WGLEE201711270001","STATUS_DESC":"Issued","INVOICE_DATE":"20171127","PASSPORT_NO":"M53925294","RCT_NO":"WGLEE201711270001","GST_AMT":"22.38","ISSUE_DATE":"20171127","VOID_DATE":null,"STAFF_NAME":"LITTLE INDIA","SEAL_BAG_YN":"Y"},{"DOC_ID":"20052503082170000746","PACKED_YN":"N","ISSUE_TIME":"142853","ROW_NO":2,"SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20171127","PASSPORT_NO":"E999998","RCT_NO":"TC3201711270001","GST_AMT":"785.05","ISSUE_DATE":"20171127","VOID_DATE":null,"STAFF_NAME":"BongKyun KIM","SEAL_BAG_YN":"N"},{"DOC_ID":"20052503082170000738","PACKED_YN":"Y","ISSUE_TIME":"141620","ROW_NO":3,"SEAL_BAG_NO":"TC2201711270001","STATUS_DESC":"Issued","INVOICE_DATE":"20171127","PASSPORT_NO":"E999998","RCT_NO":"TC2YYYYMMDD0003","GST_AMT":"39.25","ISSUE_DATE":"20171127","VOID_DATE":null,"STAFF_NAME":"BongKyun KIM","SEAL_BAG_YN":"Y"},{"DOC_ID":"20052503082170000720","PACKED_YN":"N","ISSUE_TIME":"141534","ROW_NO":4,"SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20171127","PASSPORT_NO":"E999998","RCT_NO":"TC2YYYYMMDD0002","GST_AMT":"451.40","ISSUE_DATE":"20171127","VOID_DATE":null,"STAFF_NAME":"BongKyun KIM","SEAL_BAG_YN":"N"},{"DOC_ID":"20052503082170000712","PACKED_YN":"N","ISSUE_TIME":"141313","ROW_NO":5,"SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20171127","PASSPORT_NO":"E999998","RCT_NO":"TC2201711270001","GST_AMT":"19.63","ISSUE_DATE":"20171127","VOID_DATE":null,"STAFF_NAME":"BongKyun KIM","SEAL_BAG_YN":"N"},{"DOC_ID":"20052503082170000704","PACKED_YN":"N","ISSUE_TIME":"134501","ROW_NO":6,"SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20171127","PASSPORT_NO":"E999999","RCT_NO":"TC1201711270001","GST_AMT":"7.85","ISSUE_DATE":"20171127","VOID_DATE":null,"STAFF_NAME":"LITTLE INDIA","SEAL_BAG_YN":"N"}]}
+[INFO] 2017-11-27 16:23:36,859 - Start Parse (1) : 2017-11-27 오후 4:23:36
+[INFO] 2017-11-27 16:23:36,860 - Start Parse (2) : 2017-11-27 오후 4:23:36
+[INFO] 2017-11-27 16:23:37,121 - Start Parse (3) : 2017-11-27 오후 4:23:37
+[INFO] 2017-11-27 16:54:07,953 - Start Application................

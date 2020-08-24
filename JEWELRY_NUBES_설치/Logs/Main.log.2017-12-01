@@ -1,0 +1,81 @@
+[INFO] 2017-12-01 10:19:38,204 - Start Application................
+[INFO] 2017-12-01 10:36:22,156 - Start Application................
+[INFO] 2017-12-01 10:38:43,385 - Start Application................
+[INFO] 2017-12-01 10:40:15,862 - Start Application................
+[INFO] 2017-12-01 10:40:36,020 - Start Application................
+[INFO] 2017-12-01 10:43:54,547 - Start Application................
+[INFO] 2017-12-01 10:46:30,057 - Start Application................
+[INFO] 2017-12-01 10:48:48,741 - Start Application................
+[INFO] 2017-12-01 10:50:07,753 - Start Application................
+[INFO] 2017-12-01 10:51:20,420 - Start Application................
+[INFO] 2017-12-01 11:12:01,303 - Start Application................
+[ERROR] 2017-12-01 11:12:26,808 -    위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: GTF_STFM.Screen.IssuePanel_SG.ValiateIssue() 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 819
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_ISSUE_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 720
+[ERROR] 2017-12-01 11:12:28,754 -    위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: GTF_STFM.Screen.IssuePanel_SG.ValiateIssue() 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 819
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_ISSUE_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 720
+[ERROR] 2017-12-01 11:12:29,443 -    위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: GTF_STFM.Screen.IssuePanel_SG.ValiateIssue() 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 819
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_ISSUE_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 720
+[ERROR] 2017-12-01 11:12:29,793 -    위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: GTF_STFM.Screen.IssuePanel_SG.ValiateIssue() 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 819
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_ISSUE_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 720
+[ERROR] 2017-12-01 11:12:30,026 -    위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: GTF_STFM.Screen.IssuePanel_SG.ValiateIssue() 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 819
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_ISSUE_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 720
+[ERROR] 2017-12-01 11:12:30,195 -    위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: GTF_STFM.Screen.IssuePanel_SG.ValiateIssue() 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 819
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_ISSUE_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 720
+[ERROR] 2017-12-01 11:13:13,072 -    위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: GTF_STFM.Screen.IssuePanel_SG.ValiateIssue() 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 819
+   위치: GTF_STFM.Screen.IssuePanel_SG.BTN_ISSUE_Click(Object sender, EventArgs e) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Screen\IssuePanel_SG.cs:줄 720
+[INFO] 2017-12-01 11:13:45,917 - Start Application................
+[INFO] 2017-12-01 11:21:13,693 - Start Application................
+[ERROR] 2017-12-01 11:22:02,748 - duplicated receipt number!
+[INFO] 2017-12-01 11:23:45,522 - Start Application................
+[INFO] 2017-12-01 13:17:56,285 - Start Application................
+[INFO] 2017-12-01 13:19:24,467 - Start Application................
+[INFO] 2017-12-01 13:21:13,298 - Start Application................
+[ERROR] 2017-12-01 13:21:50,293 - duplicated receipt number!
+[INFO] 2017-12-01 13:24:32,735 - txt_StartDate.Value : 2017-12-01 오전 12:00:00
+[INFO] 2017-12-01 13:24:32,735 - txt_EndDate.Value : 2017-12-01 오전 12:00:00
+[INFO] 2017-12-01 13:24:32,736 - diff : 0
+[INFO] 2017-12-01 13:24:32,736 - date_cnt : 0
+[INFO] 2017-12-01 13:24:32,737 - -->{
+  "group_id": "0000000002",
+  "date_div": "P",
+  "start_date": "20171201",
+  "end_date": "20171201"
+}
+[INFO] 2017-12-01 13:24:33,368 - <--{"total_cnt":10,"code":"1","message":"Success"}
+[INFO] 2017-12-01 13:24:33,373 - -->{
+  "query_div": "",
+  "page_num": "1",
+  "display_num": 20,
+  "group_id": "0000000002",
+  "date_div": "P",
+  "start_date": "20171201",
+  "end_date": "20171201"
+}
+[INFO] 2017-12-01 13:24:33,984 - <--{"rows":10,"list":[{"DOC_ID":"20052503082170001413","PACKED_YN":"N","ISSUE_TIME":"122324","ROW_NO":1,"SEAL_BAG_NO":null,"STATUS_DESC":"Voided","INVOICE_DATE":"20171201","PASSPORT_NO":"M71293013","RCT_NO":"WGLEE201712010010","GST_AMT":"80.74","ISSUE_DATE":"20171201","VOID_DATE":"20171201","STAFF_NAME":"WONGYU LEE","SEAL_BAG_YN":"N"},{"DOC_ID":"20052503082170001405","PACKED_YN":"N","ISSUE_TIME":"122157","ROW_NO":2,"SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20171201","PASSPORT_NO":"E9999999","RCT_NO":"WGLEE201712010009","GST_AMT":"32.05","ISSUE_DATE":"20171201","VOID_DATE":null,"STAFF_NAME":"WONGYU LEE","SEAL_BAG_YN":"N"},{"DOC_ID":"20052503082170001397","PACKED_YN":"N","ISSUE_TIME":"121838","ROW_NO":3,"SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20171201","PASSPORT_NO":"M71293013","RCT_NO":"WGLEE201712010008","GST_AMT":"103.95","ISSUE_DATE":"20171201","VOID_DATE":null,"STAFF_NAME":"WONGYU LEE","SEAL_BAG_YN":"N"},{"DOC_ID":"20052503082170001389","PACKED_YN":"Y","ISSUE_TIME":"103606","ROW_NO":4,"SEAL_BAG_NO":"WGLEE201712010007","STATUS_DESC":"Issued","INVOICE_DATE":"20171201","PASSPORT_NO":"E9999999","RCT_NO":"WGLEE201712010007","GST_AMT":"10.40","ISSUE_DATE":"20171201","VOID_DATE":null,"STAFF_NAME":"WONGYU LEE","SEAL_BAG_YN":"Y"},{"DOC_ID":"20052503082170001371","PACKED_YN":"N","ISSUE_TIME":"103446","ROW_NO":5,"SEAL_BAG_NO":null,"STATUS_DESC":"Voided","INVOICE_DATE":"20171201","PASSPORT_NO":"M71293013","RCT_NO":"WGLEE201712010007","GST_AMT":"38.53","ISSUE_DATE":"20171201","VOID_DATE":"20171201","STAFF_NAME":"WONGYU LEE","SEAL_BAG_YN":"N"},{"DOC_ID":"20052503082170001363","PACKED_YN":"N","ISSUE_TIME":"102213","ROW_NO":6,"SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20171201","PASSPORT_NO":"E9999999","RCT_NO":"WGLEE201712010005","GST_AMT":"355.31","ISSUE_DATE":"20171201","VOID_DATE":null,"STAFF_NAME":"WONGYU LEE","SEAL_BAG_YN":"N"},{"DOC_ID":"20052503082170001355","PACKED_YN":"N","ISSUE_TIME":"102036","ROW_NO":7,"SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20171201","PASSPORT_NO":"M71293013","RCT_NO":"WGLEE201712010004","GST_AMT":"8.08","ISSUE_DATE":"20171201","VOID_DATE":null,"STAFF_NAME":"WONGYU LEE","SEAL_BAG_YN":"N"},{"DOC_ID":"20052503082170001348","PACKED_YN":"Y","ISSUE_TIME":"101424","ROW_NO":8,"SEAL_BAG_NO":"WGLEE201712010003","STATUS_DESC":"Issued","INVOICE_DATE":"20171201","PASSPORT_NO":"E9999999","RCT_NO":"WGLEE201712010003","GST_AMT":"8.43","ISSUE_DATE":"20171201","VOID_DATE":null,"STAFF_NAME":"WONGYU LEE","SEAL_BAG_YN":"Y"},{"DOC_ID":"20052503082170001330","PACKED_YN":"Y","ISSUE_TIME":"095221","ROW_NO":9,"SEAL_BAG_NO":"WGLEE201712010002","STATUS_DESC":"Issued","INVOICE_DATE":"20171201","PASSPORT_NO":"E9999999","RCT_NO":"WGLEE201712010002","GST_AMT":"669.33","ISSUE_DATE":"20171201","VOID_DATE":null,"STAFF_NAME":"WONGYU LEE","SEAL_BAG_YN":"Y"},{"DOC_ID":"20052503082170001322","PACKED_YN":"Y","ISSUE_TIME":"094447","ROW_NO":10,"SEAL_BAG_NO":"WGLEE201712010001","STATUS_DESC":"Issued","INVOICE_DATE":"20171201","PASSPORT_NO":"E9999999","RCT_NO":"WGLEE201712010001","GST_AMT":"18.70","ISSUE_DATE":"20171201","VOID_DATE":null,"STAFF_NAME":"WONGYU LEE","SEAL_BAG_YN":"Y"}]}
+[INFO] 2017-12-01 13:24:34,389 - Start Parse (1) : 2017-12-01 오후 1:24:34
+[INFO] 2017-12-01 13:24:34,389 - Start Parse (2) : 2017-12-01 오후 1:24:34
+[INFO] 2017-12-01 13:24:34,490 - Start Parse (3) : 2017-12-01 오후 1:24:34
+[INFO] 2017-12-01 13:28:00,786 - Start Application................
+[INFO] 2017-12-01 13:32:01,904 - Start Application................
+[INFO] 2017-12-01 13:52:18,365 - Start Application................

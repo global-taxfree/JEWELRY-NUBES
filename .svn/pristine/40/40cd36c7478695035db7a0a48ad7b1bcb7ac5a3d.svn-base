@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Message>
+  <EN>
+    <Login_EnterId>Please enter ID first</Login_EnterId>
+    <Login_EnterPassword>Please enter Password</Login_EnterPassword>
+    <LoginErrorMessage>Please check ID and Password then log in.{0}If log in still unsuccessful,please contact the system administrator</LoginErrorMessage>
+    <LoginCancel>Will you close this program?</LoginCancel>
+    <ValidateGSTNumber>GST Number is empty</ValidateGSTNumber>
+    <ValidateStoreName>Store name is empty</ValidateStoreName>
+    <ValidateReceiptNo>Receipt number is empty</ValidateReceiptNo>
+    <ValidatePurchaseAmount>Purchase amount is not valid</ValidatePurchaseAmount>
+    <ValidatePurchaseDate>Purchase date is not valid</ValidatePurchaseDate>
+    <ValidateQuantity>Quantity is not valid</ValidateQuantity>
+    <ValidatePurchaseItem>Purchase item is not valid</ValidatePurchaseItem>
+    <ValidateRecDigits>Check your receipt number digits</ValidateRecDigits>
+    <ValidateRecPrefix>Check your receipt number prefix</ValidateRecPrefix>
+    <ValidatePassportSGP>The Singapore Passport is non-refundable</ValidatePassportSGP>
+    <ValidateDocID>Please enter Doc ID</ValidateDocID>
+    <CheckMinimumSalesAmount>Total Sales amount does not qualify for tax refund.{0}{0}※ Total sales amount should be a minimum of SGD 100(including GST) on purchases from the same retailer in the same day.</CheckMinimumSalesAmount>
+    <CheckMaximumReceipts>eTRS ticket can be accumulated a maximum of 3 same-day receipts from the same retailer to meet minimum purchase amount.</CheckMaximumReceipts>
+    <CheckIssueConditions>There is a receipt that cannot be issued. Please check after printing is finished.{0}{0}※ Total sales amount should be a minimum of SGD 100(including GST) on purchases from the same retailer in the same day.</CheckIssueConditions>
+    <CheckIssueConditionsFail>Failed to meet issuing requirements.</CheckIssueConditionsFail>
+    <DuplicateReceiptNo>Duplicate receipt number</DuplicateReceiptNo>
+    <DataNotFound>Data not found</DataNotFound>
+    <VoidConfirmation>Would you like to void this e-TRS ticket?</VoidConfirmation>
+    <ProceedWithoutDuplicateReceiptNo>Will you proceed to issue e-TRS ticket?</ProceedWithoutDuplicateReceiptNo>
+    <AleardyIssuedTicket>This receipt already issued</AleardyIssuedTicket>
+    <ValidateSearchDate>Search date is not valid</ValidateSearchDate>
+    <ExceedSearchDate>Search period cannot exceed 7 days.</ExceedSearchDate>
+    <ValidatePassportNo>Passport Number is not valid</ValidatePassportNo>
+    <ValidatePassportInfo>Please enter your passport number and nationality</ValidatePassportInfo>
+    <SearchFaild>The query failed. Contact IT</SearchFaild>
+    <SearchValidate>Please enter all information related to invoice (Invoice No., Purchase Amount, Purchase Date, Store Name) </SearchValidate>
+    <PassportReadError>Please check if passport is inserted into slot</PassportReadError>
+    <PassportConnectError>Passport scanner not connected</PassportConnectError>
+    <NoneedSealbag>No Sealed Bag Required</NoneedSealbag>
+    <NeedSealbag>Sealed bag is required!</NeedSealbag>
+    <DownloadSuccess>Download successfully!</DownloadSuccess>
+    <DownloadError>Unknown error occurred, contact system administrator.</DownloadError>
+    <ValidateTotalAmount>Please check Total Amount</ValidateTotalAmount>
+    <EnterSetupPassword>Please enter Setup Password !</EnterSetupPassword>
+    <IncorrectPassword>Incorrect  Password !</IncorrectPassword>
+    <CheckPrinter>Printer is not working properly</CheckPrinter>
+    <ValidateSealedBag>Enter SEALED BAG number</ValidateSealedBag>
+    <DuplicateSealedBag>Duplicate Sealed Bag Number</DuplicateSealedBag>
+    <SealBagSuccess>SealBag Update Success</SealBagSuccess>
+    <SealBagFail>Sealed Bag Update Fail</SealBagFail>
+  </EN>
+  <KO>
+  </KO>
+  <JA>
+  </JA>
+  
+</Message>

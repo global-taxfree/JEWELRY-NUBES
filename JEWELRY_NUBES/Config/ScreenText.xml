@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ScreenText>
+  <KO>
+    <IssuePanel>
+      <LBL_PASSPORTNAME></LBL_PASSPORTNAME>
+      <LBL_PASSPORT_NO>여권번호</LBL_PASSPORT_NO>
+    </IssuePanel>
+    <DetailSlipInfo>
+    </DetailSlipInfo>
+    <ItemForm>
+    </ItemForm>
+    <Login>
+    </Login>
+    <PassportInfoForm>
+    </PassportInfoForm>
+    <PreferencesPanel>
+    </PreferencesPanel>
+    <SearchPanel>
+    </SearchPanel>
+  </KO>
+  <EN>
+    <IssuePanel>
+      <LBL_PASSPORTNAME></LBL_PASSPORTNAME>
+    </IssuePanel>
+    <DetailSlipInfo>
+    </DetailSlipInfo>
+    <ItemForm>
+    </ItemForm>
+    <Login>
+    </Login>
+    <PassportInfoForm>
+    </PassportInfoForm>
+    <PreferencesPanel>
+    </PreferencesPanel>
+    <SearchPanel>
+    </SearchPanel>
+  </EN>
+  <JA>
+    <IssuePanel>
+      <LBL_PASSPORTNAME></LBL_PASSPORTNAME>
+    </IssuePanel>
+    <DetailSlipInfo>
+    </DetailSlipInfo>
+    <ItemForm>
+    </ItemForm>
+    <Login>
+    </Login>
+    <PassportInfoForm>
+    </PassportInfoForm>
+    <PreferencesPanel>
+    </PreferencesPanel>
+    <SearchPanel>
+    </SearchPanel>
+  </JA>
+</ScreenText>
+

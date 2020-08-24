@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Amount" xml:space="preserve">
+    <value>Amount(SGD)</value>
+  </data>
+  <data name="CentralRefundAgency" xml:space="preserve">
+    <value>GLOBAL TAX FREE Pte.Ltd. | GST Reg. No. 201136344W
+541 Orchard Road #17-01 Liat Towers, Singapore 238881
+Tel: +65 6221 7058 | Website: www.global-taxfree.com.sg</value>
+  </data>
+  <data name="DateofIssue" xml:space="preserve">
+    <value>Date of Issue :</value>
+  </data>
+  <data name="DateofSales" xml:space="preserve">
+    <value>Date of Sales :</value>
+  </data>
+  <data name="Desc01" xml:space="preserve">
+    <value>Please keep this Ticket, the receipts and goods for Customs' inspection</value>
+  </data>
+  <data name="Desc02" xml:space="preserve">
+    <value>Your personal data may be used for purposes of tax refunds</value>
+  </data>
+  <data name="DocID" xml:space="preserve">
+    <value>Doc-ID :</value>
+  </data>
+  <data name="GSTAmount" xml:space="preserve">
+    <value>GST Amount :</value>
+  </data>
+  <data name="GSTRegNo" xml:space="preserve">
+    <value>GST Reg No :</value>
+  </data>
+  <data name="HeaderDesc" xml:space="preserve">
+    <value>Electronic Tourist  Refund Ticket</value>
+  </data>
+  <data name="hompage" xml:space="preserve">
+    <value>visit www.global-taxfree.com.sg</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>Nationality :</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Number :</value>
+  </data>
+  <data name="ProvisionalRefundAmount" xml:space="preserve">
+    <value>Provisional Refund Amount :</value>
+  </data>
+  <data name="PurchaseDesc" xml:space="preserve">
+    <value>Provisional refund amounts are subject to eligibility check and approval.</value>
+  </data>
+  <data name="ReceiptNo" xml:space="preserve">
+    <value>Receipt/Invoice no. </value>
+  </data>
+  <data name="RetailerName" xml:space="preserve">
+    <value>Retailer Name :</value>
+  </data>
+  <data name="SalesAmountInclGST" xml:space="preserve">
+    <value>Sales Amount Incl GST :</value>
+  </data>
+  <data name="ServiceFee" xml:space="preserve">
+    <value>Service Fee :</value>
+  </data>
+  <data name="Title_CentralRefundAgency" xml:space="preserve">
+    <value>CENTRAL REFUND AGENCY</value>
+  </data>
+  <data name="Title_DocId" xml:space="preserve">
+    <value>DOC-ID</value>
+  </data>
+  <data name="Title_Identifier" xml:space="preserve">
+    <value>IDENTIFIER</value>
+  </data>
+  <data name="Title_Information" xml:space="preserve">
+    <value>For more information</value>
+  </data>
+  <data name="Title_Purchase" xml:space="preserve">
+    <value>PURCHASE</value>
+  </data>
+  <data name="Title_RetailerDetails" xml:space="preserve">
+    <value>RETAILER DETAILS</value>
+  </data>
+  <data name="Title_TouristPassport" xml:space="preserve">
+    <value>TOURIST PASSPORT</value>
+  </data>
+  <data name="DocID02" xml:space="preserve">
+    <value>Doc-Id</value>
+  </data>
+  <data name="Title_Credit" xml:space="preserve">
+    <value>Credit Card</value>
+  </data>
+  <data name="Title_Debit" xml:space="preserve">
+    <value>Debit Card</value>
+  </data>
+  <data name="Title_Other" xml:space="preserve">
+    <value>Other Card</value>
+  </data>
+  <data name="Re_Print" xml:space="preserve">
+    <value>--  Re - Print --</value>
+  </data>
+  <data name="Void_Print" xml:space="preserve">
+    <value>--  Void --</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Information_email" xml:space="preserve">
+    <value>Email :</value>
+  </data>
+  <data name="Information_foot" xml:space="preserve">
+    <value>Please keep this Electronic Tourist Refund Ticket, the original receipts, and goods for custom inspection
+Provisional refund amounts are subject to eligibility check and approval.
+Your personal data may be used for purpose of tax refund</value>
+  </data>
+  <data name="Information_qr" xml:space="preserve">
+    <value>For more information :</value>
+  </data>
+  <data name="Merchant_name" xml:space="preserve">
+    <value>Merchant Name</value>
+  </data>
+  <data name="Purchase_date" xml:space="preserve">
+    <value>Purchase Date :</value>
+  </data>
+  <data name="Title_RetailerInfo" xml:space="preserve">
+    <value>RETAILER INFO</value>
+  </data>
+  <data name="Total_amt" xml:space="preserve">
+    <value>Total Amount (Incl. of GST) :</value>
+  </data>
+  <data name="Central_desc" xml:space="preserve">
+    <value>CENTRAL REFUND AGENCY</value>
+  </data>
+  <data name="Passport_no" xml:space="preserve">
+    <value>Passport no. :</value>
+  </data>
+  <data name="SINGAPORE" xml:space="preserve">
+    <value>SINGAPORE</value>
+  </data>
+  <data name="Title_ETRS" xml:space="preserve">
+    <value>Electronic Tourist Refund Scheme</value>
+  </data>
+  <data name="Title_Touristinfo" xml:space="preserve">
+    <value>TOURIST INFO</value>
+  </data>
+  <data name="Token" xml:space="preserve">
+    <value>TOKEN</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>DATE/ TIME ISSUED</value>
+  </data>
+  <data name="DocID03" xml:space="preserve">
+    <value>DOC ID</value>
+  </data>
+  <data name="Email_addr" xml:space="preserve">
+    <value>gtfsg@global-taxfree.com</value>
+  </data>
+  <data name="Global" xml:space="preserve">
+    <value>GLOBAL</value>
+  </data>
+  <data name="Information_qr1" xml:space="preserve">
+    <value>Please visit</value>
+  </data>
+  <data name="Information_qr2" xml:space="preserve">
+    <value>or scan below QR code</value>
+  </data>
+  <data name="Information_qr_site" xml:space="preserve">
+    <value>www.global-taxfree.com.sg</value>
+  </data>
+  <data name="Taxfree" xml:space="preserve">
+    <value>TAXFREE</value>
+  </data>
+  <data name="Eservice_URL" xml:space="preserve">
+    <value>touristrefund.sg</value>
+  </data>
+</root>

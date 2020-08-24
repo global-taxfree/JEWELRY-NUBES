@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <DEFAULT_LANG>EN</DEFAULT_LANG>
+  <SERVER_URL>https://testws.gtf.sg</SERVER_URL>
+  <SERVER_TIMEOUT>5</SERVER_TIMEOUT>
+  <APPEND_KEY>dp8sv4qgh9wt41bchc9sudk72pqiiags</APPEND_KEY>
+  <DEV>Y</DEV>
+  <LOG4NET_CONFIG>log4net.xml</LOG4NET_CONFIG>
+  <SCAN_TIMEOUT>10</SCAN_TIMEOUT>
+  <OUTLET_TYPE>LITTLE_INDIA</OUTLET_TYPE>
+</config>

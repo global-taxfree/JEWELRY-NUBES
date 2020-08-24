@@ -1,0 +1,46 @@
+[INFO] 2017-12-11 09:18:52,810 - Start Application................
+[ERROR] 2017-12-11 09:22:58,977 - duplicated receipt number!
+[INFO] 2017-12-11 10:38:01,051 - Start Application................
+[ERROR] 2017-12-11 10:38:33,683 - SqlMapClient operation; bad SQL grammar []; nested exception is com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred in query/query_TFM01001.xml.  
+--- The error occurred while applying a parameter map.  
+--- Check the TFM01001B05S-InlineParameterMap.  
+--- Check the statement (query failed).  
+--- Cause: java.sql.SQLException: ORA-00907: ??? ???
+
+[ERROR] 2017-12-11 10:41:05,996 - duplicated receipt number!
+[INFO] 2017-12-11 10:46:15,411 - Start Application................
+[INFO] 2017-12-11 10:48:22,422 - Start Application................
+[ERROR] 2017-12-11 10:48:51,124 - duplicated receipt number!
+[INFO] 2017-12-11 16:15:55,925 - Start Application................
+[INFO] 2017-12-11 16:17:15,315 - Start Application................
+[ERROR] 2017-12-11 16:17:59,902 -    위치: System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   위치: System.Net.WebClient.UploadString(Uri address, String method, String data)
+   위치: GTF_Comm.GTF_CommManager.sendHttp_Json(String url, String strJsondata, Boolean bhttps, Int32 nTimeout)
+[ERROR] 2017-12-11 16:17:59,910 - Error reading JObject from JsonReader. Path '', line 0, position 0.
+[ERROR] 2017-12-11 16:17:59,916 -    위치: Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   위치: Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   위치: GTF_STFM.Tran.Transaction.Login(String strUserId, String strPassword) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Tran\Transaction.cs:줄 63
+[INFO] 2017-12-11 16:37:47,775 - Start Application................
+[ERROR] 2017-12-11 16:37:57,312 -    위치: System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   위치: System.Net.WebClient.UploadString(Uri address, String method, String data)
+   위치: GTF_Comm.GTF_CommManager.sendHttp_Json(String url, String strJsondata, Boolean bhttps, Int32 nTimeout)
+[ERROR] 2017-12-11 16:37:57,319 - Error reading JObject from JsonReader. Path '', line 0, position 0.
+[ERROR] 2017-12-11 16:37:57,322 -    위치: Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   위치: Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   위치: GTF_STFM.Tran.Transaction.Login(String strUserId, String strPassword) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Tran\Transaction.cs:줄 63
+[ERROR] 2017-12-11 16:41:25,907 -    위치: System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   위치: System.Net.WebClient.UploadString(Uri address, String method, String data)
+   위치: GTF_Comm.GTF_CommManager.sendHttp_Json(String url, String strJsondata, Boolean bhttps, Int32 nTimeout)
+[ERROR] 2017-12-11 16:41:25,910 - Error reading JObject from JsonReader. Path '', line 0, position 0.
+[ERROR] 2017-12-11 16:41:25,912 -    위치: Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   위치: Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   위치: GTF_STFM.Tran.Transaction.Login(String strUserId, String strPassword) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Tran\Transaction.cs:줄 63
+[ERROR] 2017-12-11 16:57:33,765 -    위치: System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   위치: System.Net.WebClient.UploadString(Uri address, String method, String data)
+   위치: GTF_Comm.GTF_CommManager.sendHttp_Json(String url, String strJsondata, Boolean bhttps, Int32 nTimeout)
+[ERROR] 2017-12-11 16:57:33,766 - Error reading JObject from JsonReader. Path '', line 0, position 0.
+[ERROR] 2017-12-11 16:57:33,766 -    위치: Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   위치: Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   위치: GTF_STFM.Tran.Transaction.Login(String strUserId, String strPassword) 파일 C:\SVN\GTF_LITTLE_INDIA_SG\GTF_LITTLE_INDIA\Tran\Transaction.cs:줄 63
+[INFO] 2017-12-11 17:27:37,171 - Start Application................

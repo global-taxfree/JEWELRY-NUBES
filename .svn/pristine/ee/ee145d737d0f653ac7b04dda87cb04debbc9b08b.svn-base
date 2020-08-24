@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <DEFAULT_LANG>EN</DEFAULT_LANG>
+  <SERVER_URL>https://testws.gtf.sg</SERVER_URL>
+  <SERVER_TIMEOUT>5</SERVER_TIMEOUT>
+  <DEV>Y</DEV>
+  <LOG4NET_CONFIG>log4net.xml</LOG4NET_CONFIG>
+  <SCAN_TIMEOUT>10</SCAN_TIMEOUT>
+  <OUTLET_TYPE>ION</OUTLET_TYPE>
+</config>

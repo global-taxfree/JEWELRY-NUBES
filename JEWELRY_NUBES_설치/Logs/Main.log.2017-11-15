@@ -1,0 +1,218 @@
+[INFO] 2017-11-15 17:32:29,559 - sendHttp_Json >> REQ:{
+  "doc_id": "20052598801170000554"
+}
+[INFO] 2017-11-15 17:32:30,061 - sendHttp_Json >> RES size:909
+[INFO] 2017-11-15 17:32:30,063 - <--{"rows":1,"list":[{"status_code":"01","gender":"M","agent_name":null,"refund_reversal":null,"date_of_birth":"19091231","shop_addr":"541 Orchard Road #17-01 Liat Towers Singapore","refund_amt":"5.00","mid":"03960","crc_seq_no":null,"token_type":" ","tid":"10001028","invoice_date":null,"statement_date":null,"statement_no":null,"issue_date":"15-11-2017 16:20:28","gtf_id":"03082","gst_no":"L201603280","tel_no":"65099709","country_name":"China","statement_content":null,"store_name":"Little india test Merchant","first_name":"TEST","sales_amt":"123.44","company_id":"05411","invoice_no":null,"sealbag_no":null,"passport_no":"E9999999","last_name":"GTFPASS","service_amt":"3.08","agent_no":null,"doc_id":"20052598801170000554","token_display":" ","refund_date":null,"country_code":"CHN","company_name":"Little india test Merchant","refund_method":null,"crc_refund_amt":null,"gst_amt":"8.08","status":"Issued"}]}
+[INFO] 2017-11-15 17:32:30,066 - -->{
+  "doc_id": "20052598801170000554"
+}
+[INFO] 2017-11-15 17:32:30,078 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getReceiptDetails
+[INFO] 2017-11-15 17:32:30,078 - sendHttp_Json >> REQ:{
+  "doc_id": "20052598801170000554"
+}
+[INFO] 2017-11-15 17:32:30,572 - sendHttp_Json >> RES size:161
+[INFO] 2017-11-15 17:32:30,573 - <--{"rows":1,"list":[{"number":"1","purchase_item":"Jewellery","receipt_no":"WGLEE201711150011","purchase_amt":"123.44","quantity":1,"purchase_date":"15-11-2017"}]}
+[INFO] 2017-11-15 17:33:28,242 - -->{
+  "passport_no": "E9999999",
+  "country_code": "CHN",
+  "group_id": "0000000002",
+  "buy_amt": 12341.23
+}
+[INFO] 2017-11-15 17:33:28,243 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchBuyJewelleryAmt
+[INFO] 2017-11-15 17:33:28,243 - sendHttp_Json >> REQ:{
+  "passport_no": "E9999999",
+  "country_code": "CHN",
+  "group_id": "0000000002",
+  "buy_amt": 12341.23
+}
+[INFO] 2017-11-15 17:33:30,232 - sendHttp_Json >> RES size:16
+[INFO] 2017-11-15 17:33:30,232 - <--{"check_yn":"Y"}
+[INFO] 2017-11-15 17:33:31,391 - -->{
+  "status": "Issue",
+  "tid": "10001028",
+  "mid": "03960",
+  "userId": "gtf.it2",
+  "passport_number": "E9999999",
+  "country_code": "CHN",
+  "last_name": "GTFPASS",
+  "first_name": "TEST",
+  "expiry_date": "20300101",
+  "date_of_birth": "19100101",
+  "gender": "M",
+  "check_yn": "Y",
+  "purchase_list": "[\r\n  {\r\n    \"description\": \"17:Jewellery\",\r\n    \"gross_amount\": \"12341.23\",\r\n    \"quantity\": \"1\",\r\n    \"receipt_date\": \"20171115\",\r\n    \"receipt_number\": \"WGLEE201711150012\"\r\n  }\r\n]",
+  "outlet": "ION"
+}
+[INFO] 2017-11-15 17:33:31,392 - sendHttp_Json >> URI:http://localhost:7005/service/json/etrs/issueTicket
+[INFO] 2017-11-15 17:33:31,392 - sendHttp_Json >> REQ:{
+  "status": "Issue",
+  "tid": "10001028",
+  "mid": "03960",
+  "userId": "gtf.it2",
+  "passport_number": "E9999999",
+  "country_code": "CHN",
+  "last_name": "GTFPASS",
+  "first_name": "TEST",
+  "expiry_date": "20300101",
+  "date_of_birth": "19100101",
+  "gender": "M",
+  "check_yn": "Y",
+  "purchase_list": "[\r\n  {\r\n    \"description\": \"17:Jewellery\",\r\n    \"gross_amount\": \"12341.23\",\r\n    \"quantity\": \"1\",\r\n    \"receipt_date\": \"20171115\",\r\n    \"receipt_number\": \"WGLEE201711150012\"\r\n  }\r\n]",
+  "outlet": "ION"
+}
+[INFO] 2017-11-15 17:33:35,516 - sendHttp_Json >> RES size:981
+[INFO] 2017-11-15 17:33:35,517 - <--{"code":"00","gender":"M","date_of_birth":"19091231","cra_telno":"+65 6221 7058","purchase_list":[{"quantity":1,"receipt_number":"WGLEE201711150012","receipt_date":"20171115","description":"17:Jewellery","gross_amount":12341.23}],"mid":"03960","formatted_docid":"200525.98801.1700.00562","token_type":"","tid":"10001028","retailer_gstno":"L201603280","exiration_date":"20300101","time_of_issue":"163334","gst_amount":807.37,"service_amount":57.37,"date_of_issue":"20171115","cra_address2":"Liat Towers, Singapore 238881","cra_address1":"541 Orchard Road, #17-01","cra_name":"GLOBAL TAX FREE Pte. Ltd.","refund_amount":750,"retailer_addr":"541 Orchard Road #17-01 Liat Towers Singapore","first_name":"TEST","docid":"20052598801170000562","last_name":"GTFPASS","sales_amount":12341.23,"cra_gstno":"201136344W","message":"Ticket is successfully issued","token_display":"","country_code":"CHN","passport_number":"E9999999","retailer_name":"Little india test Merchant","status":"Issue"}
+[INFO] 2017-11-15 17:33:35,532 - Start Print(Single) DOC ID200525.98801.1700.00562
+[INFO] 2017-11-15 17:33:46,524 - -->{
+  "user_id": "gtf.it2",
+  "docid": "20052598801170000562",
+  "sealbag_no": "WGLEE201711150012"
+}
+[INFO] 2017-11-15 17:33:46,524 - sendHttp_Json >> URI:http://localhost:7005/service/json/etrs/updateSealBagInfo
+[INFO] 2017-11-15 17:33:46,525 - sendHttp_Json >> REQ:{
+  "user_id": "gtf.it2",
+  "docid": "20052598801170000562",
+  "sealbag_no": "WGLEE201711150012"
+}
+[INFO] 2017-11-15 17:33:47,841 - sendHttp_Json >> RES size:31
+[INFO] 2017-11-15 17:33:47,841 - <--{"code":"1","message":"Sucess"}
+[INFO] 2017-11-15 17:35:26,188 - Start Application................
+[INFO] 2017-11-15 17:35:30,243 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-15 17:35:30,244 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345",
+  "mac_adress": "98838921BD05"
+}
+[INFO] 2017-11-15 17:35:31,268 - sendHttp_Json >> RES size:411
+[INFO] 2017-11-15 17:35:31,563 - -->{}
+[INFO] 2017-11-15 17:35:31,563 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchCountryCode
+[INFO] 2017-11-15 17:35:31,564 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-15 17:35:34,003 - sendHttp_Json >> RES size:8480
+[INFO] 2017-11-15 17:35:34,003 - <--{"rows":249,"list":[{"country_code":"ZAR-Congo, Dem. Rep."},{"country_code":"AFG-Afghanistan"},{"country_code":"ALB-Albania"},{"country_code":"ATA-Antarctica"},{"country_code":"DZA-Algeria"},{"country_code":"ASM-American Samoa"},{"country_code":"AND-Andorra"},{"country_code":"AGO-Angola"},{"country_code":"ATG-Antigua and Barbuda"},{"country_code":"AZE-Azerbaijan"},{"country_code":"ARG-Argentina"},{"country_code":"AUS-Australia"},{"country_code":"AUT-Austria"},{"country_code":"BHS-Bahamas"},{"country_code":"BHR-Bahrain"},{"country_code":"BGD-Bangladesh"},{"country_code":"ARM-Armenia"},{"country_code":"BRB-Barbados"},{"country_code":"BEL-Belgium"},{"country_code":"BMU-Bermuda"},{"country_code":"BTN-Bhutan"},{"country_code":"BOL-Bolivia"},{"country_code":"BIH-Bosnia and Herzegovina"},{"country_code":"BWA-Botswana"},{"country_code":"BVT-Bouvet Island"},{"country_code":"BRA-Brazil"},{"country_code":"BLZ-Belize"},{"country_code":"IOT-British Indian Ocean Territory"},{"country_code":"SLB-Solomon Islands"},{"country_code":"VGB-British Virgin Islands"},{"country_code":"BRN-Brunei Darussalam"},{"country_code":"BGR-Bulgaria"},{"country_code":"MMR-Myanmar"},{"country_code":"BDI-Burundi"},{"country_code":"BLR-Belarus"},{"country_code":"KHM-Cambodia"},{"country_code":"CMR-Cameroon"},{"country_code":"CAN-Canada"},{"country_code":"CPV-Cape Verde"},{"country_code":"CYM-Cayman Islands"},{"country_code":"CAF-Central African Republic"},{"country_code":"LKA-Sri Lanka"},{"country_code":"TCD-Chad"},{"country_code":"CHL-Chile"},{"country_code":"CHN-China"},{"country_code":"TWN-Taiwan"},{"country_code":"CXR-Christmas Island"},{"country_code":"CCK-Cocos Islands"},{"country_code":"COL-Colombia"},{"country_code":"COM-Comoros"},{"country_code":"MYT-Mayotte"},{"country_code":"COG-Congo"},{"country_code":"COD-Congo"},{"country_code":"COK-Cook Islands"},{"country_code":"CRI-Costa Rica"},{"country_code":"HRV-Hrvatska"},{"country_code":"CUB-Cuba"},{"country_code":"CYP-Cyprus"},{"country_code":"CZE-Czech Republic"},{"country_code":"BEN-Benin"},{"country_code":"DNK-Denmark"},{"country_code":"DMA-Dominica"},{"country_code":"DOM-Dominican Republic"},{"country_code":"ECU-Ecuador"},{"country_code":"SLV-El Salvador"},{"country_code":"GNQ-Equatorial Guinea"},{"country_code":"ETH-Ethiopia"},{"country_code":"PCN-Pitcairn Island"},{"country_code":"ERI-Eritrea"},{"country_code":"EST-Estonia"},{"country_code":"FRO-Faeroe Islands"},{"country_code":"FLK-Falkland Islands"},{"country_code":"SGS-South Georgia and the South Sandwich Islands"},{"country_code":"FJI-Fiji"},{"country_code":"FIN-Finland"},{"country_code":"ALA-Aland Islands"},{"country_code":"FRA-France"},{"country_code":"GUF-French Guiana"},{"country_code":"PYF-French Polynesia"},{"country_code":"ATF-French Southern Territories"},{"country_code":"DJI-Djibouti"},{"country_code":"GAB-Gabon"},{"country_code":"GEO-Georgia"},{"country_code":"GMB-Gambia"},{"country_code":"PSE-Palestinian Territory"},{"country_code":"DEU-Germany"},{"country_code":"GHA-Ghana"},{"country_code":"GIB-Gibraltar"},{"country_code":"KIR-Kiribati"},{"country_code":"GRC-Greece"},{"country_code":"GRL-Greenland"},{"country_code":"GRD-Grenada"},{"country_code":"GLP-Guadaloupe"},{"country_code":"GUM-Guam"},{"country_code":"GTM-Guatemala"},{"country_code":"GIN-Guinea"},{"country_code":"GUY-Guyana"},{"country_code":"HTI-Haiti"},{"country_code":"HMD-Heard and McDonald Islands"},{"country_code":"VAT-Vatican City State"},{"country_code":"HND-Honduras"},{"country_code":"HKG-Hong Kong"},{"country_code":"HUN-Hungary"},{"country_code":"ISL-Iceland"},{"country_code":"IND-India"},{"country_code":"IDN-Indonesia"},{"country_code":"IRN-Iran"},{"country_code":"IRQ-Iraq"},{"country_code":"IRL-Ireland"},{"country_code":"ISR-Israel"},{"country_code":"ITA-Italy"},{"country_code":"CIV-Ivory Coast"},{"country_code":"JAM-Jamaica"},{"country_code":"JPN-Japan"},{"country_code":"KAZ-Kazakhstan"},{"country_code":"JOR-Jordan"},{"country_code":"KEN-Kenya"},{"country_code":"PRK-North Korea"},{"country_code":"KOR-South Korea"},{"country_code":"KWT-Kuwait"},{"country_code":"KGZ-Kyrgyz Republic"},{"country_code":"LAO-Lao"},{"country_code":"LBN-Lebanon"},{"country_code":"LSO-Lesotho"},{"country_code":"LVA-Latvia"},{"country_code":"LBR-Liberia"},{"country_code":"LBY-Libyan Arab Jamahiriya"},{"country_code":"LIE-Liechtenstein"},{"country_code":"LTU-Lithuania"},{"country_code":"LUX-Luxembourg"},{"country_code":"MAC-Macao"},{"country_code":"MDG-Madagascar"},{"country_code":"MWI-Malawi"},{"country_code":"MYS-Malaysia"},{"country_code":"MDV-Maldives"},{"country_code":"MLI-Mali"},{"country_code":"MLT-Malta"},{"country_code":"MTQ-Martinique"},{"country_code":"MRT-Mauritania"},{"country_code":"MUS-Mauritius"},{"country_code":"MEX-Mexico"},{"country_code":"MCO-Monaco"},{"country_code":"MNG-Mongolia"},{"country_code":"MDA-Moldova"},{"country_code":"MNE-Montenegro"},{"country_code":"MSR-Montserrat"},{"country_code":"MAR-Morocco"},{"country_code":"MOZ-Mozambique"},{"country_code":"OMN-Oman"},{"country_code":"NAM-Namibia"},{"country_code":"NRU-Nauru"},{"country_code":"NPL-Nepal"},{"country_code":"NLD-Netherlands"},{"country_code":"CUW-Curacao"},{"country_code":"ABW-Aruba"},{"country_code":"SXM-Sint Maarten"},{"country_code":"BES-Bonaire"},{"country_code":"NCL-New Caledonia"},{"country_code":"VUT-Vanuatu"},{"country_code":"NZL-New Zealand"},{"country_code":"NIC-Nicaragua"},{"country_code":"NER-Niger"},{"country_code":"NGA-Nigeria"},{"country_code":"NIU-Niue"},{"country_code":"NFK-Norfolk Island"},{"country_code":"NOR-Norway"},{"country_code":"MNP-Northern Mariana Islands"},{"country_code":"FSM-Micronesia"},{"country_code":"MHL-Marshall Islands"},{"country_code":"PLW-Palau"},{"country_code":"PAK-Pakistan"},{"country_code":"PAN-Panama"},{"country_code":"PNG-Papua New Guinea"},{"country_code":"PRY-Paraguay"},{"country_code":"PER-Peru"},{"country_code":"PHL-Philippines"},{"country_code":"POL-Poland"},{"country_code":"PRT-Portugal"},{"country_code":"GNB-Guinea-Bissau"},{"country_code":"TLS-Timor-Leste"},{"country_code":"PRI-Puerto Rico"},{"country_code":"QAT-Qatar"},{"country_code":"REU-Reunion"},{"country_code":"ROU-Romania"},{"country_code":"RUS-Russian Federation"},{"country_code":"RWA-Rwanda"},{"country_code":"SHN-Saint Helena"},{"country_code":"BLM-Saint Barthelemy"},{"country_code":"KNA-St. Kitts and Nevis"},{"country_code":"AIA-Anguilla"},{"country_code":"LCA-St. Lucia"},{"country_code":"MAF-Saint Martin"},{"country_code":"SPM-St. Pierre and Miquelon"},{"country_code":"VCT-St. Vincent and the Grenadines"},{"country_code":"SMR-San Marino"},{"country_code":"STP-Sao Tome and Principe"},{"country_code":"SAU-Saudi Arabia"},{"country_code":"SEN-Senegal"},{"country_code":"SRB-Serbia"},{"country_code":"SYC-Seychelles"},{"country_code":"SLE-Sierra Leone"},{"country_code":"SGP-Singapore"},{"country_code":"SVK-Slovakia"},{"country_code":"VNM-Viet Nam"},{"country_code":"SVN-Slovenia"},{"country_code":"SOM-Somalia"},{"country_code":"ZAF-South Africa"},{"country_code":"ZWE-Zimbabwe"},{"country_code":"ESP-Spain"},{"country_code":"ESH-Western Sahara"},{"country_code":"SDN-Sudan"},{"country_code":"SUR-Suriname"},{"country_code":"SJM-Svalbard & Jan Mayen Islands"},{"country_code":"SWZ-Swaziland"},{"country_code":"SWE-Sweden"},{"country_code":"CHE-Switzerland"},{"country_code":"SYR-Syrian Arab Republic"},{"country_code":"TJK-Tajikistan"},{"country_code":"THA-Thailand"},{"country_code":"TGO-Togo"},{"country_code":"TKL-Tokelau"},{"country_code":"TON-Tonga"},{"country_code":"TTO-Trinidad and Tobago"},{"country_code":"ARE-United Arab Emirates"},{"country_code":"TUN-Tunisia"},{"country_code":"TUR-Turkey"},{"country_code":"TKM-Turkmenistan"},{"country_code":"TCA-Turks and Caicos Islands"},{"country_code":"TUV-Tuvalu"},{"country_code":"UGA-Uganda"},{"country_code":"GGY-Guernsey"},{"country_code":"JEY-Jersey"},{"country_code":"IMN-Isle of Man"},{"country_code":"UKR-Ukraine"},{"country_code":"MKD-Macedonia"},{"country_code":"EGY-Egypt"},{"country_code":"GBR-United Kingdom"},{"country_code":"TZA-Tanzania"},{"country_code":"USA-United States of America"},{"country_code":"VIR-US Virgin Islands"},{"country_code":"BFA-Burkina Faso"},{"country_code":"URY-Uruguay"},{"country_code":"UZB-Uzbekistan"},{"country_code":"VEN-Venezuela"},{"country_code":"WLF-Wallis and Futuna Islands"},{"country_code":"WSM-Samoa"},{"country_code":"YEM-Yemen"},{"country_code":"ZMB-Zambia"},{"country_code":"UMI-United States Minor Outlying Islands"}]}
+[INFO] 2017-11-15 17:35:35,453 - -->{}
+[INFO] 2017-11-15 17:35:35,453 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getItemCodeList
+[INFO] 2017-11-15 17:35:35,454 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-15 17:35:36,195 - sendHttp_Json >> RES size:1539
+[INFO] 2017-11-15 17:35:36,195 - <--{"rows":33,"list":[{"code_name":"Arts & Antiques","code_id":"01"},{"code_name":"Automobile Acc.","code_id":"02"},{"code_name":"AV & IT","code_id":"03"},{"code_name":"Baby Products","code_id":"04"},{"code_name":"Cosmetic & Essence","code_id":"05"},{"code_name":"Dept. Store","code_id":"06"},{"code_name":"Eyewear & Optics","code_id":"07"},{"code_name":"Fashion & Clothing","code_id":"08"},{"code_name":"Fashion Acc.","code_id":"09"},{"code_name":"Footwear","code_id":"10"},{"code_name":"Furniture","code_id":"11"},{"code_name":"Games and Toys","code_id":"12"},{"code_name":"Glass & Crystal","code_id":"13"},{"code_name":"Handicraft","code_id":"14"},{"code_name":"Health & Beauty","code_id":"15"},{"code_name":"Home Appliances","code_id":"16"},{"code_name":"Jewellery","code_id":"17"},{"code_name":"Leather Goods","code_id":"18"},{"code_name":"Lingerie Apparels","code_id":"19"},{"code_name":"Mag & Stationery","code_id":"20"},{"code_name":"Medical Clinics","code_id":"21"},{"code_name":"Medical Equipment","code_id":"22"},{"code_name":"Other retailing","code_id":"23"},{"code_name":"Pharmaceutical","code_id":"24"},{"code_name":"Photo equipment","code_id":"25"},{"code_name":"Souvenirs & Gifts","code_id":"26"},{"code_name":"Sports equipment","code_id":"27"},{"code_name":"Telecommunications","code_id":"28"},{"code_name":"Textile & Carpets","code_id":"29"},{"code_name":"Tobacco & Wines","code_id":"30"},{"code_name":"Travel Accessories","code_id":"31"},{"code_name":"Video & Music","code_id":"32"},{"code_name":"Watches","code_id":"33"}]}
+[INFO] 2017-11-15 17:35:38,708 - -->{
+  "group_id": "0000000002",
+  "start_date": "20171115",
+  "end_date": "20171115",
+  "receipt_no": ""
+}
+[INFO] 2017-11-15 17:35:38,709 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchReceiptCount
+[INFO] 2017-11-15 17:35:38,709 - sendHttp_Json >> REQ:{
+  "group_id": "0000000002",
+  "start_date": "20171115",
+  "end_date": "20171115",
+  "receipt_no": ""
+}
+[INFO] 2017-11-15 17:35:39,202 - sendHttp_Json >> RES size:47
+[INFO] 2017-11-15 17:35:39,203 - <--{"total_cnt":10,"code":"1","message":"Success"}
+[INFO] 2017-11-15 17:35:39,208 - -->{
+  "display_num": 15,
+  "page_num": "1",
+  "group_id": "0000000002",
+  "start_date": "20171115",
+  "end_date": "20171115",
+  "receipt_no": ""
+}
+[INFO] 2017-11-15 17:35:39,208 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchReceiptList
+[INFO] 2017-11-15 17:35:39,209 - sendHttp_Json >> REQ:{
+  "display_num": 15,
+  "page_num": "1",
+  "group_id": "0000000002",
+  "start_date": "20171115",
+  "end_date": "20171115",
+  "receipt_no": ""
+}
+[INFO] 2017-11-15 17:35:39,789 - sendHttp_Json >> RES size:4656
+[INFO] 2017-11-15 17:35:39,790 - <--{"rows":10,"list":[{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150012","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":750,"service_amt":"57.37","doc_id":"20052598801170000562","refund_date":null,"purchase_amt":"12,341.23","issue_date":"15-11-2017 16:33:34","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":1,"purchase_date":"20171115","sales_amt":"12,341.23","gst_amt":"807.37","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150011","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":5,"service_amt":"3.08","doc_id":"20052598801170000554","refund_date":null,"purchase_amt":"123.44","issue_date":"15-11-2017 16:20:28","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":2,"purchase_date":"20171115","sales_amt":"123.44","gst_amt":"8.08","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150010","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":69,"service_amt":"11.76","doc_id":"20052598801170000547","refund_date":null,"purchase_amt":"1,234.42","issue_date":"15-11-2017 15:44:07","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":3,"purchase_date":"20171115","sales_amt":"1,234.42","gst_amt":"80.76","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150009","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":972,"service_amt":"73.54","doc_id":"20052598801170000539","refund_date":null,"purchase_amt":"15,981.85","issue_date":"15-11-2017 12:49:34","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":4,"purchase_date":"20171115","sales_amt":"15,981.85","gst_amt":"1,045.54","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150008","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":7,"service_amt":"3.44","doc_id":"20052598801170000521","refund_date":null,"purchase_amt":"159.65","issue_date":"15-11-2017 12:18:06","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":5,"purchase_date":"20171115","sales_amt":"159.65","gst_amt":"10.44","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150007","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":29,"service_amt":"5.01","doc_id":"20052598801170000513","refund_date":null,"purchase_amt":"519.88","issue_date":"15-11-2017 10:48:55","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":6,"purchase_date":"20171115","sales_amt":"519.88","gst_amt":"34.01","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150006","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":86,"service_amt":"16.70","doc_id":"20052598801170000505","refund_date":null,"purchase_amt":"1,569.85","issue_date":"15-11-2017 10:48:19","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":7,"purchase_date":"20171115","sales_amt":"1,569.85","gst_amt":"102.70","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150003","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":13,"service_amt":"3.45","doc_id":"20052598801170000497","refund_date":null,"purchase_amt":"251.45","issue_date":"15-11-2017 10:36:49","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":8,"purchase_date":"20171115","sales_amt":"251.45","gst_amt":"16.45","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150002","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":43,"service_amt":"6.24","doc_id":"20052598801170000489","refund_date":null,"purchase_amt":"752.65","issue_date":"15-11-2017 10:34:51","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":9,"purchase_date":"20171115","sales_amt":"752.65","gst_amt":"49.24","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150001","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":161,"service_amt":"24.54","doc_id":"20052598801170000471","refund_date":null,"purchase_amt":"2,836.17","issue_date":"15-11-2017 10:07:02","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":10,"purchase_date":"20171115","sales_amt":"2,836.17","gst_amt":"185.54","status":"01"}]}
+[INFO] 2017-11-15 17:35:41,737 - -->{
+  "doc_id": "20052598801170000562"
+}
+[INFO] 2017-11-15 17:35:41,737 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getDocIdDetails
+[INFO] 2017-11-15 17:35:41,737 - sendHttp_Json >> REQ:{
+  "doc_id": "20052598801170000562"
+}
+[INFO] 2017-11-15 17:35:42,234 - sendHttp_Json >> RES size:932
+[INFO] 2017-11-15 17:35:42,234 - <--{"rows":1,"list":[{"status_code":"01","gender":"M","agent_name":null,"refund_reversal":null,"date_of_birth":"19091231","shop_addr":"541 Orchard Road #17-01 Liat Towers Singapore","refund_amt":"750.00","mid":"03960","crc_seq_no":null,"token_type":" ","tid":"10001028","invoice_date":null,"statement_date":null,"statement_no":null,"issue_date":"15-11-2017 16:33:34","gtf_id":"03082","gst_no":"L201603280","tel_no":"65099709","country_name":"China","statement_content":null,"store_name":"Little india test Merchant","first_name":"TEST","sales_amt":"12,341.23","company_id":"05411","invoice_no":null,"sealbag_no":"WGLEE201711150012","passport_no":"E9999999","last_name":"GTFPASS","service_amt":"57.37","agent_no":null,"doc_id":"20052598801170000562","token_display":" ","refund_date":null,"country_code":"CHN","company_name":"Little india test Merchant","refund_method":null,"crc_refund_amt":null,"gst_amt":"807.37","status":"Issued"}]}
+[INFO] 2017-11-15 17:35:42,237 - -->{
+  "doc_id": "20052598801170000562"
+}
+[INFO] 2017-11-15 17:35:42,262 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getReceiptDetails
+[INFO] 2017-11-15 17:35:42,262 - sendHttp_Json >> REQ:{
+  "doc_id": "20052598801170000562"
+}
+[INFO] 2017-11-15 17:35:42,759 - sendHttp_Json >> RES size:164
+[INFO] 2017-11-15 17:35:42,760 - <--{"rows":1,"list":[{"number":"1","purchase_item":"Jewellery","receipt_no":"WGLEE201711150012","purchase_amt":"12,341.23","quantity":1,"purchase_date":"15-11-2017"}]}
+[INFO] 2017-11-15 17:36:19,814 - Start Application................
+[INFO] 2017-11-15 17:36:40,399 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/login
+[INFO] 2017-11-15 17:36:40,400 - sendHttp_Json >> REQ:{
+  "userid": "gtf.it2",
+  "password": "gtfsg12345",
+  "mac_adress": "98838921BD05"
+}
+[INFO] 2017-11-15 17:36:41,716 - sendHttp_Json >> RES size:411
+[INFO] 2017-11-15 17:36:42,005 - -->{}
+[INFO] 2017-11-15 17:36:42,005 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchCountryCode
+[INFO] 2017-11-15 17:36:42,006 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-15 17:36:44,448 - sendHttp_Json >> RES size:8480
+[INFO] 2017-11-15 17:36:44,449 - <--{"rows":249,"list":[{"country_code":"ZAR-Congo, Dem. Rep."},{"country_code":"AFG-Afghanistan"},{"country_code":"ALB-Albania"},{"country_code":"ATA-Antarctica"},{"country_code":"DZA-Algeria"},{"country_code":"ASM-American Samoa"},{"country_code":"AND-Andorra"},{"country_code":"AGO-Angola"},{"country_code":"ATG-Antigua and Barbuda"},{"country_code":"AZE-Azerbaijan"},{"country_code":"ARG-Argentina"},{"country_code":"AUS-Australia"},{"country_code":"AUT-Austria"},{"country_code":"BHS-Bahamas"},{"country_code":"BHR-Bahrain"},{"country_code":"BGD-Bangladesh"},{"country_code":"ARM-Armenia"},{"country_code":"BRB-Barbados"},{"country_code":"BEL-Belgium"},{"country_code":"BMU-Bermuda"},{"country_code":"BTN-Bhutan"},{"country_code":"BOL-Bolivia"},{"country_code":"BIH-Bosnia and Herzegovina"},{"country_code":"BWA-Botswana"},{"country_code":"BVT-Bouvet Island"},{"country_code":"BRA-Brazil"},{"country_code":"BLZ-Belize"},{"country_code":"IOT-British Indian Ocean Territory"},{"country_code":"SLB-Solomon Islands"},{"country_code":"VGB-British Virgin Islands"},{"country_code":"BRN-Brunei Darussalam"},{"country_code":"BGR-Bulgaria"},{"country_code":"MMR-Myanmar"},{"country_code":"BDI-Burundi"},{"country_code":"BLR-Belarus"},{"country_code":"KHM-Cambodia"},{"country_code":"CMR-Cameroon"},{"country_code":"CAN-Canada"},{"country_code":"CPV-Cape Verde"},{"country_code":"CYM-Cayman Islands"},{"country_code":"CAF-Central African Republic"},{"country_code":"LKA-Sri Lanka"},{"country_code":"TCD-Chad"},{"country_code":"CHL-Chile"},{"country_code":"CHN-China"},{"country_code":"TWN-Taiwan"},{"country_code":"CXR-Christmas Island"},{"country_code":"CCK-Cocos Islands"},{"country_code":"COL-Colombia"},{"country_code":"COM-Comoros"},{"country_code":"MYT-Mayotte"},{"country_code":"COG-Congo"},{"country_code":"COD-Congo"},{"country_code":"COK-Cook Islands"},{"country_code":"CRI-Costa Rica"},{"country_code":"HRV-Hrvatska"},{"country_code":"CUB-Cuba"},{"country_code":"CYP-Cyprus"},{"country_code":"CZE-Czech Republic"},{"country_code":"BEN-Benin"},{"country_code":"DNK-Denmark"},{"country_code":"DMA-Dominica"},{"country_code":"DOM-Dominican Republic"},{"country_code":"ECU-Ecuador"},{"country_code":"SLV-El Salvador"},{"country_code":"GNQ-Equatorial Guinea"},{"country_code":"ETH-Ethiopia"},{"country_code":"PCN-Pitcairn Island"},{"country_code":"ERI-Eritrea"},{"country_code":"EST-Estonia"},{"country_code":"FRO-Faeroe Islands"},{"country_code":"FLK-Falkland Islands"},{"country_code":"SGS-South Georgia and the South Sandwich Islands"},{"country_code":"FJI-Fiji"},{"country_code":"FIN-Finland"},{"country_code":"ALA-Aland Islands"},{"country_code":"FRA-France"},{"country_code":"GUF-French Guiana"},{"country_code":"PYF-French Polynesia"},{"country_code":"ATF-French Southern Territories"},{"country_code":"DJI-Djibouti"},{"country_code":"GAB-Gabon"},{"country_code":"GEO-Georgia"},{"country_code":"GMB-Gambia"},{"country_code":"PSE-Palestinian Territory"},{"country_code":"DEU-Germany"},{"country_code":"GHA-Ghana"},{"country_code":"GIB-Gibraltar"},{"country_code":"KIR-Kiribati"},{"country_code":"GRC-Greece"},{"country_code":"GRL-Greenland"},{"country_code":"GRD-Grenada"},{"country_code":"GLP-Guadaloupe"},{"country_code":"GUM-Guam"},{"country_code":"GTM-Guatemala"},{"country_code":"GIN-Guinea"},{"country_code":"GUY-Guyana"},{"country_code":"HTI-Haiti"},{"country_code":"HMD-Heard and McDonald Islands"},{"country_code":"VAT-Vatican City State"},{"country_code":"HND-Honduras"},{"country_code":"HKG-Hong Kong"},{"country_code":"HUN-Hungary"},{"country_code":"ISL-Iceland"},{"country_code":"IND-India"},{"country_code":"IDN-Indonesia"},{"country_code":"IRN-Iran"},{"country_code":"IRQ-Iraq"},{"country_code":"IRL-Ireland"},{"country_code":"ISR-Israel"},{"country_code":"ITA-Italy"},{"country_code":"CIV-Ivory Coast"},{"country_code":"JAM-Jamaica"},{"country_code":"JPN-Japan"},{"country_code":"KAZ-Kazakhstan"},{"country_code":"JOR-Jordan"},{"country_code":"KEN-Kenya"},{"country_code":"PRK-North Korea"},{"country_code":"KOR-South Korea"},{"country_code":"KWT-Kuwait"},{"country_code":"KGZ-Kyrgyz Republic"},{"country_code":"LAO-Lao"},{"country_code":"LBN-Lebanon"},{"country_code":"LSO-Lesotho"},{"country_code":"LVA-Latvia"},{"country_code":"LBR-Liberia"},{"country_code":"LBY-Libyan Arab Jamahiriya"},{"country_code":"LIE-Liechtenstein"},{"country_code":"LTU-Lithuania"},{"country_code":"LUX-Luxembourg"},{"country_code":"MAC-Macao"},{"country_code":"MDG-Madagascar"},{"country_code":"MWI-Malawi"},{"country_code":"MYS-Malaysia"},{"country_code":"MDV-Maldives"},{"country_code":"MLI-Mali"},{"country_code":"MLT-Malta"},{"country_code":"MTQ-Martinique"},{"country_code":"MRT-Mauritania"},{"country_code":"MUS-Mauritius"},{"country_code":"MEX-Mexico"},{"country_code":"MCO-Monaco"},{"country_code":"MNG-Mongolia"},{"country_code":"MDA-Moldova"},{"country_code":"MNE-Montenegro"},{"country_code":"MSR-Montserrat"},{"country_code":"MAR-Morocco"},{"country_code":"MOZ-Mozambique"},{"country_code":"OMN-Oman"},{"country_code":"NAM-Namibia"},{"country_code":"NRU-Nauru"},{"country_code":"NPL-Nepal"},{"country_code":"NLD-Netherlands"},{"country_code":"CUW-Curacao"},{"country_code":"ABW-Aruba"},{"country_code":"SXM-Sint Maarten"},{"country_code":"BES-Bonaire"},{"country_code":"NCL-New Caledonia"},{"country_code":"VUT-Vanuatu"},{"country_code":"NZL-New Zealand"},{"country_code":"NIC-Nicaragua"},{"country_code":"NER-Niger"},{"country_code":"NGA-Nigeria"},{"country_code":"NIU-Niue"},{"country_code":"NFK-Norfolk Island"},{"country_code":"NOR-Norway"},{"country_code":"MNP-Northern Mariana Islands"},{"country_code":"FSM-Micronesia"},{"country_code":"MHL-Marshall Islands"},{"country_code":"PLW-Palau"},{"country_code":"PAK-Pakistan"},{"country_code":"PAN-Panama"},{"country_code":"PNG-Papua New Guinea"},{"country_code":"PRY-Paraguay"},{"country_code":"PER-Peru"},{"country_code":"PHL-Philippines"},{"country_code":"POL-Poland"},{"country_code":"PRT-Portugal"},{"country_code":"GNB-Guinea-Bissau"},{"country_code":"TLS-Timor-Leste"},{"country_code":"PRI-Puerto Rico"},{"country_code":"QAT-Qatar"},{"country_code":"REU-Reunion"},{"country_code":"ROU-Romania"},{"country_code":"RUS-Russian Federation"},{"country_code":"RWA-Rwanda"},{"country_code":"SHN-Saint Helena"},{"country_code":"BLM-Saint Barthelemy"},{"country_code":"KNA-St. Kitts and Nevis"},{"country_code":"AIA-Anguilla"},{"country_code":"LCA-St. Lucia"},{"country_code":"MAF-Saint Martin"},{"country_code":"SPM-St. Pierre and Miquelon"},{"country_code":"VCT-St. Vincent and the Grenadines"},{"country_code":"SMR-San Marino"},{"country_code":"STP-Sao Tome and Principe"},{"country_code":"SAU-Saudi Arabia"},{"country_code":"SEN-Senegal"},{"country_code":"SRB-Serbia"},{"country_code":"SYC-Seychelles"},{"country_code":"SLE-Sierra Leone"},{"country_code":"SGP-Singapore"},{"country_code":"SVK-Slovakia"},{"country_code":"VNM-Viet Nam"},{"country_code":"SVN-Slovenia"},{"country_code":"SOM-Somalia"},{"country_code":"ZAF-South Africa"},{"country_code":"ZWE-Zimbabwe"},{"country_code":"ESP-Spain"},{"country_code":"ESH-Western Sahara"},{"country_code":"SDN-Sudan"},{"country_code":"SUR-Suriname"},{"country_code":"SJM-Svalbard & Jan Mayen Islands"},{"country_code":"SWZ-Swaziland"},{"country_code":"SWE-Sweden"},{"country_code":"CHE-Switzerland"},{"country_code":"SYR-Syrian Arab Republic"},{"country_code":"TJK-Tajikistan"},{"country_code":"THA-Thailand"},{"country_code":"TGO-Togo"},{"country_code":"TKL-Tokelau"},{"country_code":"TON-Tonga"},{"country_code":"TTO-Trinidad and Tobago"},{"country_code":"ARE-United Arab Emirates"},{"country_code":"TUN-Tunisia"},{"country_code":"TUR-Turkey"},{"country_code":"TKM-Turkmenistan"},{"country_code":"TCA-Turks and Caicos Islands"},{"country_code":"TUV-Tuvalu"},{"country_code":"UGA-Uganda"},{"country_code":"GGY-Guernsey"},{"country_code":"JEY-Jersey"},{"country_code":"IMN-Isle of Man"},{"country_code":"UKR-Ukraine"},{"country_code":"MKD-Macedonia"},{"country_code":"EGY-Egypt"},{"country_code":"GBR-United Kingdom"},{"country_code":"TZA-Tanzania"},{"country_code":"USA-United States of America"},{"country_code":"VIR-US Virgin Islands"},{"country_code":"BFA-Burkina Faso"},{"country_code":"URY-Uruguay"},{"country_code":"UZB-Uzbekistan"},{"country_code":"VEN-Venezuela"},{"country_code":"WLF-Wallis and Futuna Islands"},{"country_code":"WSM-Samoa"},{"country_code":"YEM-Yemen"},{"country_code":"ZMB-Zambia"},{"country_code":"UMI-United States Minor Outlying Islands"}]}
+[INFO] 2017-11-15 17:36:45,888 - -->{}
+[INFO] 2017-11-15 17:36:45,888 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getItemCodeList
+[INFO] 2017-11-15 17:36:45,889 - sendHttp_Json >> REQ:{}
+[INFO] 2017-11-15 17:36:46,623 - sendHttp_Json >> RES size:1539
+[INFO] 2017-11-15 17:36:46,624 - <--{"rows":33,"list":[{"code_name":"Arts & Antiques","code_id":"01"},{"code_name":"Automobile Acc.","code_id":"02"},{"code_name":"AV & IT","code_id":"03"},{"code_name":"Baby Products","code_id":"04"},{"code_name":"Cosmetic & Essence","code_id":"05"},{"code_name":"Dept. Store","code_id":"06"},{"code_name":"Eyewear & Optics","code_id":"07"},{"code_name":"Fashion & Clothing","code_id":"08"},{"code_name":"Fashion Acc.","code_id":"09"},{"code_name":"Footwear","code_id":"10"},{"code_name":"Furniture","code_id":"11"},{"code_name":"Games and Toys","code_id":"12"},{"code_name":"Glass & Crystal","code_id":"13"},{"code_name":"Handicraft","code_id":"14"},{"code_name":"Health & Beauty","code_id":"15"},{"code_name":"Home Appliances","code_id":"16"},{"code_name":"Jewellery","code_id":"17"},{"code_name":"Leather Goods","code_id":"18"},{"code_name":"Lingerie Apparels","code_id":"19"},{"code_name":"Mag & Stationery","code_id":"20"},{"code_name":"Medical Clinics","code_id":"21"},{"code_name":"Medical Equipment","code_id":"22"},{"code_name":"Other retailing","code_id":"23"},{"code_name":"Pharmaceutical","code_id":"24"},{"code_name":"Photo equipment","code_id":"25"},{"code_name":"Souvenirs & Gifts","code_id":"26"},{"code_name":"Sports equipment","code_id":"27"},{"code_name":"Telecommunications","code_id":"28"},{"code_name":"Textile & Carpets","code_id":"29"},{"code_name":"Tobacco & Wines","code_id":"30"},{"code_name":"Travel Accessories","code_id":"31"},{"code_name":"Video & Music","code_id":"32"},{"code_name":"Watches","code_id":"33"}]}
+[INFO] 2017-11-15 17:36:51,128 - -->{
+  "group_id": "0000000002",
+  "start_date": "20171115",
+  "end_date": "20171115",
+  "receipt_no": ""
+}
+[INFO] 2017-11-15 17:36:51,130 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchReceiptCount
+[INFO] 2017-11-15 17:36:51,130 - sendHttp_Json >> REQ:{
+  "group_id": "0000000002",
+  "start_date": "20171115",
+  "end_date": "20171115",
+  "receipt_no": ""
+}
+[INFO] 2017-11-15 17:36:51,622 - sendHttp_Json >> RES size:47
+[INFO] 2017-11-15 17:36:51,622 - <--{"total_cnt":10,"code":"1","message":"Success"}
+[INFO] 2017-11-15 17:36:51,627 - -->{
+  "display_num": 15,
+  "page_num": "1",
+  "group_id": "0000000002",
+  "start_date": "20171115",
+  "end_date": "20171115",
+  "receipt_no": ""
+}
+[INFO] 2017-11-15 17:36:51,627 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/searchReceiptList
+[INFO] 2017-11-15 17:36:51,627 - sendHttp_Json >> REQ:{
+  "display_num": 15,
+  "page_num": "1",
+  "group_id": "0000000002",
+  "start_date": "20171115",
+  "end_date": "20171115",
+  "receipt_no": ""
+}
+[INFO] 2017-11-15 17:36:52,207 - sendHttp_Json >> RES size:4656
+[INFO] 2017-11-15 17:36:52,208 - <--{"rows":10,"list":[{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150012","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":750,"service_amt":"57.37","doc_id":"20052598801170000562","refund_date":null,"purchase_amt":"12,341.23","issue_date":"15-11-2017 16:33:34","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":1,"purchase_date":"20171115","sales_amt":"12,341.23","gst_amt":"807.37","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150011","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":5,"service_amt":"3.08","doc_id":"20052598801170000554","refund_date":null,"purchase_amt":"123.44","issue_date":"15-11-2017 16:20:28","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":2,"purchase_date":"20171115","sales_amt":"123.44","gst_amt":"8.08","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150010","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":69,"service_amt":"11.76","doc_id":"20052598801170000547","refund_date":null,"purchase_amt":"1,234.42","issue_date":"15-11-2017 15:44:07","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":3,"purchase_date":"20171115","sales_amt":"1,234.42","gst_amt":"80.76","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150009","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":972,"service_amt":"73.54","doc_id":"20052598801170000539","refund_date":null,"purchase_amt":"15,981.85","issue_date":"15-11-2017 12:49:34","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":4,"purchase_date":"20171115","sales_amt":"15,981.85","gst_amt":"1,045.54","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150008","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":7,"service_amt":"3.44","doc_id":"20052598801170000521","refund_date":null,"purchase_amt":"159.65","issue_date":"15-11-2017 12:18:06","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":5,"purchase_date":"20171115","sales_amt":"159.65","gst_amt":"10.44","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150007","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":29,"service_amt":"5.01","doc_id":"20052598801170000513","refund_date":null,"purchase_amt":"519.88","issue_date":"15-11-2017 10:48:55","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":6,"purchase_date":"20171115","sales_amt":"519.88","gst_amt":"34.01","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150006","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":86,"service_amt":"16.70","doc_id":"20052598801170000505","refund_date":null,"purchase_amt":"1,569.85","issue_date":"15-11-2017 10:48:19","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":7,"purchase_date":"20171115","sales_amt":"1,569.85","gst_amt":"102.70","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150003","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":13,"service_amt":"3.45","doc_id":"20052598801170000497","refund_date":null,"purchase_amt":"251.45","issue_date":"15-11-2017 10:36:49","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":8,"purchase_date":"20171115","sales_amt":"251.45","gst_amt":"16.45","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150002","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":43,"service_amt":"6.24","doc_id":"20052598801170000489","refund_date":null,"purchase_amt":"752.65","issue_date":"15-11-2017 10:34:51","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":9,"purchase_date":"20171115","sales_amt":"752.65","gst_amt":"49.24","status":"01"},{"purchase_item":"Jewellery","receipt_no":"WGLEE201711150001","group_name":"LITTLE INDIA","status_name":"Issued","refund_amt":161,"service_amt":"24.54","doc_id":"20052598801170000471","refund_date":null,"purchase_amt":"2,836.17","issue_date":"15-11-2017 10:07:02","gst_no":"L201603280","company_name":"Little india test Merchant","store_name":"Little india test Merchant","row_no":10,"purchase_date":"20171115","sales_amt":"2,836.17","gst_amt":"185.54","status":"01"}]}
+[INFO] 2017-11-15 17:36:53,504 - -->{
+  "doc_id": "20052598801170000562"
+}
+[INFO] 2017-11-15 17:36:53,505 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getDocIdDetails
+[INFO] 2017-11-15 17:36:53,505 - sendHttp_Json >> REQ:{
+  "doc_id": "20052598801170000562"
+}
+[INFO] 2017-11-15 17:36:54,003 - sendHttp_Json >> RES size:932
+[INFO] 2017-11-15 17:36:54,003 - <--{"rows":1,"list":[{"status_code":"01","gender":"M","agent_name":null,"refund_reversal":null,"date_of_birth":"19091231","shop_addr":"541 Orchard Road #17-01 Liat Towers Singapore","refund_amt":"750.00","mid":"03960","crc_seq_no":null,"token_type":" ","tid":"10001028","invoice_date":null,"statement_date":null,"statement_no":null,"issue_date":"15-11-2017 16:33:34","gtf_id":"03082","gst_no":"L201603280","tel_no":"65099709","country_name":"China","statement_content":null,"store_name":"Little india test Merchant","first_name":"TEST","sales_amt":"12,341.23","company_id":"05411","invoice_no":null,"sealbag_no":"WGLEE201711150012","passport_no":"E9999999","last_name":"GTFPASS","service_amt":"57.37","agent_no":null,"doc_id":"20052598801170000562","token_display":" ","refund_date":null,"country_code":"CHN","company_name":"Little india test Merchant","refund_method":null,"crc_refund_amt":null,"gst_amt":"807.37","status":"Issued"}]}
+[INFO] 2017-11-15 17:36:54,028 - -->{
+  "doc_id": "20052598801170000562"
+}
+[INFO] 2017-11-15 17:36:54,028 - sendHttp_Json >> URI:http://localhost:7005/service/merchant/tfm/getReceiptDetails
+[INFO] 2017-11-15 17:36:54,028 - sendHttp_Json >> REQ:{
+  "doc_id": "20052598801170000562"
+}
+[INFO] 2017-11-15 17:36:54,521 - sendHttp_Json >> RES size:164
+[INFO] 2017-11-15 17:36:54,521 - <--{"rows":1,"list":[{"number":"1","purchase_item":"Jewellery","receipt_no":"WGLEE201711150012","purchase_amt":"12,341.23","quantity":1,"purchase_date":"15-11-2017"}]}

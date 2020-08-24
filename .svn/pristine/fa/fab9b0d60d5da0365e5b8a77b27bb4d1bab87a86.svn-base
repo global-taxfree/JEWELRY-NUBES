@@ -1,0 +1,53 @@
+[INFO] 2018-01-09 16:28:46,126 - Start Application................
+[INFO] 2018-01-09 16:30:07,899 - Start Application................
+[INFO] 2018-01-09 16:31:33,595 - Start Application................
+[INFO] 2018-01-09 16:33:24,503 - Start Application................
+[INFO] 2018-01-09 16:36:04,842 - Start Application................
+[INFO] 2018-01-09 16:37:54,084 - Start Application................
+[INFO] 2018-01-09 16:38:52,262 - Start Application................
+[INFO] 2018-01-09 16:41:16,056 - Start Application................
+[INFO] 2018-01-09 16:42:08,811 - Start Application................
+[INFO] 2018-01-09 16:42:48,047 - Start Application................
+[INFO] 2018-01-09 16:58:22,201 - Start Application................
+[INFO] 2018-01-09 17:15:50,140 - Start Application................
+[INFO] 2018-01-09 17:16:27,436 - txt_StartDate.Value : 2018-01-09 오전 12:00:00
+[INFO] 2018-01-09 17:16:27,436 - txt_EndDate.Value : 2018-01-09 오전 12:00:00
+[INFO] 2018-01-09 17:16:27,436 - diff : 0
+[INFO] 2018-01-09 17:16:27,437 - date_cnt : 0
+[INFO] 2018-01-09 17:16:27,437 - -->{
+  "group_id": "0000000002",
+  "date_div": "P",
+  "start_date": "20180109",
+  "end_date": "20180109",
+  "shop_id": "03960"
+}
+[INFO] 2018-01-09 17:16:27,944 - <--{"total_cnt":3,"code":"1","message":"Success"}
+[INFO] 2018-01-09 17:16:27,952 - -->{
+  "query_div": "",
+  "page_num": "1",
+  "display_num": 20,
+  "group_id": "0000000002",
+  "date_div": "P",
+  "start_date": "20180109",
+  "end_date": "20180109",
+  "shop_id": "03960"
+}
+[INFO] 2018-01-09 17:16:28,471 - <--{"rows":3,"list":[{"DOC_ID":"20052503082180000132","PACKED_YN":"N","ISSUE_TIME":"155357","ROW_NO":1,"SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20180109","PASSPORT_NO":"E9999999","RCT_NO":"WGLEE201801090003","GST_AMT":"10.26","ISSUE_DATE":"20180109","VOID_DATE":null,"STAFF_NAME":"wongyu lee","SEAL_BAG_YN":"N"},{"DOC_ID":"20052503082180000124","PACKED_YN":"N","ISSUE_TIME":"154802","ROW_NO":2,"SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20180109","PASSPORT_NO":"M71293013","RCT_NO":"WGLEE201801090002","GST_AMT":"102.63","ISSUE_DATE":"20180109","VOID_DATE":null,"STAFF_NAME":"wongyu lee","SEAL_BAG_YN":"Y"},{"DOC_ID":"20052503082180000116","PACKED_YN":"N","ISSUE_TIME":"080843","ROW_NO":3,"SEAL_BAG_NO":null,"STATUS_DESC":"Voided","INVOICE_DATE":"20180109","PASSPORT_NO":"E9999999","RCT_NO":"WGLEE20180109","GST_AMT":"80.78","ISSUE_DATE":"20180109","VOID_DATE":"20180109","STAFF_NAME":"wongyu lee","SEAL_BAG_YN":"N"}]}
+[INFO] 2018-01-09 17:16:28,480 - Start Parse (1) : 2018-01-09 오후 5:16:28
+[INFO] 2018-01-09 17:16:28,487 - Start Parse (2) : 2018-01-09 오후 5:16:28
+[INFO] 2018-01-09 17:16:28,521 - Start Parse (3) : 2018-01-09 오후 5:16:28
+[INFO] 2018-01-09 17:16:33,153 - -->{
+  "query_div": "F",
+  "group_id": "0000000002",
+  "date_div": "P",
+  "start_date": "20180109",
+  "end_date": "20180109",
+  "shop_id": "03960"
+}
+[INFO] 2018-01-09 17:16:33,670 - <--{"rows":3,"list":[{"DOC_ID":"20052503082180000116","PACKED_YN":"N","ISSUE_TIME":"080843","SEAL_BAG_NO":null,"STATUS_DESC":"Voided","INVOICE_DATE":"20180109","PASSPORT_NO":"E9999999","RCT_NO":"WGLEE20180109","GST_AMT":"80.78","ISSUE_DATE":"20180109","VOID_DATE":"20180109","STAFF_NAME":"wongyu lee","SEAL_BAG_YN":"N"},{"DOC_ID":"20052503082180000124","PACKED_YN":"N","ISSUE_TIME":"154802","SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20180109","PASSPORT_NO":"M71293013","RCT_NO":"WGLEE201801090002","GST_AMT":"102.63","ISSUE_DATE":"20180109","VOID_DATE":null,"STAFF_NAME":"wongyu lee","SEAL_BAG_YN":"Y"},{"DOC_ID":"20052503082180000132","PACKED_YN":"N","ISSUE_TIME":"155357","SEAL_BAG_NO":null,"STATUS_DESC":"Issued","INVOICE_DATE":"20180109","PASSPORT_NO":"E9999999","RCT_NO":"WGLEE201801090003","GST_AMT":"10.26","ISSUE_DATE":"20180109","VOID_DATE":null,"STAFF_NAME":"wongyu lee","SEAL_BAG_YN":"N"}]}
+[INFO] 2018-01-09 17:16:33,671 - ### Total Page Count : 1
+[INFO] 2018-01-09 17:16:34,849 - ### Current PageNumber : 1
+[INFO] 2018-01-09 17:16:34,851 - ### PrintArray Count : 3
+[INFO] 2018-01-09 17:16:34,857 - strFont.Height : 22
+[INFO] 2018-01-09 17:16:34,858 - txt_StartDate.Value.ToShortDateString() : 2018-01-09
+[INFO] 2018-01-09 17:16:34,858 - txt_EndDate.Value.ToShortDateString() : 2018-01-09
